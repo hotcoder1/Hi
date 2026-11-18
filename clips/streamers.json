@@ -15,5 +15,106 @@
       "Batch 1 (Nov 18, live NZ early-access marathon): 8 previews from viewer clips, storyboard https://claude.ai/artifact/HRmWLjUpqcGo18PknTMcMd. Recipe (clip URLs, cut specs, corrected transcripts) in clips/batches/typicalgamer-2026-11-18/."
     ],
     "game_box": "0,0,1,0.88"
+  },
+  "kaicenat": {
+    "name": "Kai Cenat",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/kaicenat",
+    "handle": "twitch.tv/kaicenat",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": "0.003,0.325,0.2,0.2",
+    "layout": "stack",
+    "notes": [
+      "Small facecam box at the top-left during gameplay; full-screen camera while talking (use fit). Burned-in captions: crop at 0.88. Some clips are MUTED by Twitch (music); check volume before using."
+    ],
+    "game_box": "0,0,1,0.88"
+  },
+  "xqc": {
+    "name": "xQc",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/xqc",
+    "handle": "twitch.tv/xqc",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": "0.0,0.0,0.19,0.26",
+    "layout": "stack",
+    "notes": [
+      "Facecam top-left with chat under it. No burned-in captions."
+    ]
+  },
+  "lacy": {
+    "name": "Lacy",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/lacy",
+    "handle": "twitch.tv/lacy",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": "0.005,0.0,0.25,0.255",
+    "layout": "stack",
+    "notes": [
+      "Stream title has a !CLIPPING command (likely a clipping program).",
+      "Facecam top-left. The release countdown clip needs the fit layout so the timer shows."
+    ]
+  },
+  "jasontheween": {
+    "name": "Jason The Ween",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/jasontheween",
+    "handle": "twitch.tv/jasontheween",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": "0.80,0.065,0.198,0.198",
+    "layout": "stack",
+    "notes": [
+      "Facecam MOVES between scenes: top-right (store), mid-right 0.778,0.45,0.22,0.26 (driving), mid-left 0.005,0.30,0.178,0.27 (phone). Burned-in captions at the bottom: crop at 0.88. Sub-goal counter near the cam."
+    ],
+    "game_box": "0,0,1,0.88"
+  },
+  "agent00": {
+    "name": "Agent00",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/agent00",
+    "handle": "twitch.tv/agent00",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": "0.80,0.66,0.20,0.34",
+    "layout": "stack",
+    "notes": [
+      "Green-screen cutout at the bottom-right. Burned-in captions: crop at 0.88. Lots of photo mode and story cutscenes; skip a clip with a slur."
+    ],
+    "game_box": "0,0,1,0.88"
+  },
+  "nickmercs": {
+    "name": "NICKMERCS",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/nickmercs",
+    "handle": "twitch.tv/nickmercs",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": "0.782,0.392,0.2,0.17",
+    "layout": "stack",
+    "notes": [
+      "Facecam mid-right under a sponsor banner. Burned-in captions: crop at 0.88. First time ever playing GTA."
+    ],
+    "game_box": "0,0,1,0.88"
+  },
+  "timthetatman": {
+    "name": "TimTheTatman",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/timthetatman",
+    "handle": "twitch.tv/timthetatman",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": null,
+    "layout": null,
+    "notes": [
+      "Nov 18: title said GTA 6 but every clip was just him on camera, so he was skipped in batch 1."
+    ]
+  },
+  "tfue": {
+    "name": "Tfue",
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/tfue",
+    "handle": "twitch.tv/tfue",
+    "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
+    "facecam": "0.0,0.01,0.229,0.215",
+    "layout": "stack",
+    "notes": [
+      "Facecam top-left; in the prison scene it sits lower (0.0,0.205,0.229,0.23). Also streams other games: check each clip is GTA."
+    ]
   }
 }

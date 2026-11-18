@@ -1,0 +1,288 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 2.51,
+   "end": 4.15,
+   "text": "Yeah, get out the fucking road, guys"
+  },
+  {
+   "start": 10.76,
+   "end": 12.48,
+   "text": "Yo, what the fuck?"
+  },
+  {
+   "start": 13.06,
+   "end": 14.86,
+   "text": "This bitch just cut me off!"
+  },
+  {
+   "start": 15.32,
+   "end": 16.76,
+   "text": "Who the fuck is this?"
+  },
+  {
+   "start": 20.72,
+   "end": 23.1,
+   "text": "This guy got crazy road rage, bro!"
+  },
+  {
+   "start": 24.32,
+   "end": 29.98,
+   "text": "Chill, what the fuck is wrong with you? I'm trying to get my... trying to get my shit... Yo, there's road..."
+  }
+ ],
+ "words": [
+  {
+   "start": 2.51,
+   "end": 2.99,
+   "word": "Yeah,"
+  },
+  {
+   "start": 3.01,
+   "end": 3.21,
+   "word": "get"
+  },
+  {
+   "start": 3.21,
+   "end": 3.31,
+   "word": "out"
+  },
+  {
+   "start": 3.31,
+   "end": 3.43,
+   "word": "the"
+  },
+  {
+   "start": 3.43,
+   "end": 3.63,
+   "word": "fucking"
+  },
+  {
+   "start": 3.63,
+   "end": 3.89,
+   "word": "road,"
+  },
+  {
+   "start": 3.95,
+   "end": 4.15,
+   "word": "guys"
+  },
+  {
+   "start": 10.76,
+   "end": 11.24,
+   "word": "Yo,"
+  },
+  {
+   "start": 11.44,
+   "end": 11.68,
+   "word": "what"
+  },
+  {
+   "start": 11.68,
+   "end": 11.94,
+   "word": "the"
+  },
+  {
+   "start": 11.94,
+   "end": 12.48,
+   "word": "fuck?"
+  },
+  {
+   "start": 13.06,
+   "end": 13.38,
+   "word": "This"
+  },
+  {
+   "start": 13.38,
+   "end": 13.68,
+   "word": "bitch"
+  },
+  {
+   "start": 13.68,
+   "end": 13.92,
+   "word": "just"
+  },
+  {
+   "start": 13.92,
+   "end": 14.2,
+   "word": "cut"
+  },
+  {
+   "start": 14.2,
+   "end": 14.42,
+   "word": "me"
+  },
+  {
+   "start": 14.42,
+   "end": 14.86,
+   "word": "off!"
+  },
+  {
+   "start": 15.32,
+   "end": 15.62,
+   "word": "Who"
+  },
+  {
+   "start": 15.62,
+   "end": 15.78,
+   "word": "the"
+  },
+  {
+   "start": 15.78,
+   "end": 16.14,
+   "word": "fuck"
+  },
+  {
+   "start": 16.14,
+   "end": 16.44,
+   "word": "is"
+  },
+  {
+   "start": 16.44,
+   "end": 16.76,
+   "word": "this?"
+  },
+  {
+   "start": 20.72,
+   "end": 20.92,
+   "word": "This"
+  },
+  {
+   "start": 20.92,
+   "end": 21.1,
+   "word": "guy"
+  },
+  {
+   "start": 21.1,
+   "end": 21.24,
+   "word": "got"
+  },
+  {
+   "start": 21.24,
+   "end": 21.74,
+   "word": "crazy"
+  },
+  {
+   "start": 21.74,
+   "end": 22.16,
+   "word": "road"
+  },
+  {
+   "start": 22.16,
+   "end": 22.68,
+   "word": "rage,"
+  },
+  {
+   "start": 22.76,
+   "end": 23.1,
+   "word": "bro!"
+  },
+  {
+   "start": 24.32,
+   "end": 24.8,
+   "word": "Chill,"
+  },
+  {
+   "start": 25.2,
+   "end": 25.36,
+   "word": "what"
+  },
+  {
+   "start": 25.36,
+   "end": 25.5,
+   "word": "the"
+  },
+  {
+   "start": 25.5,
+   "end": 25.8,
+   "word": "fuck"
+  },
+  {
+   "start": 25.8,
+   "end": 25.98,
+   "word": "is"
+  },
+  {
+   "start": 25.98,
+   "end": 26.28,
+   "word": "wrong"
+  },
+  {
+   "start": 26.28,
+   "end": 26.56,
+   "word": "with"
+  },
+  {
+   "start": 26.56,
+   "end": 26.72,
+   "word": "you?"
+  },
+  {
+   "start": 26.96,
+   "end": 26.98,
+   "word": "I'm"
+  },
+  {
+   "start": 26.98,
+   "end": 27.12,
+   "word": "trying"
+  },
+  {
+   "start": 27.12,
+   "end": 27.24,
+   "word": "to"
+  },
+  {
+   "start": 27.24,
+   "end": 27.32,
+   "word": "get"
+  },
+  {
+   "start": 27.32,
+   "end": 27.74,
+   "word": "my..."
+  },
+  {
+   "start": 27.74,
+   "end": 28.14,
+   "word": "trying"
+  },
+  {
+   "start": 28.14,
+   "end": 28.28,
+   "word": "to"
+  },
+  {
+   "start": 28.28,
+   "end": 28.36,
+   "word": "get"
+  },
+  {
+   "start": 28.36,
+   "end": 28.56,
+   "word": "my"
+  },
+  {
+   "start": 28.56,
+   "end": 29.16,
+   "word": "shit..."
+  },
+  {
+   "start": 29.16,
+   "end": 29.32,
+   "word": "Yo,"
+  },
+  {
+   "start": 29.4,
+   "end": 29.62,
+   "word": "there's"
+  },
+  {
+   "start": 29.62,
+   "end": 29.98,
+   "word": "road..."
+  }
+ ],
+ "text": "Yeah, get out the fucking road, guys Yo, what the fuck? This bitch just cut me off! Who the fuck is this? This guy got crazy road rage, bro! Chill, what the fuck is wrong with you? I'm trying to get my... trying to get my shit... Yo, there's road..."
+}

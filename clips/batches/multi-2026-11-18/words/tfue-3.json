@@ -1,0 +1,128 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 10.16,
+   "end": 10.66,
+   "text": "PUSH ME!"
+  },
+  {
+   "start": 12.82,
+   "end": 13.76,
+   "text": "STICK UP PUSHIN'!"
+  },
+  {
+   "start": 38.23,
+   "end": 40.57,
+   "text": "Oh, I've done this a lot today. Yeah, yeah, I know that."
+  },
+  {
+   "start": 50.58,
+   "end": 51.64,
+   "text": "PERRY PERRY PERRY"
+  }
+ ],
+ "words": [
+  {
+   "start": 10.16,
+   "end": 10.56,
+   "word": "PUSH"
+  },
+  {
+   "start": 10.56,
+   "end": 10.66,
+   "word": "ME!"
+  },
+  {
+   "start": 12.82,
+   "end": 13.16,
+   "word": "STICK"
+  },
+  {
+   "start": 13.16,
+   "end": 13.28,
+   "word": "UP"
+  },
+  {
+   "start": 13.28,
+   "end": 13.76,
+   "word": "PUSHIN'!"
+  },
+  {
+   "start": 38.23,
+   "end": 38.39,
+   "word": "Oh,"
+  },
+  {
+   "start": 38.47,
+   "end": 38.51,
+   "word": "I've"
+  },
+  {
+   "start": 38.51,
+   "end": 38.63,
+   "word": "done"
+  },
+  {
+   "start": 38.63,
+   "end": 38.85,
+   "word": "this"
+  },
+  {
+   "start": 38.85,
+   "end": 38.99,
+   "word": "a"
+  },
+  {
+   "start": 38.99,
+   "end": 39.15,
+   "word": "lot"
+  },
+  {
+   "start": 39.15,
+   "end": 39.43,
+   "word": "today."
+  },
+  {
+   "start": 39.67,
+   "end": 39.83,
+   "word": "Yeah,"
+  },
+  {
+   "start": 39.89,
+   "end": 40.11,
+   "word": "yeah,"
+  },
+  {
+   "start": 40.15,
+   "end": 40.23,
+   "word": "I"
+  },
+  {
+   "start": 40.23,
+   "end": 40.37,
+   "word": "know"
+  },
+  {
+   "start": 40.37,
+   "end": 40.57,
+   "word": "that."
+  },
+  {
+   "start": 50.58,
+   "end": 50.94,
+   "word": "PERRY"
+  },
+  {
+   "start": 50.94,
+   "end": 51.3,
+   "word": "PERRY"
+  },
+  {
+   "start": 51.3,
+   "end": 51.64,
+   "word": "PERRY"
+  }
+ ],
+ "text": "PUSH ME! STICK UP PUSHIN'! Oh, I've done this a lot today. Yeah, yeah, I know that. PERRY PERRY PERRY"
+}

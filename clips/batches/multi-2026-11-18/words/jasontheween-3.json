@@ -1,0 +1,263 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 1.74,
+   "end": 6.64,
+   "text": "Take a selfie if you take a selfie snap matik"
+  },
+  {
+   "start": 8.24,
+   "end": 12.08,
+   "text": "What the fuck we got Instagram in GTA"
+  },
+  {
+   "start": 15.88,
+   "end": 16.9,
+   "text": "1k likes"
+  },
+  {
+   "start": 17.84,
+   "end": 18.44,
+   "text": "130"
+  },
+  {
+   "start": 20.75,
+   "end": 29.99,
+   "text": "Bro, I'm following a IG model and that's not a IG bottle is that this is the real me it takes a lot from me"
+  }
+ ],
+ "words": [
+  {
+   "start": 1.74,
+   "end": 2.22,
+   "word": "Take"
+  },
+  {
+   "start": 2.22,
+   "end": 2.32,
+   "word": "a"
+  },
+  {
+   "start": 2.32,
+   "end": 2.58,
+   "word": "selfie"
+  },
+  {
+   "start": 2.58,
+   "end": 3.38,
+   "word": "if"
+  },
+  {
+   "start": 3.38,
+   "end": 3.42,
+   "word": "you"
+  },
+  {
+   "start": 3.42,
+   "end": 3.54,
+   "word": "take"
+  },
+  {
+   "start": 3.54,
+   "end": 3.62,
+   "word": "a"
+  },
+  {
+   "start": 3.62,
+   "end": 3.82,
+   "word": "selfie"
+  },
+  {
+   "start": 3.82,
+   "end": 5.56,
+   "word": "snap"
+  },
+  {
+   "start": 5.56,
+   "end": 6.64,
+   "word": "matik"
+  },
+  {
+   "start": 8.24,
+   "end": 8.84,
+   "word": "What"
+  },
+  {
+   "start": 8.84,
+   "end": 9.44,
+   "word": "the"
+  },
+  {
+   "start": 9.44,
+   "end": 9.78,
+   "word": "fuck"
+  },
+  {
+   "start": 9.78,
+   "end": 10.04,
+   "word": "we"
+  },
+  {
+   "start": 10.04,
+   "end": 10.32,
+   "word": "got"
+  },
+  {
+   "start": 10.32,
+   "end": 10.98,
+   "word": "Instagram"
+  },
+  {
+   "start": 10.98,
+   "end": 11.44,
+   "word": "in"
+  },
+  {
+   "start": 11.44,
+   "end": 12.08,
+   "word": "GTA"
+  },
+  {
+   "start": 15.88,
+   "end": 16.48,
+   "word": "1k"
+  },
+  {
+   "start": 16.48,
+   "end": 16.9,
+   "word": "likes"
+  },
+  {
+   "start": 17.84,
+   "end": 18.44,
+   "word": "130"
+  },
+  {
+   "start": 20.75,
+   "end": 21.35,
+   "word": "Bro,"
+  },
+  {
+   "start": 21.41,
+   "end": 21.63,
+   "word": "I'm"
+  },
+  {
+   "start": 21.63,
+   "end": 22.07,
+   "word": "following"
+  },
+  {
+   "start": 22.07,
+   "end": 22.39,
+   "word": "a"
+  },
+  {
+   "start": 22.39,
+   "end": 22.81,
+   "word": "IG"
+  },
+  {
+   "start": 22.81,
+   "end": 23.37,
+   "word": "model"
+  },
+  {
+   "start": 23.37,
+   "end": 23.67,
+   "word": "and"
+  },
+  {
+   "start": 23.67,
+   "end": 23.85,
+   "word": "that's"
+  },
+  {
+   "start": 23.85,
+   "end": 23.95,
+   "word": "not"
+  },
+  {
+   "start": 23.95,
+   "end": 24.07,
+   "word": "a"
+  },
+  {
+   "start": 24.07,
+   "end": 24.31,
+   "word": "IG"
+  },
+  {
+   "start": 24.31,
+   "end": 24.65,
+   "word": "bottle"
+  },
+  {
+   "start": 24.65,
+   "end": 24.97,
+   "word": "is"
+  },
+  {
+   "start": 24.97,
+   "end": 25.21,
+   "word": "that"
+  },
+  {
+   "start": 26.97,
+   "end": 27.97,
+   "word": "this"
+  },
+  {
+   "start": 27.97,
+   "end": 28.13,
+   "word": "is"
+  },
+  {
+   "start": 28.13,
+   "end": 28.29,
+   "word": "the"
+  },
+  {
+   "start": 28.29,
+   "end": 28.59,
+   "word": "real"
+  },
+  {
+   "start": 28.59,
+   "end": 28.85,
+   "word": "me"
+  },
+  {
+   "start": 28.85,
+   "end": 29.25,
+   "word": "it"
+  },
+  {
+   "start": 29.25,
+   "end": 29.49,
+   "word": "takes"
+  },
+  {
+   "start": 29.49,
+   "end": 29.63,
+   "word": "a"
+  },
+  {
+   "start": 29.63,
+   "end": 29.81,
+   "word": "lot"
+  },
+  {
+   "start": 29.81,
+   "end": 29.99,
+   "word": "from"
+  },
+  {
+   "start": 29.99,
+   "end": 29.99,
+   "word": "me"
+  }
+ ],
+ "text": "Take a selfie if you take a selfie snap matik What the fuck we got Instagram in GTA 1k likes 130 Bro, I'm following a IG model and that's not a IG bottle is that this is the real me it takes a lot from me"
+}

@@ -163,6 +163,8 @@ def main():
         if c.get("spoiler"):
             tags += '<span class="tag sp">story spoiler</span>'
         meta = [c["id"]]
+        if c.get("streamer"):
+            meta.insert(0, c["streamer"])
         if c.get("clip_time"):
             meta.append(f"clipped {c['clip_time']}")
         if c.get("views") is not None:
@@ -189,7 +191,7 @@ def main():
 </div></section>""")
 
     name = plan.get("streamer", "GTA 6")
-    title = f"{name} GTA 6 Clips"
+    title = plan.get("page_title") or f"{name} GTA 6 Clips"
     sub = " · ".join(x for x in (plan.get("platform", ""), plan.get("note", ""), f"{len(cards)} clips") if x)
     body = f"""<title>{e(title)}</title>
 <meta name="claude:viewport-fit-sides" content="cover">

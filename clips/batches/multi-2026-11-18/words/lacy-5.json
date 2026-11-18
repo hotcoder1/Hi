@@ -1,0 +1,153 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 8.98,
+   "end": 13.42,
+   "text": "Put your hands get me the cash. Give me the cash"
+  },
+  {
+   "start": 16.58,
+   "end": 19.68,
+   "text": "Should have shot his bitch ass should have shot his bitch ass"
+  },
+  {
+   "start": 25.03,
+   "end": 26.71,
+   "text": "Yeah, bitch. Yeah"
+  }
+ ],
+ "words": [
+  {
+   "start": 8.98,
+   "end": 9.54,
+   "word": "Put"
+  },
+  {
+   "start": 9.54,
+   "end": 9.72,
+   "word": "your"
+  },
+  {
+   "start": 9.72,
+   "end": 10.18,
+   "word": "hands"
+  },
+  {
+   "start": 10.18,
+   "end": 10.94,
+   "word": "get"
+  },
+  {
+   "start": 10.94,
+   "end": 11.44,
+   "word": "me"
+  },
+  {
+   "start": 11.44,
+   "end": 11.54,
+   "word": "the"
+  },
+  {
+   "start": 11.54,
+   "end": 11.82,
+   "word": "cash."
+  },
+  {
+   "start": 12.32,
+   "end": 12.88,
+   "word": "Give"
+  },
+  {
+   "start": 12.88,
+   "end": 13.0,
+   "word": "me"
+  },
+  {
+   "start": 13.0,
+   "end": 13.12,
+   "word": "the"
+  },
+  {
+   "start": 13.12,
+   "end": 13.42,
+   "word": "cash"
+  },
+  {
+   "start": 16.58,
+   "end": 16.86,
+   "word": "Should"
+  },
+  {
+   "start": 16.86,
+   "end": 17.42,
+   "word": "have"
+  },
+  {
+   "start": 17.42,
+   "end": 17.58,
+   "word": "shot"
+  },
+  {
+   "start": 17.58,
+   "end": 17.7,
+   "word": "his"
+  },
+  {
+   "start": 17.7,
+   "end": 17.88,
+   "word": "bitch"
+  },
+  {
+   "start": 17.88,
+   "end": 18.18,
+   "word": "ass"
+  },
+  {
+   "start": 18.18,
+   "end": 18.72,
+   "word": "should"
+  },
+  {
+   "start": 18.72,
+   "end": 18.82,
+   "word": "have"
+  },
+  {
+   "start": 18.82,
+   "end": 19.0,
+   "word": "shot"
+  },
+  {
+   "start": 19.0,
+   "end": 19.14,
+   "word": "his"
+  },
+  {
+   "start": 19.14,
+   "end": 19.32,
+   "word": "bitch"
+  },
+  {
+   "start": 19.32,
+   "end": 19.68,
+   "word": "ass"
+  },
+  {
+   "start": 25.03,
+   "end": 25.59,
+   "word": "Yeah,"
+  },
+  {
+   "start": 25.63,
+   "end": 26.05,
+   "word": "bitch."
+  },
+  {
+   "start": 26.17,
+   "end": 26.71,
+   "word": "Yeah"
+  }
+ ],
+ "text": "Put your hands get me the cash. Give me the cash Should have shot his bitch ass should have shot his bitch ass Yeah, bitch. Yeah"
+}

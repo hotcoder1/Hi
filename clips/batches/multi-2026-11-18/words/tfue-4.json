@@ -1,0 +1,78 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 2.64,
+   "end": 13.69,
+   "text": "Bro, she's kind of heavy on her rear end, I think that's it"
+  }
+ ],
+ "words": [
+  {
+   "start": 2.64,
+   "end": 3.22,
+   "word": "Bro,"
+  },
+  {
+   "start": 5.23,
+   "end": 5.91,
+   "word": "she's"
+  },
+  {
+   "start": 5.91,
+   "end": 6.05,
+   "word": "kind"
+  },
+  {
+   "start": 6.05,
+   "end": 6.21,
+   "word": "of"
+  },
+  {
+   "start": 6.21,
+   "end": 6.77,
+   "word": "heavy"
+  },
+  {
+   "start": 6.77,
+   "end": 7.05,
+   "word": "on"
+  },
+  {
+   "start": 7.05,
+   "end": 7.15,
+   "word": "her"
+  },
+  {
+   "start": 7.15,
+   "end": 7.41,
+   "word": "rear"
+  },
+  {
+   "start": 7.41,
+   "end": 7.75,
+   "word": "end,"
+  },
+  {
+   "start": 7.87,
+   "end": 8.33,
+   "word": "I"
+  },
+  {
+   "start": 13.13,
+   "end": 13.29,
+   "word": "think"
+  },
+  {
+   "start": 13.29,
+   "end": 13.55,
+   "word": "that's"
+  },
+  {
+   "start": 13.55,
+   "end": 13.69,
+   "word": "it"
+  }
+ ],
+ "text": "Bro, she's kind of heavy on her rear end, I think that's it"
+}

@@ -1,0 +1,308 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 4.94,
+   "end": 7.0,
+   "text": "Oops! I forgot about that."
+  },
+  {
+   "start": 7.92,
+   "end": 8.72,
+   "text": "What was that up?"
+  },
+  {
+   "start": 8.84,
+   "end": 11.1,
+   "text": "So, I sent the rent."
+  },
+  {
+   "start": 12.48,
+   "end": 14.94,
+   "text": "Right. Thanks."
+  },
+  {
+   "start": 18.54,
+   "end": 20.06,
+   "text": "Alright, I think I'm done here."
+  },
+  {
+   "start": 20.9,
+   "end": 22.48,
+   "text": "You should work fine now."
+  },
+  {
+   "start": 22.68,
+   "end": 25.28,
+   "text": "These are my dads, but I think you forgot about them."
+  },
+  {
+   "start": 25.76,
+   "end": 27.88,
+   "text": "You can have them for fixing my sink."
+  },
+  {
+   "start": 28.16,
+   "end": 29.86,
+   "text": "Well, I appreciate that, Mandy."
+  }
+ ],
+ "words": [
+  {
+   "start": 4.94,
+   "end": 5.46,
+   "word": "Oops!"
+  },
+  {
+   "start": 6.1,
+   "end": 6.1,
+   "word": "I"
+  },
+  {
+   "start": 6.1,
+   "end": 6.46,
+   "word": "forgot"
+  },
+  {
+   "start": 6.46,
+   "end": 6.68,
+   "word": "about"
+  },
+  {
+   "start": 6.68,
+   "end": 7.0,
+   "word": "that."
+  },
+  {
+   "start": 7.92,
+   "end": 8.28,
+   "word": "What"
+  },
+  {
+   "start": 8.28,
+   "end": 8.5,
+   "word": "was"
+  },
+  {
+   "start": 8.5,
+   "end": 8.64,
+   "word": "that"
+  },
+  {
+   "start": 8.64,
+   "end": 8.72,
+   "word": "up?"
+  },
+  {
+   "start": 8.84,
+   "end": 9.14,
+   "word": "So,"
+  },
+  {
+   "start": 9.44,
+   "end": 9.8,
+   "word": "I"
+  },
+  {
+   "start": 9.8,
+   "end": 10.64,
+   "word": "sent"
+  },
+  {
+   "start": 10.64,
+   "end": 10.84,
+   "word": "the"
+  },
+  {
+   "start": 10.84,
+   "end": 11.1,
+   "word": "rent."
+  },
+  {
+   "start": 12.48,
+   "end": 13.0,
+   "word": "Right."
+  },
+  {
+   "start": 14.42,
+   "end": 14.94,
+   "word": "Thanks."
+  },
+  {
+   "start": 18.54,
+   "end": 18.82,
+   "word": "Alright,"
+  },
+  {
+   "start": 19.38,
+   "end": 19.42,
+   "word": "I"
+  },
+  {
+   "start": 19.42,
+   "end": 19.58,
+   "word": "think"
+  },
+  {
+   "start": 19.58,
+   "end": 19.74,
+   "word": "I'm"
+  },
+  {
+   "start": 19.74,
+   "end": 19.86,
+   "word": "done"
+  },
+  {
+   "start": 19.86,
+   "end": 20.06,
+   "word": "here."
+  },
+  {
+   "start": 20.9,
+   "end": 21.22,
+   "word": "You"
+  },
+  {
+   "start": 21.22,
+   "end": 21.8,
+   "word": "should"
+  },
+  {
+   "start": 21.8,
+   "end": 21.98,
+   "word": "work"
+  },
+  {
+   "start": 21.98,
+   "end": 22.24,
+   "word": "fine"
+  },
+  {
+   "start": 22.24,
+   "end": 22.48,
+   "word": "now."
+  },
+  {
+   "start": 22.68,
+   "end": 22.92,
+   "word": "These"
+  },
+  {
+   "start": 22.92,
+   "end": 23.02,
+   "word": "are"
+  },
+  {
+   "start": 23.02,
+   "end": 23.14,
+   "word": "my"
+  },
+  {
+   "start": 23.14,
+   "end": 23.42,
+   "word": "dads,"
+  },
+  {
+   "start": 23.7,
+   "end": 23.88,
+   "word": "but"
+  },
+  {
+   "start": 23.88,
+   "end": 24.22,
+   "word": "I"
+  },
+  {
+   "start": 24.22,
+   "end": 24.38,
+   "word": "think"
+  },
+  {
+   "start": 24.38,
+   "end": 24.52,
+   "word": "you"
+  },
+  {
+   "start": 24.52,
+   "end": 24.7,
+   "word": "forgot"
+  },
+  {
+   "start": 24.7,
+   "end": 25.02,
+   "word": "about"
+  },
+  {
+   "start": 25.02,
+   "end": 25.28,
+   "word": "them."
+  },
+  {
+   "start": 25.76,
+   "end": 25.96,
+   "word": "You"
+  },
+  {
+   "start": 25.96,
+   "end": 26.24,
+   "word": "can"
+  },
+  {
+   "start": 26.24,
+   "end": 26.56,
+   "word": "have"
+  },
+  {
+   "start": 26.56,
+   "end": 26.8,
+   "word": "them"
+  },
+  {
+   "start": 26.8,
+   "end": 27.08,
+   "word": "for"
+  },
+  {
+   "start": 27.08,
+   "end": 27.38,
+   "word": "fixing"
+  },
+  {
+   "start": 27.38,
+   "end": 27.64,
+   "word": "my"
+  },
+  {
+   "start": 27.64,
+   "end": 27.88,
+   "word": "sink."
+  },
+  {
+   "start": 28.16,
+   "end": 28.36,
+   "word": "Well,"
+  },
+  {
+   "start": 28.96,
+   "end": 29.16,
+   "word": "I"
+  },
+  {
+   "start": 29.16,
+   "end": 29.38,
+   "word": "appreciate"
+  },
+  {
+   "start": 29.38,
+   "end": 29.7,
+   "word": "that,"
+  },
+  {
+   "start": 29.74,
+   "end": 29.86,
+   "word": "Mandy."
+  }
+ ],
+ "text": "Oops! I forgot about that. What was that up? So, I sent the rent. Right. Thanks. Alright, I think I'm done here. You should work fine now. These are my dads, but I think you forgot about them. You can have them for fixing my sink. Well, I appreciate that, Mandy."
+}

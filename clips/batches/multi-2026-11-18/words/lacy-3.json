@@ -1,0 +1,153 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 2.48,
+   "end": 4.42,
+   "text": "30 SECONDS!"
+  },
+  {
+   "start": 4.68,
+   "end": 7.52,
+   "text": "Oh my god, oh my god, oh my god"
+  },
+  {
+   "start": 16.1,
+   "end": 16.9,
+   "text": "20 seconds"
+  },
+  {
+   "start": 16.9,
+   "end": 29.54,
+   "text": "Grand Theft Auto 6 officially comes out in 10, 9, 8, 7"
+  }
+ ],
+ "words": [
+  {
+   "start": 2.48,
+   "end": 3.24,
+   "word": "30"
+  },
+  {
+   "start": 3.24,
+   "end": 4.42,
+   "word": "SECONDS!"
+  },
+  {
+   "start": 4.68,
+   "end": 4.86,
+   "word": "Oh"
+  },
+  {
+   "start": 4.86,
+   "end": 5.02,
+   "word": "my"
+  },
+  {
+   "start": 5.02,
+   "end": 5.48,
+   "word": "god,"
+  },
+  {
+   "start": 5.64,
+   "end": 5.78,
+   "word": "oh"
+  },
+  {
+   "start": 5.78,
+   "end": 5.96,
+   "word": "my"
+  },
+  {
+   "start": 5.96,
+   "end": 6.46,
+   "word": "god,"
+  },
+  {
+   "start": 6.46,
+   "end": 6.72,
+   "word": "oh"
+  },
+  {
+   "start": 6.72,
+   "end": 6.88,
+   "word": "my"
+  },
+  {
+   "start": 6.88,
+   "end": 7.52,
+   "word": "god"
+  },
+  {
+   "start": 16.1,
+   "end": 16.46,
+   "word": "20"
+  },
+  {
+   "start": 16.46,
+   "end": 16.9,
+   "word": "seconds"
+  },
+  {
+   "start": 16.9,
+   "end": 18.02,
+   "word": "Grand"
+  },
+  {
+   "start": 19.52,
+   "end": 19.86,
+   "word": "Theft"
+  },
+  {
+   "start": 19.86,
+   "end": 20.1,
+   "word": "Auto"
+  },
+  {
+   "start": 20.1,
+   "end": 20.56,
+   "word": "6"
+  },
+  {
+   "start": 20.56,
+   "end": 21.06,
+   "word": "officially"
+  },
+  {
+   "start": 21.06,
+   "end": 21.5,
+   "word": "comes"
+  },
+  {
+   "start": 21.5,
+   "end": 21.86,
+   "word": "out"
+  },
+  {
+   "start": 24.16,
+   "end": 25.16,
+   "word": "in"
+  },
+  {
+   "start": 25.16,
+   "end": 25.62,
+   "word": "10,"
+  },
+  {
+   "start": 25.94,
+   "end": 27.22,
+   "word": "9,"
+  },
+  {
+   "start": 27.8,
+   "end": 28.48,
+   "word": "8,"
+  },
+  {
+   "start": 28.74,
+   "end": 29.54,
+   "word": "7"
+  }
+ ],
+ "text": "30 SECONDS! Oh my god, oh my god, oh my god 20 seconds Grand Theft Auto 6 officially comes out in 10, 9, 8, 7"
+}

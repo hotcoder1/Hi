@@ -1,0 +1,308 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.84,
+   "text": "I'm not doing that chat. We are going to"
+  },
+  {
+   "start": 4.0,
+   "end": 9.74,
+   "text": "Explore we've been waiting 13 years. Holy shit. Holy shit. Okay. Here we go. I'm done talking. Everybody clap it up"
+  },
+  {
+   "start": 9.74,
+   "end": 19.12,
+   "text": "Here we go. Hey monitor chat. I have the best monitor so everything like I'm gonna say I have no shirt on"
+  },
+  {
+   "start": 26.14,
+   "end": 27.46,
+   "text": "Oh my fucking god"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.0,
+   "end": 0.5,
+   "word": "I'm"
+  },
+  {
+   "start": 0.5,
+   "end": 0.72,
+   "word": "not"
+  },
+  {
+   "start": 0.72,
+   "end": 0.96,
+   "word": "doing"
+  },
+  {
+   "start": 0.96,
+   "end": 1.2,
+   "word": "that"
+  },
+  {
+   "start": 1.2,
+   "end": 1.6,
+   "word": "chat."
+  },
+  {
+   "start": 1.72,
+   "end": 2.02,
+   "word": "We"
+  },
+  {
+   "start": 2.02,
+   "end": 2.16,
+   "word": "are"
+  },
+  {
+   "start": 2.16,
+   "end": 2.48,
+   "word": "going"
+  },
+  {
+   "start": 2.48,
+   "end": 2.84,
+   "word": "to"
+  },
+  {
+   "start": 4.0,
+   "end": 4.44,
+   "word": "Explore"
+  },
+  {
+   "start": 4.44,
+   "end": 4.74,
+   "word": "we've"
+  },
+  {
+   "start": 4.74,
+   "end": 4.84,
+   "word": "been"
+  },
+  {
+   "start": 4.84,
+   "end": 4.96,
+   "word": "waiting"
+  },
+  {
+   "start": 4.96,
+   "end": 5.38,
+   "word": "13"
+  },
+  {
+   "start": 5.38,
+   "end": 5.78,
+   "word": "years."
+  },
+  {
+   "start": 5.92,
+   "end": 6.04,
+   "word": "Holy"
+  },
+  {
+   "start": 6.04,
+   "end": 6.34,
+   "word": "shit."
+  },
+  {
+   "start": 6.58,
+   "end": 7.02,
+   "word": "Holy"
+  },
+  {
+   "start": 7.02,
+   "end": 7.3,
+   "word": "shit."
+  },
+  {
+   "start": 7.36,
+   "end": 7.56,
+   "word": "Okay."
+  },
+  {
+   "start": 7.66,
+   "end": 7.76,
+   "word": "Here"
+  },
+  {
+   "start": 7.76,
+   "end": 7.84,
+   "word": "we"
+  },
+  {
+   "start": 7.84,
+   "end": 7.98,
+   "word": "go."
+  },
+  {
+   "start": 8.02,
+   "end": 8.2,
+   "word": "I'm"
+  },
+  {
+   "start": 8.2,
+   "end": 8.3,
+   "word": "done"
+  },
+  {
+   "start": 8.3,
+   "end": 8.66,
+   "word": "talking."
+  },
+  {
+   "start": 8.9,
+   "end": 9.28,
+   "word": "Everybody"
+  },
+  {
+   "start": 9.28,
+   "end": 9.48,
+   "word": "clap"
+  },
+  {
+   "start": 9.48,
+   "end": 9.64,
+   "word": "it"
+  },
+  {
+   "start": 9.64,
+   "end": 9.74,
+   "word": "up"
+  },
+  {
+   "start": 9.74,
+   "end": 9.92,
+   "word": "Here"
+  },
+  {
+   "start": 9.92,
+   "end": 10.0,
+   "word": "we"
+  },
+  {
+   "start": 10.0,
+   "end": 10.24,
+   "word": "go."
+  },
+  {
+   "start": 10.42,
+   "end": 10.86,
+   "word": "Hey"
+  },
+  {
+   "start": 14.92,
+   "end": 15.2,
+   "word": "monitor"
+  },
+  {
+   "start": 15.2,
+   "end": 15.46,
+   "word": "chat."
+  },
+  {
+   "start": 15.5,
+   "end": 15.56,
+   "word": "I"
+  },
+  {
+   "start": 15.56,
+   "end": 15.68,
+   "word": "have"
+  },
+  {
+   "start": 15.68,
+   "end": 15.78,
+   "word": "the"
+  },
+  {
+   "start": 15.78,
+   "end": 16.06,
+   "word": "best"
+  },
+  {
+   "start": 16.06,
+   "end": 16.38,
+   "word": "monitor"
+  },
+  {
+   "start": 16.38,
+   "end": 16.64,
+   "word": "so"
+  },
+  {
+   "start": 16.64,
+   "end": 16.98,
+   "word": "everything"
+  },
+  {
+   "start": 16.98,
+   "end": 17.68,
+   "word": "like"
+  },
+  {
+   "start": 17.68,
+   "end": 17.86,
+   "word": "I'm"
+  },
+  {
+   "start": 17.86,
+   "end": 17.96,
+   "word": "gonna"
+  },
+  {
+   "start": 17.96,
+   "end": 18.14,
+   "word": "say"
+  },
+  {
+   "start": 18.14,
+   "end": 18.26,
+   "word": "I"
+  },
+  {
+   "start": 18.26,
+   "end": 18.42,
+   "word": "have"
+  },
+  {
+   "start": 18.42,
+   "end": 18.64,
+   "word": "no"
+  },
+  {
+   "start": 18.64,
+   "end": 18.86,
+   "word": "shirt"
+  },
+  {
+   "start": 18.86,
+   "end": 19.12,
+   "word": "on"
+  },
+  {
+   "start": 26.14,
+   "end": 26.58,
+   "word": "Oh"
+  },
+  {
+   "start": 26.58,
+   "end": 27.02,
+   "word": "my"
+  },
+  {
+   "start": 27.02,
+   "end": 27.22,
+   "word": "fucking"
+  },
+  {
+   "start": 27.22,
+   "end": 27.46,
+   "word": "god"
+  }
+ ],
+ "text": "I'm not doing that chat. We are going to Explore we've been waiting 13 years. Holy shit. Holy shit. Okay. Here we go. I'm done talking. Everybody clap it up Here we go. Hey monitor chat. I have the best monitor so everything like I'm gonna say I have no shirt on Oh my fucking god"
+}

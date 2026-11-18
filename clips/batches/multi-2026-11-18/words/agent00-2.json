@@ -1,0 +1,323 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 1.46,
+   "end": 1.92,
+   "text": "No"
+  },
+  {
+   "start": 8.93,
+   "end": 11.71,
+   "text": "Oh, you still doing that? Lay one on me"
+  },
+  {
+   "start": 12.43,
+   "end": 14.39,
+   "text": "Clue is planet of love"
+  },
+  {
+   "start": 14.96,
+   "end": 16.87,
+   "text": "Ain't this planet? That's for damn sure"
+  },
+  {
+   "start": 18.05,
+   "end": 20.53,
+   "text": "Oh, no, you got your toes out, let me talk to you"
+  },
+  {
+   "start": 20.53,
+   "end": 20.99,
+   "text": "Camino"
+  },
+  {
+   "start": 20.99,
+   "end": 22.33,
+   "text": "It's good, Gingo"
+  },
+  {
+   "start": 24.19,
+   "end": 27.37,
+   "text": "No, no, you know, not in bad shape considering where we at"
+  },
+  {
+   "start": 28.61,
+   "end": 29.95,
+   "text": "Not in bad shape"
+  }
+ ],
+ "words": [
+  {
+   "start": 1.46,
+   "end": 1.92,
+   "word": "No"
+  },
+  {
+   "start": 8.93,
+   "end": 9.39,
+   "word": "Oh,"
+  },
+  {
+   "start": 9.41,
+   "end": 9.57,
+   "word": "you"
+  },
+  {
+   "start": 9.57,
+   "end": 9.81,
+   "word": "still"
+  },
+  {
+   "start": 9.81,
+   "end": 10.13,
+   "word": "doing"
+  },
+  {
+   "start": 10.13,
+   "end": 10.37,
+   "word": "that?"
+  },
+  {
+   "start": 10.83,
+   "end": 11.19,
+   "word": "Lay"
+  },
+  {
+   "start": 11.19,
+   "end": 11.37,
+   "word": "one"
+  },
+  {
+   "start": 11.37,
+   "end": 11.49,
+   "word": "on"
+  },
+  {
+   "start": 11.49,
+   "end": 11.71,
+   "word": "me"
+  },
+  {
+   "start": 12.43,
+   "end": 12.89,
+   "word": "Clue"
+  },
+  {
+   "start": 12.89,
+   "end": 13.19,
+   "word": "is"
+  },
+  {
+   "start": 13.19,
+   "end": 13.71,
+   "word": "planet"
+  },
+  {
+   "start": 13.71,
+   "end": 14.07,
+   "word": "of"
+  },
+  {
+   "start": 14.07,
+   "end": 14.39,
+   "word": "love"
+  },
+  {
+   "start": 14.96,
+   "end": 15.19,
+   "word": "Ain't"
+  },
+  {
+   "start": 15.19,
+   "end": 15.41,
+   "word": "this"
+  },
+  {
+   "start": 15.41,
+   "end": 15.79,
+   "word": "planet?"
+  },
+  {
+   "start": 16.05,
+   "end": 16.33,
+   "word": "That's"
+  },
+  {
+   "start": 16.33,
+   "end": 16.43,
+   "word": "for"
+  },
+  {
+   "start": 16.43,
+   "end": 16.59,
+   "word": "damn"
+  },
+  {
+   "start": 16.59,
+   "end": 16.87,
+   "word": "sure"
+  },
+  {
+   "start": 18.05,
+   "end": 18.51,
+   "word": "Oh,"
+  },
+  {
+   "start": 18.63,
+   "end": 18.85,
+   "word": "no,"
+  },
+  {
+   "start": 18.93,
+   "end": 19.05,
+   "word": "you"
+  },
+  {
+   "start": 19.05,
+   "end": 19.17,
+   "word": "got"
+  },
+  {
+   "start": 19.17,
+   "end": 19.27,
+   "word": "your"
+  },
+  {
+   "start": 19.27,
+   "end": 19.57,
+   "word": "toes"
+  },
+  {
+   "start": 19.57,
+   "end": 19.81,
+   "word": "out,"
+  },
+  {
+   "start": 19.85,
+   "end": 19.93,
+   "word": "let"
+  },
+  {
+   "start": 19.93,
+   "end": 19.99,
+   "word": "me"
+  },
+  {
+   "start": 19.99,
+   "end": 20.17,
+   "word": "talk"
+  },
+  {
+   "start": 20.17,
+   "end": 20.35,
+   "word": "to"
+  },
+  {
+   "start": 20.35,
+   "end": 20.53,
+   "word": "you"
+  },
+  {
+   "start": 20.53,
+   "end": 20.99,
+   "word": "Camino"
+  },
+  {
+   "start": 20.99,
+   "end": 21.69,
+   "word": "It's"
+  },
+  {
+   "start": 21.69,
+   "end": 21.89,
+   "word": "good,"
+  },
+  {
+   "start": 22.03,
+   "end": 22.33,
+   "word": "Gingo"
+  },
+  {
+   "start": 24.19,
+   "end": 24.65,
+   "word": "No,"
+  },
+  {
+   "start": 24.77,
+   "end": 24.87,
+   "word": "no,"
+  },
+  {
+   "start": 25.01,
+   "end": 25.07,
+   "word": "you"
+  },
+  {
+   "start": 25.07,
+   "end": 25.19,
+   "word": "know,"
+  },
+  {
+   "start": 25.25,
+   "end": 25.35,
+   "word": "not"
+  },
+  {
+   "start": 25.35,
+   "end": 25.51,
+   "word": "in"
+  },
+  {
+   "start": 25.51,
+   "end": 25.69,
+   "word": "bad"
+  },
+  {
+   "start": 25.69,
+   "end": 25.97,
+   "word": "shape"
+  },
+  {
+   "start": 25.97,
+   "end": 26.37,
+   "word": "considering"
+  },
+  {
+   "start": 26.37,
+   "end": 26.67,
+   "word": "where"
+  },
+  {
+   "start": 26.67,
+   "end": 27.05,
+   "word": "we"
+  },
+  {
+   "start": 27.05,
+   "end": 27.37,
+   "word": "at"
+  },
+  {
+   "start": 28.61,
+   "end": 29.07,
+   "word": "Not"
+  },
+  {
+   "start": 29.07,
+   "end": 29.23,
+   "word": "in"
+  },
+  {
+   "start": 29.23,
+   "end": 29.53,
+   "word": "bad"
+  },
+  {
+   "start": 29.53,
+   "end": 29.95,
+   "word": "shape"
+  }
+ ],
+ "text": "No Oh, you still doing that? Lay one on me Clue is planet of love Ain't this planet? That's for damn sure Oh, no, you got your toes out, let me talk to you Camino It's good, Gingo No, no, you know, not in bad shape considering where we at Not in bad shape"
+}

@@ -1,0 +1,593 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.43,
+   "end": 3.65,
+   "text": "What was that? Just leave me alone, Jason, you brat!"
+  },
+  {
+   "start": 4.07,
+   "end": 6.15,
+   "text": "SON OF A GOD DAMN BALLSACK!"
+  },
+  {
+   "start": 6.49,
+   "end": 9.11,
+   "text": "What the hell are they talking about on their side?"
+  },
+  {
+   "start": 10.07,
+   "end": 12.83,
+   "text": "There's no way they're dumb enough to leave these shits on their side"
+  },
+  {
+   "start": 12.83,
+   "end": 15.85,
+   "text": "If she's going out there like that, she's for the streets, bro"
+  },
+  {
+   "start": 16.25,
+   "end": 18.33,
+   "text": "Shit! Look at my fucking truck!"
+  },
+  {
+   "start": 18.87,
+   "end": 22.47,
+   "text": "And why isn't this shit in the goddamn house room?"
+  },
+  {
+   "start": 22.47,
+   "end": 26.29,
+   "text": "Nah, nah, nah, you cannot walk outside looking like that"
+  },
+  {
+   "start": 26.29,
+   "end": 31.71,
+   "text": "It's fine there smoke them with your prison wife"
+  },
+  {
+   "start": 32.47,
+   "end": 34.97,
+   "text": "Taking us to another level man. Oh"
+  },
+  {
+   "start": 34.97,
+   "end": 36.69,
+   "text": "This is nothing"
+  },
+  {
+   "start": 52.27,
+   "end": 55.63,
+   "text": "Listen we can we don't need to"
+  },
+  {
+   "start": 57.73,
+   "end": 58.37,
+   "text": "Listen"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.43,
+   "end": 0.43,
+   "word": "What"
+  },
+  {
+   "start": 0.43,
+   "end": 0.77,
+   "word": "was"
+  },
+  {
+   "start": 0.77,
+   "end": 0.99,
+   "word": "that?"
+  },
+  {
+   "start": 1.49,
+   "end": 1.75,
+   "word": "Just"
+  },
+  {
+   "start": 1.75,
+   "end": 1.99,
+   "word": "leave"
+  },
+  {
+   "start": 1.99,
+   "end": 2.11,
+   "word": "me"
+  },
+  {
+   "start": 2.11,
+   "end": 2.55,
+   "word": "alone,"
+  },
+  {
+   "start": 2.77,
+   "end": 3.05,
+   "word": "Jason,"
+  },
+  {
+   "start": 3.35,
+   "end": 3.45,
+   "word": "you"
+  },
+  {
+   "start": 3.45,
+   "end": 3.65,
+   "word": "brat!"
+  },
+  {
+   "start": 4.07,
+   "end": 4.07,
+   "word": "SON"
+  },
+  {
+   "start": 4.07,
+   "end": 4.09,
+   "word": "OF"
+  },
+  {
+   "start": 4.09,
+   "end": 4.25,
+   "word": "A"
+  },
+  {
+   "start": 4.25,
+   "end": 4.69,
+   "word": "GOD"
+  },
+  {
+   "start": 4.69,
+   "end": 5.29,
+   "word": "DAMN"
+  },
+  {
+   "start": 5.29,
+   "end": 6.15,
+   "word": "BALLSACK!"
+  },
+  {
+   "start": 6.49,
+   "end": 6.95,
+   "word": "What"
+  },
+  {
+   "start": 6.95,
+   "end": 7.11,
+   "word": "the"
+  },
+  {
+   "start": 7.11,
+   "end": 7.23,
+   "word": "hell"
+  },
+  {
+   "start": 7.23,
+   "end": 7.55,
+   "word": "are"
+  },
+  {
+   "start": 7.55,
+   "end": 7.69,
+   "word": "they"
+  },
+  {
+   "start": 7.69,
+   "end": 7.95,
+   "word": "talking"
+  },
+  {
+   "start": 7.95,
+   "end": 7.95,
+   "word": "about"
+  },
+  {
+   "start": 7.95,
+   "end": 8.47,
+   "word": "on"
+  },
+  {
+   "start": 8.47,
+   "end": 8.65,
+   "word": "their"
+  },
+  {
+   "start": 8.65,
+   "end": 9.11,
+   "word": "side?"
+  },
+  {
+   "start": 10.07,
+   "end": 10.59,
+   "word": "There's"
+  },
+  {
+   "start": 10.59,
+   "end": 10.73,
+   "word": "no"
+  },
+  {
+   "start": 10.73,
+   "end": 11.01,
+   "word": "way"
+  },
+  {
+   "start": 11.01,
+   "end": 11.31,
+   "word": "they're"
+  },
+  {
+   "start": 11.31,
+   "end": 11.49,
+   "word": "dumb"
+  },
+  {
+   "start": 11.49,
+   "end": 11.75,
+   "word": "enough"
+  },
+  {
+   "start": 11.75,
+   "end": 12.09,
+   "word": "to"
+  },
+  {
+   "start": 12.09,
+   "end": 12.23,
+   "word": "leave"
+  },
+  {
+   "start": 12.23,
+   "end": 12.41,
+   "word": "these"
+  },
+  {
+   "start": 12.41,
+   "end": 12.73,
+   "word": "shits"
+  },
+  {
+   "start": 12.73,
+   "end": 12.83,
+   "word": "on"
+  },
+  {
+   "start": 12.83,
+   "end": 12.83,
+   "word": "their"
+  },
+  {
+   "start": 12.83,
+   "end": 12.83,
+   "word": "side"
+  },
+  {
+   "start": 12.83,
+   "end": 12.83,
+   "word": "If"
+  },
+  {
+   "start": 12.83,
+   "end": 13.69,
+   "word": "she's"
+  },
+  {
+   "start": 13.69,
+   "end": 13.85,
+   "word": "going"
+  },
+  {
+   "start": 13.85,
+   "end": 14.09,
+   "word": "out"
+  },
+  {
+   "start": 14.09,
+   "end": 14.27,
+   "word": "there"
+  },
+  {
+   "start": 14.27,
+   "end": 14.51,
+   "word": "like"
+  },
+  {
+   "start": 14.51,
+   "end": 14.71,
+   "word": "that,"
+  },
+  {
+   "start": 14.75,
+   "end": 15.07,
+   "word": "she's"
+  },
+  {
+   "start": 15.07,
+   "end": 15.19,
+   "word": "for"
+  },
+  {
+   "start": 15.19,
+   "end": 15.33,
+   "word": "the"
+  },
+  {
+   "start": 15.33,
+   "end": 15.61,
+   "word": "streets,"
+  },
+  {
+   "start": 15.69,
+   "end": 15.85,
+   "word": "bro"
+  },
+  {
+   "start": 16.25,
+   "end": 16.51,
+   "word": "Shit!"
+  },
+  {
+   "start": 16.89,
+   "end": 17.41,
+   "word": "Look"
+  },
+  {
+   "start": 17.41,
+   "end": 17.49,
+   "word": "at"
+  },
+  {
+   "start": 17.49,
+   "end": 17.67,
+   "word": "my"
+  },
+  {
+   "start": 17.67,
+   "end": 17.93,
+   "word": "fucking"
+  },
+  {
+   "start": 17.93,
+   "end": 18.33,
+   "word": "truck!"
+  },
+  {
+   "start": 18.87,
+   "end": 19.07,
+   "word": "And"
+  },
+  {
+   "start": 19.07,
+   "end": 19.35,
+   "word": "why"
+  },
+  {
+   "start": 19.35,
+   "end": 19.65,
+   "word": "isn't"
+  },
+  {
+   "start": 19.65,
+   "end": 19.87,
+   "word": "this"
+  },
+  {
+   "start": 19.87,
+   "end": 20.17,
+   "word": "shit"
+  },
+  {
+   "start": 20.17,
+   "end": 20.67,
+   "word": "in"
+  },
+  {
+   "start": 20.67,
+   "end": 20.79,
+   "word": "the"
+  },
+  {
+   "start": 20.79,
+   "end": 21.61,
+   "word": "goddamn"
+  },
+  {
+   "start": 21.61,
+   "end": 22.23,
+   "word": "house"
+  },
+  {
+   "start": 22.23,
+   "end": 22.47,
+   "word": "room?"
+  },
+  {
+   "start": 22.47,
+   "end": 22.69,
+   "word": "Nah,"
+  },
+  {
+   "start": 22.81,
+   "end": 22.93,
+   "word": "nah,"
+  },
+  {
+   "start": 22.95,
+   "end": 23.13,
+   "word": "nah,"
+  },
+  {
+   "start": 23.13,
+   "end": 23.47,
+   "word": "you"
+  },
+  {
+   "start": 23.47,
+   "end": 24.11,
+   "word": "cannot"
+  },
+  {
+   "start": 24.11,
+   "end": 24.79,
+   "word": "walk"
+  },
+  {
+   "start": 24.79,
+   "end": 25.37,
+   "word": "outside"
+  },
+  {
+   "start": 25.37,
+   "end": 25.69,
+   "word": "looking"
+  },
+  {
+   "start": 25.69,
+   "end": 26.05,
+   "word": "like"
+  },
+  {
+   "start": 26.05,
+   "end": 26.29,
+   "word": "that"
+  },
+  {
+   "start": 26.29,
+   "end": 27.29,
+   "word": "It's"
+  },
+  {
+   "start": 27.29,
+   "end": 27.73,
+   "word": "fine"
+  },
+  {
+   "start": 27.73,
+   "end": 29.71,
+   "word": "there"
+  },
+  {
+   "start": 29.71,
+   "end": 30.65,
+   "word": "smoke"
+  },
+  {
+   "start": 30.65,
+   "end": 30.81,
+   "word": "them"
+  },
+  {
+   "start": 30.81,
+   "end": 30.91,
+   "word": "with"
+  },
+  {
+   "start": 30.91,
+   "end": 31.03,
+   "word": "your"
+  },
+  {
+   "start": 31.03,
+   "end": 31.41,
+   "word": "prison"
+  },
+  {
+   "start": 31.41,
+   "end": 31.71,
+   "word": "wife"
+  },
+  {
+   "start": 32.47,
+   "end": 33.11,
+   "word": "Taking"
+  },
+  {
+   "start": 33.11,
+   "end": 33.29,
+   "word": "us"
+  },
+  {
+   "start": 33.29,
+   "end": 33.39,
+   "word": "to"
+  },
+  {
+   "start": 33.39,
+   "end": 33.55,
+   "word": "another"
+  },
+  {
+   "start": 33.55,
+   "end": 33.89,
+   "word": "level"
+  },
+  {
+   "start": 33.89,
+   "end": 34.13,
+   "word": "man."
+  },
+  {
+   "start": 34.33,
+   "end": 34.97,
+   "word": "Oh"
+  },
+  {
+   "start": 34.97,
+   "end": 36.03,
+   "word": "This"
+  },
+  {
+   "start": 36.03,
+   "end": 36.19,
+   "word": "is"
+  },
+  {
+   "start": 36.19,
+   "end": 36.69,
+   "word": "nothing"
+  },
+  {
+   "start": 52.27,
+   "end": 52.59,
+   "word": "Listen"
+  },
+  {
+   "start": 52.59,
+   "end": 53.23,
+   "word": "we"
+  },
+  {
+   "start": 53.23,
+   "end": 53.47,
+   "word": "can"
+  },
+  {
+   "start": 53.47,
+   "end": 54.85,
+   "word": "we"
+  },
+  {
+   "start": 54.85,
+   "end": 55.11,
+   "word": "don't"
+  },
+  {
+   "start": 55.11,
+   "end": 55.33,
+   "word": "need"
+  },
+  {
+   "start": 55.33,
+   "end": 55.63,
+   "word": "to"
+  },
+  {
+   "start": 57.73,
+   "end": 58.37,
+   "word": "Listen"
+  }
+ ],
+ "text": "What was that? Just leave me alone, Jason, you brat! SON OF A GOD DAMN BALLSACK! What the hell are they talking about on their side? There's no way they're dumb enough to leave these shits on their side If she's going out there like that, she's for the streets, bro Shit! Look at my fucking truck! And why isn't this shit in the goddamn house room? Nah, nah, nah, you cannot walk outside looking like that It's fine there smoke them with your prison wife Taking us to another level man. Oh This is nothing Listen we can we don't need to Listen"
+}

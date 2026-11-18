@@ -1,0 +1,303 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 3.06,
+   "end": 10.56,
+   "text": "That is, am I good?"
+  },
+  {
+   "start": 18.38,
+   "end": 18.96,
+   "text": "Can I get a car?"
+  },
+  {
+   "start": 26.95,
+   "end": 28.77,
+   "text": "I was just looking at the button, please come back!"
+  },
+  {
+   "start": 29.11,
+   "end": 29.75,
+   "text": "Please come back!"
+  },
+  {
+   "start": 30.21,
+   "end": 31.69,
+   "text": "I'm sure I can drive this."
+  },
+  {
+   "start": 47.01,
+   "end": 48.37,
+   "text": "So, you're saying you ran?"
+  },
+  {
+   "start": 49.05,
+   "end": 52.27,
+   "text": "Yeah, I ran. I mean..."
+  },
+  {
+   "start": 52.27,
+   "end": 53.11,
+   "text": "What happened with the cops?"
+  },
+  {
+   "start": 53.39,
+   "end": 54.33,
+   "text": "I don't know, it was like..."
+  }
+ ],
+ "words": [
+  {
+   "start": 3.06,
+   "end": 3.58,
+   "word": "That"
+  },
+  {
+   "start": 3.58,
+   "end": 3.8,
+   "word": "is,"
+  },
+  {
+   "start": 10.1,
+   "end": 10.32,
+   "word": "am"
+  },
+  {
+   "start": 10.32,
+   "end": 10.42,
+   "word": "I"
+  },
+  {
+   "start": 10.42,
+   "end": 10.56,
+   "word": "good?"
+  },
+  {
+   "start": 18.38,
+   "end": 18.62,
+   "word": "Can"
+  },
+  {
+   "start": 18.62,
+   "end": 18.64,
+   "word": "I"
+  },
+  {
+   "start": 18.64,
+   "end": 18.7,
+   "word": "get"
+  },
+  {
+   "start": 18.7,
+   "end": 18.82,
+   "word": "a"
+  },
+  {
+   "start": 18.82,
+   "end": 18.96,
+   "word": "car?"
+  },
+  {
+   "start": 26.95,
+   "end": 27.07,
+   "word": "I"
+  },
+  {
+   "start": 27.07,
+   "end": 27.19,
+   "word": "was"
+  },
+  {
+   "start": 27.19,
+   "end": 27.35,
+   "word": "just"
+  },
+  {
+   "start": 27.35,
+   "end": 27.51,
+   "word": "looking"
+  },
+  {
+   "start": 27.51,
+   "end": 27.63,
+   "word": "at"
+  },
+  {
+   "start": 27.63,
+   "end": 27.73,
+   "word": "the"
+  },
+  {
+   "start": 27.73,
+   "end": 27.95,
+   "word": "button,"
+  },
+  {
+   "start": 28.09,
+   "end": 28.33,
+   "word": "please"
+  },
+  {
+   "start": 28.33,
+   "end": 28.53,
+   "word": "come"
+  },
+  {
+   "start": 28.53,
+   "end": 28.77,
+   "word": "back!"
+  },
+  {
+   "start": 29.11,
+   "end": 29.37,
+   "word": "Please"
+  },
+  {
+   "start": 29.37,
+   "end": 29.53,
+   "word": "come"
+  },
+  {
+   "start": 29.53,
+   "end": 29.75,
+   "word": "back!"
+  },
+  {
+   "start": 30.21,
+   "end": 30.21,
+   "word": "I'm"
+  },
+  {
+   "start": 30.21,
+   "end": 31.07,
+   "word": "sure"
+  },
+  {
+   "start": 31.07,
+   "end": 31.19,
+   "word": "I"
+  },
+  {
+   "start": 31.19,
+   "end": 31.25,
+   "word": "can"
+  },
+  {
+   "start": 31.25,
+   "end": 31.39,
+   "word": "drive"
+  },
+  {
+   "start": 31.39,
+   "end": 31.69,
+   "word": "this."
+  },
+  {
+   "start": 47.01,
+   "end": 47.37,
+   "word": "So,"
+  },
+  {
+   "start": 47.59,
+   "end": 47.77,
+   "word": "you're"
+  },
+  {
+   "start": 47.77,
+   "end": 47.93,
+   "word": "saying"
+  },
+  {
+   "start": 47.93,
+   "end": 48.23,
+   "word": "you"
+  },
+  {
+   "start": 48.23,
+   "end": 48.37,
+   "word": "ran?"
+  },
+  {
+   "start": 49.05,
+   "end": 49.41,
+   "word": "Yeah,"
+  },
+  {
+   "start": 49.55,
+   "end": 49.63,
+   "word": "I"
+  },
+  {
+   "start": 49.63,
+   "end": 49.91,
+   "word": "ran."
+  },
+  {
+   "start": 50.65,
+   "end": 50.89,
+   "word": "I"
+  },
+  {
+   "start": 50.89,
+   "end": 52.27,
+   "word": "mean..."
+  },
+  {
+   "start": 52.27,
+   "end": 52.67,
+   "word": "What"
+  },
+  {
+   "start": 52.67,
+   "end": 52.77,
+   "word": "happened"
+  },
+  {
+   "start": 52.77,
+   "end": 52.91,
+   "word": "with"
+  },
+  {
+   "start": 52.91,
+   "end": 53.01,
+   "word": "the"
+  },
+  {
+   "start": 53.01,
+   "end": 53.11,
+   "word": "cops?"
+  },
+  {
+   "start": 53.39,
+   "end": 53.39,
+   "word": "I"
+  },
+  {
+   "start": 53.39,
+   "end": 53.41,
+   "word": "don't"
+  },
+  {
+   "start": 53.41,
+   "end": 53.53,
+   "word": "know,"
+  },
+  {
+   "start": 53.65,
+   "end": 53.73,
+   "word": "it"
+  },
+  {
+   "start": 53.73,
+   "end": 53.89,
+   "word": "was"
+  },
+  {
+   "start": 53.89,
+   "end": 54.33,
+   "word": "like..."
+  }
+ ],
+ "text": "That is, am I good? Can I get a car? I was just looking at the button, please come back! Please come back! I'm sure I can drive this. So, you're saying you ran? Yeah, I ran. I mean... What happened with the cops? I don't know, it was like..."
+}

@@ -1,0 +1,93 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.58,
+   "text": "Fuck!"
+  },
+  {
+   "start": 1.22,
+   "end": 3.0,
+   "text": "Lucia! Lucia!"
+  },
+  {
+   "start": 8.28,
+   "end": 10.96,
+   "text": "Oh, she's so hot! Oh, she's so hot!"
+  },
+  {
+   "start": 11.18,
+   "end": 11.96,
+   "text": "Hey, hey!"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.0,
+   "end": 0.58,
+   "word": "Fuck!"
+  },
+  {
+   "start": 1.22,
+   "end": 1.76,
+   "word": "Lucia!"
+  },
+  {
+   "start": 2.46,
+   "end": 3.0,
+   "word": "Lucia!"
+  },
+  {
+   "start": 8.28,
+   "end": 8.52,
+   "word": "Oh,"
+  },
+  {
+   "start": 8.6,
+   "end": 8.88,
+   "word": "she's"
+  },
+  {
+   "start": 8.88,
+   "end": 9.08,
+   "word": "so"
+  },
+  {
+   "start": 9.08,
+   "end": 9.48,
+   "word": "hot!"
+  },
+  {
+   "start": 9.78,
+   "end": 9.98,
+   "word": "Oh,"
+  },
+  {
+   "start": 10.14,
+   "end": 10.42,
+   "word": "she's"
+  },
+  {
+   "start": 10.42,
+   "end": 10.58,
+   "word": "so"
+  },
+  {
+   "start": 10.58,
+   "end": 10.96,
+   "word": "hot!"
+  },
+  {
+   "start": 11.18,
+   "end": 11.48,
+   "word": "Hey,"
+  },
+  {
+   "start": 11.7,
+   "end": 11.96,
+   "word": "hey!"
+  }
+ ],
+ "text": "Fuck! Lucia! Lucia! Oh, she's so hot! Oh, she's so hot! Hey, hey!"
+}

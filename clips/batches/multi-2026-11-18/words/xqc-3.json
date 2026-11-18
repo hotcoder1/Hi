@@ -1,0 +1,138 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 3.12,
+   "end": 3.82,
+   "text": "Shoot what?"
+  },
+  {
+   "start": 12.14,
+   "end": 13.0,
+   "text": "Exit jumper climbed"
+  },
+  {
+   "start": 17.48,
+   "end": 18.32,
+   "text": "After the sprint"
+  },
+  {
+   "start": 18.32,
+   "end": 28.15,
+   "text": "I don't know where I'm going"
+  },
+  {
+   "start": 28.15,
+   "end": 29.15,
+   "text": "Easy!"
+  },
+  {
+   "start": 51.68,
+   "end": 52.92,
+   "text": "And back in"
+  },
+  {
+   "start": 53.64,
+   "end": 54.02,
+   "text": "Yes!"
+  }
+ ],
+ "words": [
+  {
+   "start": 3.12,
+   "end": 3.58,
+   "word": "Shoot"
+  },
+  {
+   "start": 3.58,
+   "end": 3.82,
+   "word": "what?"
+  },
+  {
+   "start": 12.14,
+   "end": 12.38,
+   "word": "Exit"
+  },
+  {
+   "start": 12.38,
+   "end": 12.6,
+   "word": "jumper"
+  },
+  {
+   "start": 12.6,
+   "end": 13.0,
+   "word": "climbed"
+  },
+  {
+   "start": 17.48,
+   "end": 17.86,
+   "word": "After"
+  },
+  {
+   "start": 17.86,
+   "end": 18.04,
+   "word": "the"
+  },
+  {
+   "start": 18.04,
+   "end": 18.32,
+   "word": "sprint"
+  },
+  {
+   "start": 18.32,
+   "end": 19.14,
+   "word": "I"
+  },
+  {
+   "start": 26.85,
+   "end": 27.77,
+   "word": "don't"
+  },
+  {
+   "start": 27.77,
+   "end": 27.87,
+   "word": "know"
+  },
+  {
+   "start": 27.87,
+   "end": 27.87,
+   "word": "where"
+  },
+  {
+   "start": 27.87,
+   "end": 27.93,
+   "word": "I'm"
+  },
+  {
+   "start": 27.93,
+   "end": 28.15,
+   "word": "going"
+  },
+  {
+   "start": 28.15,
+   "end": 29.15,
+   "word": "Easy!"
+  },
+  {
+   "start": 51.68,
+   "end": 52.44,
+   "word": "And"
+  },
+  {
+   "start": 52.44,
+   "end": 52.7,
+   "word": "back"
+  },
+  {
+   "start": 52.7,
+   "end": 52.92,
+   "word": "in"
+  },
+  {
+   "start": 53.64,
+   "end": 54.02,
+   "word": "Yes!"
+  }
+ ],
+ "text": "Shoot what? Exit jumper climbed After the sprint I don't know where I'm going Easy! And back in Yes!"
+}
