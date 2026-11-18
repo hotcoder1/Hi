@@ -15,7 +15,22 @@ gives a JSON that captions.py / render_clip.py --words read directly.
 """
 import argparse
 import json
+import os
+import subprocess
 import sys
+
+# Plain HTTPS model download (one CDN host) instead of Hugging Face's Xet transfer,
+# which needs extra hosts that restricted networks often block.
+os.environ.setdefault("HF_HUB_DISABLE_XET", "1")
+
+
+def load_audio(path, sr=16000):
+    """Decode with ffmpeg (16 kHz mono float32). Avoids faster-whisper's PyAV decoder,
+    which breaks when the installed PyAV version doesn't match."""
+    import numpy as np
+    pcm = subprocess.run(["ffmpeg", "-nostdin", "-loglevel", "error", "-i", path, "-vn", "-ac", "1",
+                          "-ar", str(sr), "-f", "f32le", "-"], capture_output=True, check=True).stdout
+    return np.frombuffer(pcm, np.float32).copy()
 
 
 def main():
@@ -35,7 +50,7 @@ def main():
 
     compute = "int8"
     model = WhisperModel(a.model, device=a.device, compute_type=compute)
-    segs, info = model.transcribe(a.media, language=a.lang, word_timestamps=True, vad_filter=True,
+    segs, info = model.transcribe(load_audio(a.media), language=a.lang, word_timestamps=True, vad_filter=True,
                                   initial_prompt=a.prompt, condition_on_previous_text=False)
     out = {"language": info.language, "segments": [], "words": []}
     texts = []

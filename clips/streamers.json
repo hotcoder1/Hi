@@ -1,0 +1,16 @@
+{
+  "typicalgamer": {
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/typicalgamer",
+    "handle": "twitch.tv/typicalgamer",
+    "permission": "user is in his clipping program / has a clipper role (told Claude 2026-11-18)",
+    "vods": "subscriber-only: yt-dlp can't download them without a subscribed login. Use public Twitch clips (?filter=clips&range=24hr|7d) or record the live stream.",
+    "facecam": null,
+    "layout": null,
+    "notes": [
+      "Before GTA 6 launched (Nov 19, 2026) he streamed chest-opening marathons (46-48 h), an IRL plane stream and brand events, so expect very long GTA 6 marathons.",
+      "Some of his Twitch clips are already 9:16 (720x1280), so use --layout full for those.",
+      "Find the facecam box from the first GTA 6 stream frame and save it here."
+    ]
+  }
+}

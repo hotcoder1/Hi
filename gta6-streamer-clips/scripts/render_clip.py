@@ -183,7 +183,7 @@ def build(args):
         if args.no_loudnorm:
             f.append("[ca]aresample=48000[aout]")
         else:
-            f.append("[ca]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[aout]")
+            f.append("[ca]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,alimiter=limit=0.8:level=false[aout]")
 
     ass_text = None
     if args.ass:

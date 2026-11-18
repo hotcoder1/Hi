@@ -37,13 +37,15 @@ A video section around a candidate (VOD times, with ~20 s padding):
 yt-dlp -f "bv*[height<=1080]+ba/b[height<=1080]" --merge-output-format mp4 \
   --download-sections "*2:13:35-2:15:10" -o "vods/<name>/<id>/sections/c03.%(ext)s" "https://www.twitch.tv/videos/<id>"
 ```
-Twitch clips the viewers already made: the best moments, pre-picked, already ≤60 s and 1080p. List the top ones from the last 7 days (`range=24hr|7d|30d|all`):
+**Subscriber-only VODs**: if yt-dlp says "You must be logged into an account that has access to this subscriber-only content", the VOD needs a subscribed account's login (`--cookies-from-browser chrome` on the user's own computer, where they are logged in). In a cloud session, don't ask for cookies: use the public clips below, record the live stream, or ask the clipping program for VOD access.
+
+Twitch clips the viewers already made (public even when VODs are sub-only): the best moments, pre-picked, already ≤60 s and 1080p. List the top ones from the last 7 days (`range=24hr|7d|30d|all`):
 ```
 yt-dlp --flat-playlist --print "%(url)s | %(duration)s s | %(title)s" \
   "https://www.twitch.tv/<name>/clips?filter=clips&range=7d"
 yt-dlp -o "vods/<name>/clips/%(id)s.%(ext)s" "<clip url>"
 ```
-A clip can go straight to Phase 1 step 3 (transcribe → trim → title). The ranker isn't needed.
+A clip can go straight to Phase 1 step 3 (transcribe → trim → title). The ranker isn't needed. Filter to GTA VI by title or by checking a frame, since `range=7d` lists every game. Some clips come out 9:16 already (720×1280): use `--layout full`. Clip files are served from `d1ndex63qxojbr.cloudfront.net` (useful for network allowlists).
 
 Recording a live stream (from now on; Twitch can't seek back before you joined):
 ```

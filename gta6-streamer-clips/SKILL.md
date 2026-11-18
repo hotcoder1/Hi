@@ -30,7 +30,7 @@ Fast mode: if the user says "just send me the clips", or this is the 2nd+ batch 
 ## Where to work
 
 - **Best: the user's computer** (a linked device shell such as `mcp__remote-devices__device_bash`, or a local Claude Code session) in one project folder, e.g. `GTA6 Clips/`. Twitch, Kick and YouTube downloads work there, and they can watch the previews.
-- **Cloud sandbox**: these sites are often blocked by the network policy (yt-dlp fails with 403 / "tunnel"). Say so plainly, then either ask the user to upload the VOD section or Twitch clip files, or point them to the network settings (via `read_documentation` → environment.network) to allow `twitch.tv`, `usher.ttvnw.net`, `gql.twitch.tv`, `kick.com`, `youtube.com` / `googlevideo.com`. Whisper models download from `huggingface.co`, which may be blocked too. Never pretend a download or a transcription ran.
+- **Cloud sandbox**: these sites are often blocked by the network policy (yt-dlp fails with 403 / "tunnel"). Say so plainly, then either ask the user to upload the VOD section or Twitch clip files, or get the hosts allowed (environment tools if you have them, else `read_documentation` → environment.network). Hosts that are known to work: Twitch `www.twitch.tv`, `gql.twitch.tv`, `usher.ttvnw.net`, clip files `d1ndex63qxojbr.cloudfront.net`; Whisper models `huggingface.co` + `us.aws.cdn.hf.co` (`transcribe.py` turns off Hugging Face's Xet transfer so this one CDN host is enough). VOD and live video segments come from other CDN hosts that vary, so when a download fails, add exactly the host named in the proxy error, not a guess. Never pretend a download or a transcription ran.
 
 ## Project folder
 
@@ -62,7 +62,7 @@ whisper.cpp works instead of faster-whisper (`-oj -ml 1 -sow` output is read dir
 
 Exact commands for each platform are in `references/sources.md`. Read it when you start fetching.
 
-1. **Get the inputs.** For a VOD link: `info.json` (title, chapters, duration), **audio only** (an 8-hour VOD is about 250 MB of audio instead of 10+ GB of video), and the chat replay. For a variety stream, use the "Grand Theft Auto VI" chapter as `--range`. If the user only names a streamer, list their recent VODs, pick the GTA VI ones and confirm which. Twitch's own top clips (by views) are a strong second signal: viewers already clipped the best parts.
+1. **Get the inputs.** Many big streamers make their Twitch VODs **subscriber-only** (yt-dlp: "You must be logged into an account that has access to this subscriber-only content"). Then use, in order: public Twitch clips (viewers clip the best moments within minutes; download them and go straight to step 3), recording the live stream while it's on (live is public), the clipping program's own VOD links, or `--cookies-from-browser` from a subscribed account on the user's computer. Never ask for cookies or tokens in chat. For a VOD link: `info.json` (title, chapters, duration), **audio only** (an 8-hour VOD is about 250 MB of audio instead of 10+ GB of video), and the chat replay. For a variety stream, use the "Grand Theft Auto VI" chapter as `--range`. If the user only names a streamer, list their recent VODs, pick the GTA VI ones and confirm which. Twitch's own top clips (by views) are a strong second signal: viewers already clipped the best parts.
 2. **Rank:** `python3 $SK/scripts/find_moments.py audio.m4a --chat chat.json --range <gta chapter> --top 15 --out candidates.json`. It prints each candidate's VOD time, score, and what chat was saying ("5 STARS 💀 x27 | CLIP IT x26"). Chat lags the stream by ~5–15 s; the script shifts it back by 8 s (`--chat-lag`). Without chat it ranks on audio alone, which is fine but noisier (music and loud intros also spike).
 3. **Check the top 8–10** (more if the user wants a batch):
    - download the video section `start-20 s → end+20 s` at 1080p (sections keep this fast);
@@ -79,7 +79,7 @@ Overlays don't change between streams, so find the box once and save it in `stre
 - Pick the layout:
   - `stack` (default when there's a facecam): facecam on top, gameplay below, captions on the seam. Best for reactions.
   - `fit`: the whole 16:9 frame over a blurred fill. Use it when the action is spread out (wide chases, map, phone screens, HUD text that matters) or there's no facecam. `--fit-zoom 1.1–1.3` makes the gameplay bigger by trimming the sides, so check a corner facecam isn't cut in half.
-  - `full`: a tight 9:16 crop of the gameplay, with `--pip` for a small facecam. Use it for centred action like a character close-up or a cutscene.
+  - `full`: a tight 9:16 crop of the gameplay, with `--pip` for a small facecam. Use it for centred action like a character close-up or a cutscene. Also use it when the source is already vertical (Twitch now makes 9:16 clips, and IRL streams are often shot on a phone); it then just scales the frame up to 1080×1920.
 - Check with a still before any video: `render_clip.py sec.mp4 check.png --keep a-b --layout stack --facecam ... --still 3`. Look at it. Adjust `--shift` (move the gameplay crop left/right, -1..1), `--cam-h`, or the box.
 
 ## Phase 2 — Storyboard (gate)
