@@ -76,6 +76,46 @@ def crop_to_aspect(box, aspect, shift=0.0, vshift=0.0):
     return f"crop={cw}:{ch}:{even(cx)}:{even(cy)}"
 
 
+IMG_EXT = (".png", ".jpg", ".jpeg", ".bmp", ".webp")
+
+
+def has_audio_stream(path):
+    out = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=index",
+                          "-of", "csv=p=0", path], capture_output=True, text=True).stdout
+    return bool(out.strip())
+
+
+def parse_meme(spec):
+    p = spec.split("|")
+    if len(p) < 2:
+        raise SystemExit(f'--meme needs "T|file[|dur|caption|vol]": {spec}')
+    path = os.path.abspath(p[1])
+    if not os.path.exists(path):
+        raise SystemExit(f"meme file not found: {path}")
+    m = {"t": float(p[0]), "path": path, "dur": float(p[2]) if len(p) > 2 and p[2] else 1.5,
+         "caption": p[3] if len(p) > 3 else "", "vol": float(p[4]) if len(p) > 4 and p[4] else 1.0}
+    m["kind"] = ("image" if path.lower().endswith(IMG_EXT) else "gif" if path.lower().endswith(".gif") else "video")
+    m["has_audio"] = m["kind"] == "video" and has_audio_stream(path)
+    return m
+
+
+def parse_sfx(spec):
+    p = spec.split("|")
+    path = os.path.abspath(p[1])
+    if not os.path.exists(path):
+        raise SystemExit(f"sfx file not found: {path}")
+    return {"t": float(p[0]), "path": path, "vol": float(p[2]) if len(p) > 2 and p[2] else 0.9}
+
+
+def meme_input_args(m, fps):
+    d = f"{m['dur'] + 0.2:.3f}"
+    if m["kind"] == "image":
+        return ["-loop", "1", "-framerate", str(fps), "-t", d, "-i", m["path"]]
+    if m["kind"] == "gif":
+        return ["-ignore_loop", "0", "-t", d, "-i", m["path"]]
+    return ["-stream_loop", "-1", "-t", d, "-i", m["path"]]
+
+
 def build(args):
     w0, h0, sfps, has_audio, dur = probe(args.src)
     if args.still is not None:
@@ -85,6 +125,17 @@ def build(args):
     t0 = max(0.0, min(s for s, _ in keeps) - 0.5)
     t_end = max(e for _, e in keeps) + 0.5
     out_dur = sum(e - s for s, e in keeps)
+
+    memes = [parse_meme(m) for m in (args.meme or [])]
+    sfxs = [parse_sfx(x) for x in (args.sfx or [])] if args.still is None else []
+    extra_inputs, meme_idx, sfx_idx = [], [], []
+    nin = 1
+    for m in memes:
+        extra_inputs += meme_input_args(m, fps)
+        meme_idx.append(nin); nin += 1
+    for x in sfxs:
+        extra_inputs += ["-i", os.path.abspath(x["path"])]
+        sfx_idx.append(nin); nin += 1
 
     layout = args.layout or ("stack" if args.facecam else "fit")
     if layout == "stack" and not args.facecam:
@@ -171,7 +222,19 @@ def build(args):
         f.append(f"{last}zoompan=z='{expr}':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={OW}x{OH}:fps={fps}[pz]")
         last = "[pz]"
 
-    use_ass = bool(args.ass or args.words or args.title or args.credit)
+    for k, m in enumerate(memes):
+        i, T, d = meme_idx[k], m["t"], m["dur"]
+        f.append(f"[{i}:v]fps={fps},format=rgba,split=2[mb{k}][mf{k}]")
+        f.append(f"[mb{k}]scale={OW}:{OH}:force_original_aspect_ratio=increase,crop={OW}:{OH},boxblur=20:2,"
+                 f"eq=brightness=-0.28,format=rgba[mbb{k}]")
+        f.append(f"[mf{k}]scale={OW}:1300:force_original_aspect_ratio=decrease[mff{k}]")
+        f.append(f"[mbb{k}][mff{k}]overlay=(W-w)/2:(H-h)/2-110,format=yuv420p,setsar=1,trim=duration={d:.3f},"
+                 f"setpts=PTS-STARTPTS+{T:.3f}/TB[mm{k}]")
+        f.append(f"{last}[mm{k}]overlay=0:0:enable='between(t,{T:.3f},{T + d:.3f})':eof_action=pass[mo{k}]")
+        last = f"[mo{k}]"
+    windows = [(m["t"], m["t"] + m["dur"]) for m in memes]
+
+    use_ass = bool(args.ass or args.words or args.title or args.credit or any(m["caption"] for m in memes))
     if use_ass:
         f.append(f"{last}ass=c.ass:fontsdir=fonts[sub]")
         last = "[sub]"
@@ -180,10 +243,36 @@ def build(args):
         last = "[pv]"
     f.append(f"{last}format=yuv420p[vout]")
     if has_audio:
-        if args.no_loudnorm:
-            f.append("[ca]aresample=48000[aout]")
+        mix_in = []
+        if windows:
+            cond = "+".join(f"between(t,{a:.3f},{b:.3f})" for a, b in windows)
+            f.append(f"[ca]volume='if({cond},{args.meme_duck},1)':eval=frame,aresample=48000,"
+                     f"aformat=channel_layouts=stereo[cad]")
         else:
-            f.append("[ca]loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,alimiter=limit=0.8:level=false[aout]")
+            f.append("[ca]aresample=48000,aformat=channel_layouts=stereo[cad]")
+        mix_in.append("[cad]")
+        for k, m in enumerate(memes):
+            if m["has_audio"]:
+                ms = int(m["t"] * 1000)
+                f.append(f"[{meme_idx[k]}:a]aresample=48000,aformat=channel_layouts=stereo,atrim=0:{m['dur']:.3f},"
+                         f"asetpts=PTS-STARTPTS,afade=t=out:st={max(0, m['dur'] - 0.15):.3f}:d=0.15,"
+                         f"adelay=delays={ms}:all=1,volume={m['vol']}[ma{k}]")
+                mix_in.append(f"[ma{k}]")
+        for k, x in enumerate(sfxs):
+            ms = int(x["t"] * 1000)
+            f.append(f"[{sfx_idx[k]}:a]aresample=48000,silenceremove=start_periods=1:start_threshold=-45dB,"
+                     f"aformat=channel_layouts=stereo,"
+                     f"adelay=delays={ms}:all=1,volume={x['vol']}[sx{k}]")
+            mix_in.append(f"[sx{k}]")
+        if len(mix_in) > 1:
+            f.append(f"{''.join(mix_in)}amix=inputs={len(mix_in)}:normalize=0:duration=first[cmx]")
+            src_a = "[cmx]"
+        else:
+            src_a = "[cad]"
+        if args.no_loudnorm:
+            f.append(f"{src_a}anull[aout]")
+        else:
+            f.append(f"{src_a}loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000,alimiter=limit=0.8:level=false[aout]")
 
     ass_text = None
     if args.ass:
@@ -194,8 +283,11 @@ def build(args):
         title_dur = args.title_dur if args.title_dur is not None else (3.5 if layout == "stack" else None)
         ass_text = captions.build_ass(words, keeps, caption_y=caption_y, title=args.title, title_y=title_y,
                                       title_dur=title_dur, credit=args.credit, duration=out_dur,
-                                      accent=args.accent, do_censor=args.censor, size=args.caption_size)
-    return f, ass_text, t0, t_end, has_audio, geo
+                                      accent=args.accent, do_censor=args.censor, size=args.caption_size,
+                                      hide=windows, meme_caps=[(m["t"], m["t"] + m["dur"], m["caption"]) for m in memes if m["caption"]])
+    geo.update(memes=[{"t": m["t"], "dur": m["dur"], "file": os.path.basename(m["path"])} for m in memes],
+               sfx=[{"t": x["t"], "file": os.path.basename(x["path"])} for x in sfxs])
+    return f, ass_text, t0, t_end, has_audio, geo, extra_inputs
 
 
 def main():
@@ -223,6 +315,10 @@ def main():
     ap.add_argument("--censor", action="store_true", help="star out swears in captions")
     ap.add_argument("--punch", type=float, action="append", help="zoom punch at this output second (repeatable)")
     ap.add_argument("--punch-zoom", type=float, default=1.15)
+    ap.add_argument("--meme", action="append",
+                    help='full-screen meme cutaway "T|file|dur|CAPTION|vol" (output seconds; dur 1.5, caption and vol optional)')
+    ap.add_argument("--meme-duck", type=float, default=0.35, help="stream volume while a meme is up")
+    ap.add_argument("--sfx", action="append", help='sound effect "T|file|vol" at output second T (vol default 0.9)')
     ap.add_argument("--fps", type=int)
     ap.add_argument("--crf", type=int, default=18)
     ap.add_argument("--preview", action="store_true", help="540x960 fast encode for the storyboard")
@@ -231,7 +327,7 @@ def main():
     ap.add_argument("--print-cmd", action="store_true")
     args = ap.parse_args()
 
-    graph, ass_text, t0, t_end, has_audio, geo = build(args)
+    graph, ass_text, t0, t_end, has_audio, geo, extra_inputs = build(args)
     tmp = tempfile.mkdtemp(prefix="clip_")
     try:
         if ass_text is not None:
@@ -246,7 +342,7 @@ def main():
         out = os.path.abspath(args.out)
         os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
         cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-nostdin",
-               "-ss", f"{t0:.3f}", "-t", f"{t_end - t0:.3f}", "-i", src,
+               "-ss", f"{t0:.3f}", "-t", f"{t_end - t0:.3f}", "-i", src, *extra_inputs,
                "-filter_complex", ";".join(graph), "-map", "[vout]"]
         if args.still is not None:
             cmd += ["-ss", f"{args.still:.3f}", "-frames:v", "1", out]

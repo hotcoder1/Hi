@@ -136,7 +136,7 @@ def clean(word, upper, do_censor):
 def build_ass(words, keeps=None, caption_y=1250, title=None, title_y=230, title_dur=None,
               credit=None, credit_y=70, duration=None, font="Montserrat Black",
               size=96, accent="#FF4FA3", upper=True, do_censor=False,
-              max_words=3, title_size=70):
+              max_words=3, title_size=70, hide=None, meme_caps=None):
     words = remap(words, keeps or [])
     if duration is None:
         duration = sum(e - s for s, e in keeps) if keeps else (words[-1]["end"] + 1 if words else 10)
@@ -156,6 +156,7 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Cap,{font},{size},{white},{white},{black},{black},0,0,0,0,100,100,1,0,1,7,2,5,60,60,0,1
 Style: Title,{font},{title_size},{white},{white},{box},{box},0,0,0,0,100,100,0,0,3,18,0,8,70,70,0,1
+Style: Meme,{font},88,{white},{white},{black},{black},0,0,0,0,100,100,1,0,1,8,3,5,60,60,0,1
 Style: Credit,{font},34,{ass_color('#FFFFFF', 0x50)},{white},{ass_color('#000000', 0x60)},{black},0,0,0,0,100,100,1,0,1,3,0,7,40,40,0,1
 
 [Events]
@@ -164,6 +165,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     ev = []
     if title:
         t_end = duration if title_dur is None else min(duration, title_dur)
+        for a, b in (hide or []):
+            if a < t_end:
+                t_end = max(0.0, a)
         pop = r"{\fad(0,150)\fscx85\fscy85\t(0,120,\fscx104\fscy104)\t(120,200,\fscx100\fscy100)}"
         txt = esc(title.upper() if upper else title)
         ev.append(f"Dialogue: 2,{ts(0)},{ts(t_end)},Title,,0,0,0,,{{\\pos({W//2},{title_y})\\q0}}{pop}{txt}")
@@ -179,6 +183,12 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         for wi, w in enumerate(ch):
             s = c_start if wi == 0 else w["start"]
             e = ch[wi + 1]["start"] if wi + 1 < len(ch) else c_end
+            for a, b in (hide or []):  # stream captions step aside while a meme is on screen
+                if s < b and e > a:
+                    if s >= a:
+                        s = max(s, b)
+                    else:
+                        e = min(e, a)
             if e - s < 0.02:
                 continue
             parts = []
@@ -186,6 +196,9 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
                 parts.append(f"{{\\c{acc}}}{tok}{{\\c{white}}}" if k == wi else tok)
             pop = r"\fscx70\fscy70\t(0,90,\fscx108\fscy108)\t(90,150,\fscx100\fscy100)" if wi == 0 else ""
             ev.append(f"Dialogue: 1,{ts(s)},{ts(e)},Cap,,0,0,0,,{{\\pos({W//2},{caption_y}){pop}}}" + " ".join(parts))
+    for a, b, text in (meme_caps or []):
+        pop = r"\fscx80\fscy80\t(0,90,\fscx106\fscy106)\t(90,150,\fscx100\fscy100)"
+        ev.append(f"Dialogue: 4,{ts(a)},{ts(b)},Meme,,0,0,0,,{{\\pos({W//2},1420)\\q0{pop}}}{esc(text.upper() if upper else text)}")
     return head + "\n".join(ev) + "\n"
 
 

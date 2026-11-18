@@ -41,6 +41,7 @@ GTA6 Clips/
   vods/<streamer>/<vod_id>/ info.json, audio.*, chat.json, candidates.json
       sections/<cid>.mp4    the video around each candidate (with padding)
       words/<cid>.json      transcript with word times
+  memes/, sfx/              the user's meme and sound libraries + library.json indexes (references/memes.md)
   previews/                 low-res storyboard clips + poster frames
   plan.json, storyboard.html
   out/                      final clips + <clip>.txt post captions + qa/ contact sheets
@@ -70,7 +71,8 @@ Exact commands for each platform are in `references/sources.md`. Read it when yo
    - make a contact sheet (`ffmpeg -i sec.mp4 -vf "fps=1,scale=320:-1,tile=6x5" sheet.png`) and look at it.
    Decide: is something actually happening (see `references/gta6-moments.md` for what works), or was it just a loud ad, a music break or a donation sound? Drop the fakes.
 4. **Trim.** Pick the in-point (the start of the setup, not the start of the yelling: viewers need 2–4 s of "what's going on") and the out-point (right after the reaction peaks, not 20 s of aftermath). Cut dead air in the middle with several `--keep` ranges. Aim for 15–45 s. All times from here on are in the **section file's** seconds.
-5. **Title** each clip: 3–8 words, caps, says what happens or teases it ("HE GOT 5 STARS IN 10 SECONDS", "THE COPS HAD NO CHANCE"). No clickbait that the clip doesn't deliver. Mark story spoilers (`"spoiler": true`) and put "GTA 6 SPOILER" in the post caption.
+5. **Meme beats** (when the user wants memes): for each clip with a real punchline, plan a zoom punch + boom on it and a full-screen meme cutaway right after it, 1–2 beats per clip, picked from the user's indexed library by mood. Read `references/memes.md` first; it has the placement rules, the mood → meme/sound table and the flags. No library yet → say so and ask for it; don't invent memes.
+6. **Title** each clip: 3–8 words, caps, says what happens or teases it ("HE GOT 5 STARS IN 10 SECONDS", "THE COPS HAD NO CHANCE"). No clickbait that the clip doesn't deliver. Mark story spoilers (`"spoiler": true`) and put "GTA 6 SPOILER" in the post caption.
 
 ### Facecam layout (once per streamer)
 
@@ -85,7 +87,7 @@ Overlays don't change between streams, so find the box once and save it in `stre
 ## Phase 2 — Storyboard (gate)
 
 1. For each kept candidate, render a preview: `render_clip.py sections/<cid>.mp4 previews/<cid>.mp4 --keep ... --layout ... --facecam ... --words words/<cid>.json --title "..." --credit "twitch.tv/<name>" --preview`. Then grab a poster frame at the payoff: `ffmpeg -ss <t> -i previews/<cid>.mp4 -frames:v 1 -q:v 4 previews/<cid>.jpg`.
-2. Write `plan.json` (the format is in `scripts/storyboard.py --help`): id, title, vod_time, keep ranges, duration, quote, why (what chat or audio said), layout, on_screen, post_caption, preview, poster, spoiler.
+2. Write `plan.json` (the format is in `scripts/storyboard.py --help`): id, title, vod_time, keep ranges, duration, quote, why (what chat or audio said), layout, on_screen (including the meme plan: times, files, captions), post_caption, preview, poster, spoiler.
 3. `storyboard.py plan.json storyboard.html`. On the user's computer, open it. Otherwise publish it as a claude.ai Artifact: build with `--artifact`, publish with `capabilities: {"db": {}}`, and pass the preview MP4s and posters in the Artifact `files` map under the same `previews/...` paths, so the videos play on the page. With `db`, every tap and note saves to the artifact's database as `choices/<clip id>`, and you read them back with the ArtifactData tool (`list` on `choices`). That's much easier on a phone than copying JSON.
 4. **Stop.** Ask the user to Keep / Change / Drop each clip, then read the `choices` collection (or the pasted notes). Don't render finals before that.
 
@@ -94,6 +96,7 @@ Overlays don't change between streams, so find the box once and save it in `stre
 1. Apply every note, and list each one with what you changed. If a note is unclear ("make it funnier"), ask.
 2. Final: `render_clip.py sections/<cid>.mp4 out/<streamer>_<slug>.mp4 --keep ... --layout ... --facecam ... --words words/<cid>.json --title "..." --credit "twitch.tv/<name>" [--punch <t>] [--censor]`.
    - `--punch <t>`: a quick 1.15× zoom at the payoff second (output time). Use 1–2 per clip at most: on the crash, the explosion, or the reaction.
+   - `--meme "T|file|dur|CAPTION"` and `--sfx "T|file|vol"`: the meme beats from the plan (see `references/memes.md`). Check a frame inside every meme window.
    - `--censor` stars out slurs and the hardest swears in the captions (the audio stays). Use it by default for TikTok unless the user's style says otherwise.
    - Audio is normalised to −14 LUFS. Captions are the bundled Montserrat Black, uppercase, with the current word in pink (`--accent`).
 3. QA: `qa_clip.py out/<clip>.mp4 --sheet out/qa/<clip>.png`. It checks format, length, loudness, black and frozen frames. Then **look at the contact sheet**: captions readable and spelled right, nothing over the face or the key action, credit visible, title not cut off. Fix and re-render on any FAIL or anything that looks wrong.
@@ -110,7 +113,7 @@ Hashtags: 4–6, with #gta6 first. Then report the clip list (file, length, VOD 
 
 ## Style
 
-Default (until the user has their own): `stack` layout; a black 6 px seam; captions 1–3 words, Montserrat Black, white with a black outline, current word pink `#FF4FA3`, on the seam; a title box just under the seam (over the gameplay, clear of the face) for the first 3.5 s; long titles wrap to two lines; the credit small at the top-left; a zoom punch on the payoff; no music bed (the stream's audio is the content); no emoji in burned-in text (they render as boxes), only in post captions. Keep captions out of the bottom ~20% and the right edge, where the TikTok/Shorts buttons sit.
+Default (until the user has their own): `stack` layout; a black 6 px seam; captions 1–3 words, Montserrat Black, white with a black outline, current word pink `#FF4FA3`, on the seam; a title box just under the seam (over the gameplay, clear of the face) for the first 3.5 s; long titles wrap to two lines; the credit small at the top-left; a zoom punch on the payoff (with a boom when the clip has meme beats); 1–2 full-screen meme cutaways on the funniest beat when the user's meme library is available; no music bed (the stream's audio is the content); no emoji in burned-in text (they render as boxes), only in post captions. Keep captions out of the bottom ~20% and the right edge, where the TikTok/Shorts buttons sit.
 
 To match a clip channel the user likes: download 3 of its clips (yt-dlp), make contact sheets, and write `clip-style.md` covering layout, caption font/size/colour/position, title style, cut pace, zooms, SFX and length. Then map it onto the script flags (`--accent`, `--caption-size`, `--caption-y`, `--title-dur`, layout). Get approval, then follow it every time. Avoid AI-slop moves: no Ken Burns on gameplay, no shaky-cam, no gradient glow text, no stock footage.
 
