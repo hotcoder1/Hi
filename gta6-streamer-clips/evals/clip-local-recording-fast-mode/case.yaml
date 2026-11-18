@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: clip-local-recording-fast-mode
+expected_outcome: |
+  Ranks the recording by audio and chat, picks the moment around 3:00 (the loud spike that chat
+  reacts to with "5 STARS" / "CLIP IT"), and renders one vertical 1080x1920 clip with the facecam
+  stacked over the gameplay, the twitch.tv/vicecityvibes credit on screen, and a post caption
+  with #gta6. Runs the QA checks and looks at the frames before saying it is done. Skips the
+  storyboard because the user asked to, and says honestly if captions could not be made
+  (for example if no Whisper model could be downloaded).
+context:
+  scaffold_script: place-files.sh

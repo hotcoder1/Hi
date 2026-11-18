@@ -1,0 +1,8 @@
+schema_version: "1.1"
+name: storyboard-before-render
+expected_outcome: |
+  Finds the two strongest moments (around 3:00 and around 1:10), renders a low-res preview for
+  each, and builds a storyboard page with one card per clip offering Keep, Change and Drop plus a
+  notes box. Stops and asks the user to review it, without rendering full-quality final clips.
+context:
+  scaffold_script: place-files.sh
