@@ -1,0 +1,168 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 1.81,
+   "end": 2.57,
+   "text": "there we go"
+  },
+  {
+   "start": 5.65,
+   "end": 7.85,
+   "text": "Sorry guys. Oh"
+  },
+  {
+   "start": 9.03,
+   "end": 28.78,
+   "text": "That was kind of that's uh, I was a little disturbed. Okay. I gotta get somewhere safe. Oh my god. Oh my goodness"
+  }
+ ],
+ "words": [
+  {
+   "start": 1.81,
+   "end": 2.31,
+   "word": "there"
+  },
+  {
+   "start": 2.31,
+   "end": 2.41,
+   "word": "we"
+  },
+  {
+   "start": 2.41,
+   "end": 2.57,
+   "word": "go"
+  },
+  {
+   "start": 5.65,
+   "end": 6.23,
+   "word": "Sorry"
+  },
+  {
+   "start": 6.23,
+   "end": 6.65,
+   "word": "guys."
+  },
+  {
+   "start": 7.27,
+   "end": 7.85,
+   "word": "Oh"
+  },
+  {
+   "start": 9.03,
+   "end": 9.61,
+   "word": "That"
+  },
+  {
+   "start": 9.61,
+   "end": 9.77,
+   "word": "was"
+  },
+  {
+   "start": 9.77,
+   "end": 9.99,
+   "word": "kind"
+  },
+  {
+   "start": 9.99,
+   "end": 10.41,
+   "word": "of"
+  },
+  {
+   "start": 10.41,
+   "end": 10.75,
+   "word": "that's"
+  },
+  {
+   "start": 10.75,
+   "end": 11.05,
+   "word": "uh,"
+  },
+  {
+   "start": 11.15,
+   "end": 12.49,
+   "word": "I"
+  },
+  {
+   "start": 12.49,
+   "end": 12.59,
+   "word": "was"
+  },
+  {
+   "start": 12.59,
+   "end": 12.69,
+   "word": "a"
+  },
+  {
+   "start": 12.69,
+   "end": 12.75,
+   "word": "little"
+  },
+  {
+   "start": 12.75,
+   "end": 13.05,
+   "word": "disturbed."
+  },
+  {
+   "start": 17.26,
+   "end": 17.84,
+   "word": "Okay."
+  },
+  {
+   "start": 17.9,
+   "end": 17.94,
+   "word": "I"
+  },
+  {
+   "start": 17.94,
+   "end": 18.06,
+   "word": "gotta"
+  },
+  {
+   "start": 18.06,
+   "end": 18.2,
+   "word": "get"
+  },
+  {
+   "start": 18.2,
+   "end": 18.48,
+   "word": "somewhere"
+  },
+  {
+   "start": 18.48,
+   "end": 18.82,
+   "word": "safe."
+  },
+  {
+   "start": 18.94,
+   "end": 19.46,
+   "word": "Oh"
+  },
+  {
+   "start": 23.24,
+   "end": 23.46,
+   "word": "my"
+  },
+  {
+   "start": 23.46,
+   "end": 23.8,
+   "word": "god."
+  },
+  {
+   "start": 24.02,
+   "end": 24.6,
+   "word": "Oh"
+  },
+  {
+   "start": 27.9,
+   "end": 28.22,
+   "word": "my"
+  },
+  {
+   "start": 28.22,
+   "end": 28.78,
+   "word": "goodness"
+  }
+ ],
+ "text": "there we go Sorry guys. Oh That was kind of that's uh, I was a little disturbed. Okay. I gotta get somewhere safe. Oh my god. Oh my goodness"
+}

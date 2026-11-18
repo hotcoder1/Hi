@@ -1,0 +1,156 @@
+{
+ "streamer": "TypicalGamer",
+ "platform": "Twitch",
+ "source": "https://www.twitch.tv/typicalgamer",
+ "note": "live GTA 6 marathon (early access via New Zealand), from viewer clips, Nov 18",
+ "clips": [
+  {
+   "id": "c01",
+   "title": "The only way out was the roof",
+   "clip_time": "12:36 UTC",
+   "views": 19,
+   "keep": [
+    "0-28.5"
+   ],
+   "duration": 28.5,
+   "quote": "There has to be a ramp at the top of this… oh my gosh, here we go",
+   "why": "Cops corner him in a parking garage, so he launches the car off the roof across the street.",
+   "on_screen": "Zoom punch as the car leaves the roof (0:16)",
+   "post_caption": "the cops had him cornered… so he used the roof 💀\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c01.mp4",
+   "poster": "previews/c01.jpg",
+   "spoiler": false
+  },
+  {
+   "id": "c02",
+   "title": "The cop tased his own partner",
+   "clip_time": "12:29 UTC",
+   "views": 13,
+   "keep": [
+    "3.5-12",
+    "25-37"
+   ],
+   "duration": 20.5,
+   "quote": "I saw you tase your partner. I'm stealing this car. This car looks sick.",
+   "why": "Twitch auto-clipped this one because chat spiked (2.6x normal). He crashes into a gas station full of cops, one tases his partner, and he walks off and steals a sports car. The quiet middle is cut.",
+   "on_screen": "Zoom punch on the crash",
+   "post_caption": "Vice City PD is NOT okay 😭\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c02.mp4",
+   "poster": "previews/c02.jpg",
+   "spoiler": false
+  },
+  {
+   "id": "c03",
+   "title": "He's not buying 2K this year",
+   "clip_time": "11:58 UTC",
+   "views": 13,
+   "keep": [
+    "11.8-28"
+   ],
+   "duration": 16.2,
+   "quote": "Oh, that's gonna be a dud… never mind. BANG. … Yep, I'm not buying 2K this year.",
+   "why": "His first go at the basketball minigame, with a clean punchline at the end.",
+   "on_screen": "Zoom punch on the bucket",
+   "post_caption": "GTA 6 basketball > 2K? 🏀\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c03.mp4",
+   "poster": "previews/c03.jpg",
+   "spoiler": false
+  },
+  {
+   "id": "c04",
+   "title": "Is GTA 6 fighting better than GTA 5?",
+   "clip_time": "11:34 UTC",
+   "views": 19,
+   "keep": [
+    "0-29"
+   ],
+   "duration": 29.0,
+   "quote": "He's a big guy! Big guy! … Let's see if the fighting's better than GTA 5.",
+   "why": "His first fight, and the most-clipped moment of the stream so far (another clip of it has 174 views). It's an early story mission; the NPCs swear, so swears are starred in the captions.",
+   "on_screen": "Zoom punch on the throw (0:26)",
+   "post_caption": "GTA 6 fights hit different 👊 better than GTA 5?\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c04.mp4",
+   "poster": "previews/c04.jpg",
+   "spoiler": false
+  },
+  {
+   "id": "c05",
+   "title": "Vice City beach cops don't play",
+   "clip_time": "12:32 UTC",
+   "views": 18,
+   "keep": [
+    "0-24",
+    "29.6-35.5"
+   ],
+   "duration": 29.9,
+   "quote": "Wants me to get out of the vehicle now. I don't think so… that was so cool, literally peak.",
+   "why": "A beach cop on an ATV walks up with his gun out, then sprints at the car; he gets away. Five quiet seconds are cut.",
+   "on_screen": "Zoom punch as the cop reaches the car",
+   "post_caption": "he really said 'I don't think so' to a cop with a gun 💀\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c05.mp4",
+   "poster": "previews/c05.jpg",
+   "spoiler": false
+  },
+  {
+   "id": "c06",
+   "title": "He's in a war movie now",
+   "clip_time": "13:25 UTC",
+   "views": 14,
+   "keep": [
+    "11-24",
+    "29.5-39.3",
+    "53.8-60"
+   ],
+   "duration": 29.0,
+   "quote": "I just touched a freaking missile… I'm in a freaking war movie right now.",
+   "why": "First time in a fighter jet: dogfight and a near-miss with a missile. Cut from 60 s to 29 s.",
+   "on_screen": "Zoom punch on the missile",
+   "post_caption": "GTA 6 jets are actually insane ✈️\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c06.mp4",
+   "poster": "previews/c06.jpg",
+   "spoiler": false
+  },
+  {
+   "id": "c07",
+   "title": "He jumped out of a plane over Vice City",
+   "clip_time": "13:12 UTC",
+   "views": 14,
+   "keep": [
+    "4-24"
+   ],
+   "duration": 20.0,
+   "quote": "I'm out. Oh my goodness.",
+   "why": "Skydives out of a plane and opens the parachute over downtown. Mostly visual, with few words.",
+   "on_screen": "Zoom punch on the jump",
+   "post_caption": "the view from up here 😮‍💨 Vice City is huge\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c07.mp4",
+   "poster": "previews/c07.jpg",
+   "spoiler": false
+  },
+  {
+   "id": "c08",
+   "title": "He just wanted to get somewhere safe",
+   "clip_time": "12:33 UTC",
+   "views": 22,
+   "keep": [
+    "15.5-30"
+   ],
+   "duration": 14.5,
+   "quote": "I gotta get somewhere safe. Oh my god…",
+   "why": "Says he needs somewhere safe, then flips the car through roadworks four seconds later. Short enough to loop.",
+   "on_screen": "Zoom punch on the flip",
+   "post_caption": "somewhere safe btw 🚧\n🎥 @typicalgamer on Twitch\n#gta6 #gtavi #gta6clips #typicalgamer #vicecity",
+   "layout": "stack",
+   "preview": "previews/c08.mp4",
+   "poster": "previews/c08.jpg",
+   "spoiler": false
+  }
+ ]
+}

@@ -127,7 +127,7 @@ def build(args):
         f.append(f"[c1]{crop_to_aspect(cam, OW / hf)},scale={OW}:{hf}:flags=lanczos,setsar=1[cam]")
         f.append(f"[c2]{crop_to_aspect(game, OW / hg, args.shift, args.vshift)},scale={OW}:{hg}:flags=lanczos,setsar=1[gm]")
         f.append(f"[cam][gm]vstack=inputs=2,drawbox=x=0:y={hf - 3}:w={OW}:h=6:color=black@0.85:t=fill[lay]")
-        caption_y, title_y = hf, 150
+        caption_y, title_y = hf, hf + 100  # title under the seam, over the gameplay sky, clear of the face
         geo.update(cam_panel_h=hf)
     elif layout == "fit":
         x, y, w, h = game

@@ -1,0 +1,38 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 15.22,
+   "end": 20.05,
+   "text": "I'm out. Oh my goodness"
+  }
+ ],
+ "words": [
+  {
+   "start": 15.22,
+   "end": 15.66,
+   "word": "I'm"
+  },
+  {
+   "start": 15.66,
+   "end": 15.9,
+   "word": "out."
+  },
+  {
+   "start": 19.15,
+   "end": 19.47,
+   "word": "Oh"
+  },
+  {
+   "start": 19.47,
+   "end": 19.75,
+   "word": "my"
+  },
+  {
+   "start": 19.75,
+   "end": 20.05,
+   "word": "goodness"
+  }
+ ],
+ "text": "I'm out. Oh my goodness"
+}

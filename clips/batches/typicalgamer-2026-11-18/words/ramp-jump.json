@@ -1,0 +1,298 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.2,
+   "text": "I think they're on me like I think the"
+  },
+  {
+   "start": 3.88,
+   "end": 7.7,
+   "text": "Yeah, I think they're they may be in the parking garage with me. They're asking me an escape, right?"
+  },
+  {
+   "start": 8.0,
+   "end": 9.46,
+   "text": "There has to be a ramp at the top of this"
+  },
+  {
+   "start": 11.84,
+   "end": 15.18,
+   "text": "Right? Oh my gosh, here we go"
+  },
+  {
+   "start": 17.84,
+   "end": 27.27,
+   "text": "Yeah, oh shoot. That's a way out"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.0,
+   "end": 0.44,
+   "word": "I"
+  },
+  {
+   "start": 0.44,
+   "end": 0.58,
+   "word": "think"
+  },
+  {
+   "start": 0.58,
+   "end": 0.76,
+   "word": "they're"
+  },
+  {
+   "start": 0.76,
+   "end": 0.94,
+   "word": "on"
+  },
+  {
+   "start": 0.94,
+   "end": 1.12,
+   "word": "me"
+  },
+  {
+   "start": 1.12,
+   "end": 1.36,
+   "word": "like"
+  },
+  {
+   "start": 1.36,
+   "end": 1.56,
+   "word": "I"
+  },
+  {
+   "start": 1.56,
+   "end": 1.76,
+   "word": "think"
+  },
+  {
+   "start": 1.76,
+   "end": 2.2,
+   "word": "the"
+  },
+  {
+   "start": 3.88,
+   "end": 4.28,
+   "word": "Yeah,"
+  },
+  {
+   "start": 4.32,
+   "end": 4.42,
+   "word": "I"
+  },
+  {
+   "start": 4.42,
+   "end": 4.56,
+   "word": "think"
+  },
+  {
+   "start": 4.56,
+   "end": 4.82,
+   "word": "they're"
+  },
+  {
+   "start": 4.82,
+   "end": 5.12,
+   "word": "they"
+  },
+  {
+   "start": 5.12,
+   "end": 5.32,
+   "word": "may"
+  },
+  {
+   "start": 5.32,
+   "end": 5.42,
+   "word": "be"
+  },
+  {
+   "start": 5.42,
+   "end": 5.5,
+   "word": "in"
+  },
+  {
+   "start": 5.5,
+   "end": 5.54,
+   "word": "the"
+  },
+  {
+   "start": 5.54,
+   "end": 5.74,
+   "word": "parking"
+  },
+  {
+   "start": 5.74,
+   "end": 5.94,
+   "word": "garage"
+  },
+  {
+   "start": 5.94,
+   "end": 6.2,
+   "word": "with"
+  },
+  {
+   "start": 6.2,
+   "end": 6.36,
+   "word": "me."
+  },
+  {
+   "start": 6.38,
+   "end": 6.58,
+   "word": "They're"
+  },
+  {
+   "start": 6.58,
+   "end": 6.82,
+   "word": "asking"
+  },
+  {
+   "start": 6.82,
+   "end": 6.98,
+   "word": "me"
+  },
+  {
+   "start": 6.98,
+   "end": 7.06,
+   "word": "an"
+  },
+  {
+   "start": 7.06,
+   "end": 7.28,
+   "word": "escape,"
+  },
+  {
+   "start": 7.38,
+   "end": 7.7,
+   "word": "right?"
+  },
+  {
+   "start": 8.0,
+   "end": 8.28,
+   "word": "There"
+  },
+  {
+   "start": 8.28,
+   "end": 8.42,
+   "word": "has"
+  },
+  {
+   "start": 8.42,
+   "end": 8.5,
+   "word": "to"
+  },
+  {
+   "start": 8.5,
+   "end": 8.56,
+   "word": "be"
+  },
+  {
+   "start": 8.56,
+   "end": 8.64,
+   "word": "a"
+  },
+  {
+   "start": 8.64,
+   "end": 8.78,
+   "word": "ramp"
+  },
+  {
+   "start": 8.78,
+   "end": 8.92,
+   "word": "at"
+  },
+  {
+   "start": 8.92,
+   "end": 8.98,
+   "word": "the"
+  },
+  {
+   "start": 8.98,
+   "end": 9.18,
+   "word": "top"
+  },
+  {
+   "start": 9.18,
+   "end": 9.3,
+   "word": "of"
+  },
+  {
+   "start": 9.3,
+   "end": 9.46,
+   "word": "this"
+  },
+  {
+   "start": 11.84,
+   "end": 12.24,
+   "word": "Right?"
+  },
+  {
+   "start": 13.52,
+   "end": 13.92,
+   "word": "Oh"
+  },
+  {
+   "start": 13.92,
+   "end": 14.16,
+   "word": "my"
+  },
+  {
+   "start": 14.16,
+   "end": 14.44,
+   "word": "gosh,"
+  },
+  {
+   "start": 14.54,
+   "end": 14.66,
+   "word": "here"
+  },
+  {
+   "start": 14.66,
+   "end": 14.8,
+   "word": "we"
+  },
+  {
+   "start": 14.8,
+   "end": 15.18,
+   "word": "go"
+  },
+  {
+   "start": 17.84,
+   "end": 18.24,
+   "word": "Yeah,"
+  },
+  {
+   "start": 22.14,
+   "end": 22.54,
+   "word": "oh"
+  },
+  {
+   "start": 22.54,
+   "end": 23.26,
+   "word": "shoot."
+  },
+  {
+   "start": 26.51,
+   "end": 26.91,
+   "word": "That's"
+  },
+  {
+   "start": 26.91,
+   "end": 26.99,
+   "word": "a"
+  },
+  {
+   "start": 26.99,
+   "end": 27.09,
+   "word": "way"
+  },
+  {
+   "start": 27.09,
+   "end": 27.27,
+   "word": "out"
+  }
+ ],
+ "text": "I think they're on me like I think the Yeah, I think they're they may be in the parking garage with me. They're asking me an escape, right? There has to be a ramp at the top of this Right? Oh my gosh, here we go Yeah, oh shoot. That's a way out"
+}

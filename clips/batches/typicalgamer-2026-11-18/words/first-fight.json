@@ -1,0 +1,348 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 0.76,
+   "text": "What the fuck?"
+  },
+  {
+   "start": 1.46,
+   "end": 3.48,
+   "text": "What you waiting for? Attab me!"
+  },
+  {
+   "start": 3.86,
+   "end": 4.46,
+   "text": "Yeah, I got you, bro."
+  },
+  {
+   "start": 4.84,
+   "end": 5.76,
+   "text": "Oh, keep me out of this!"
+  },
+  {
+   "start": 7.08,
+   "end": 8.46,
+   "text": "Johnny, you fucking motherfucker!"
+  },
+  {
+   "start": 9.1,
+   "end": 9.32,
+   "text": "Oh!"
+  },
+  {
+   "start": 10.66,
+   "end": 12.72,
+   "text": "Oh, he's a big guy! Big guy!"
+  },
+  {
+   "start": 13.12,
+   "end": 14.52,
+   "text": "Big guy! Big guy!"
+  },
+  {
+   "start": 15.86,
+   "end": 16.38,
+   "text": "Ooh!"
+  },
+  {
+   "start": 17.82,
+   "end": 18.34,
+   "text": "Ooh!"
+  },
+  {
+   "start": 19.26,
+   "end": 21.34,
+   "text": "Let's see if the fighting's better than GTA 5."
+  },
+  {
+   "start": 23.53,
+   "end": 24.67,
+   "text": "Throw him against the..."
+  },
+  {
+   "start": 26.21,
+   "end": 26.73,
+   "text": "Oh!"
+  },
+  {
+   "start": 27.77,
+   "end": 28.57,
+   "text": "Stay down!"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.0,
+   "end": 0.36,
+   "word": "What"
+  },
+  {
+   "start": 0.36,
+   "end": 0.5,
+   "word": "the"
+  },
+  {
+   "start": 0.5,
+   "end": 0.76,
+   "word": "fuck?"
+  },
+  {
+   "start": 1.46,
+   "end": 1.98,
+   "word": "What"
+  },
+  {
+   "start": 1.98,
+   "end": 2.12,
+   "word": "you"
+  },
+  {
+   "start": 2.12,
+   "end": 2.4,
+   "word": "waiting"
+  },
+  {
+   "start": 2.4,
+   "end": 2.72,
+   "word": "for?"
+  },
+  {
+   "start": 2.88,
+   "end": 3.22,
+   "word": "Untie"
+  },
+  {
+   "start": 3.22,
+   "end": 3.48,
+   "word": "me!"
+  },
+  {
+   "start": 3.86,
+   "end": 4.02,
+   "word": "Yeah,"
+  },
+  {
+   "start": 4.1,
+   "end": 4.1,
+   "word": "I"
+  },
+  {
+   "start": 4.1,
+   "end": 4.22,
+   "word": "got"
+  },
+  {
+   "start": 4.22,
+   "end": 4.34,
+   "word": "you,"
+  },
+  {
+   "start": 4.46,
+   "end": 4.46,
+   "word": "bro."
+  },
+  {
+   "start": 4.84,
+   "end": 4.9,
+   "word": "Oh,"
+  },
+  {
+   "start": 4.9,
+   "end": 4.9,
+   "word": "keep"
+  },
+  {
+   "start": 4.9,
+   "end": 5.16,
+   "word": "me"
+  },
+  {
+   "start": 5.16,
+   "end": 5.42,
+   "word": "out"
+  },
+  {
+   "start": 5.42,
+   "end": 5.54,
+   "word": "of"
+  },
+  {
+   "start": 5.54,
+   "end": 5.76,
+   "word": "this!"
+  },
+  {
+   "start": 7.08,
+   "end": 7.56,
+   "word": "Donnie,"
+  },
+  {
+   "start": 7.72,
+   "end": 7.8,
+   "word": "you"
+  },
+  {
+   "start": 7.8,
+   "end": 8.08,
+   "word": "fucking"
+  },
+  {
+   "start": 8.08,
+   "end": 8.46,
+   "word": "motherfucker!"
+  },
+  {
+   "start": 9.1,
+   "end": 9.32,
+   "word": "Oh!"
+  },
+  {
+   "start": 10.66,
+   "end": 11.18,
+   "word": "Oh,"
+  },
+  {
+   "start": 11.3,
+   "end": 11.54,
+   "word": "he's"
+  },
+  {
+   "start": 11.54,
+   "end": 11.64,
+   "word": "a"
+  },
+  {
+   "start": 11.64,
+   "end": 11.78,
+   "word": "big"
+  },
+  {
+   "start": 11.78,
+   "end": 12.02,
+   "word": "guy!"
+  },
+  {
+   "start": 12.22,
+   "end": 12.44,
+   "word": "Big"
+  },
+  {
+   "start": 12.44,
+   "end": 12.72,
+   "word": "guy!"
+  },
+  {
+   "start": 13.12,
+   "end": 13.36,
+   "word": "Big"
+  },
+  {
+   "start": 13.36,
+   "end": 13.66,
+   "word": "guy!"
+  },
+  {
+   "start": 14.06,
+   "end": 14.2,
+   "word": "Big"
+  },
+  {
+   "start": 14.2,
+   "end": 14.52,
+   "word": "guy!"
+  },
+  {
+   "start": 15.86,
+   "end": 16.38,
+   "word": "Ooh!"
+  },
+  {
+   "start": 17.82,
+   "end": 18.34,
+   "word": "Ooh!"
+  },
+  {
+   "start": 19.26,
+   "end": 19.78,
+   "word": "Let's"
+  },
+  {
+   "start": 19.78,
+   "end": 19.86,
+   "word": "see"
+  },
+  {
+   "start": 19.86,
+   "end": 19.92,
+   "word": "if"
+  },
+  {
+   "start": 19.92,
+   "end": 20.04,
+   "word": "the"
+  },
+  {
+   "start": 20.04,
+   "end": 20.36,
+   "word": "fighting's"
+  },
+  {
+   "start": 20.36,
+   "end": 20.46,
+   "word": "better"
+  },
+  {
+   "start": 20.46,
+   "end": 20.64,
+   "word": "than"
+  },
+  {
+   "start": 20.64,
+   "end": 20.82,
+   "word": "GTA"
+  },
+  {
+   "start": 20.82,
+   "end": 21.34,
+   "word": "5."
+  },
+  {
+   "start": 23.53,
+   "end": 24.05,
+   "word": "Throw"
+  },
+  {
+   "start": 24.05,
+   "end": 24.15,
+   "word": "him"
+  },
+  {
+   "start": 24.15,
+   "end": 24.31,
+   "word": "against"
+  },
+  {
+   "start": 24.31,
+   "end": 24.67,
+   "word": "the..."
+  },
+  {
+   "start": 26.21,
+   "end": 26.73,
+   "word": "Oh!"
+  },
+  {
+   "start": 27.77,
+   "end": 28.21,
+   "word": "Stay"
+  },
+  {
+   "start": 28.21,
+   "end": 28.57,
+   "word": "down!"
+  }
+ ],
+ "text": "What the fuck? What you waiting for? Attab me! Yeah, I got you, bro. Oh, keep me out of this! Johnny, you fucking motherfucker! Oh! Oh, he's a big guy! Big guy! Big guy! Big guy! Ooh! Ooh! Let's see if the fighting's better than GTA 5. Throw him against the... Oh! Stay down!"
+}

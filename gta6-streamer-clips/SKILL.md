@@ -74,7 +74,7 @@ Exact commands for each platform are in `references/sources.md`. Read it when yo
 
 ### Facecam layout (once per streamer)
 
-Overlays don't change between streams, so find the box once and save it in `streamers.json`.
+Overlays don't change between streams, so find the box once and save it in `streamers.json`. If the streamer burns their own captions into the stream, set `--game` to stop above them (e.g. `0,0,1,0.88`) so the clip doesn't show two sets.
 - Grab a frame with a grid: `ffmpeg -ss 30 -i sec.mp4 -frames:v 1 -vf "drawgrid=w=iw/20:h=ih/20:t=1:c=white@0.4" grid.png`, look at it, and note the facecam box as fractions `x,y,w,h` (e.g. `0.02,0.70,0.22,0.27`). Fractions work at any resolution.
 - Pick the layout:
   - `stack` (default when there's a facecam): facecam on top, gameplay below, captions on the seam. Best for reactions.
@@ -86,8 +86,8 @@ Overlays don't change between streams, so find the box once and save it in `stre
 
 1. For each kept candidate, render a preview: `render_clip.py sections/<cid>.mp4 previews/<cid>.mp4 --keep ... --layout ... --facecam ... --words words/<cid>.json --title "..." --credit "twitch.tv/<name>" --preview`. Then grab a poster frame at the payoff: `ffmpeg -ss <t> -i previews/<cid>.mp4 -frames:v 1 -q:v 4 previews/<cid>.jpg`.
 2. Write `plan.json` (the format is in `scripts/storyboard.py --help`): id, title, vod_time, keep ranges, duration, quote, why (what chat or audio said), layout, on_screen, post_caption, preview, poster, spoiler.
-3. `storyboard.py plan.json storyboard.html`. On the user's computer, open it. In a cloud session, publish it as an Artifact with `--embed-posters` (video previews are usually too big to embed; send the preview MP4s with SendUserFile if they want to watch them).
-4. **Stop.** Ask the user to Keep / Change / Drop each clip and paste back the exported notes. Don't render finals before that.
+3. `storyboard.py plan.json storyboard.html`. On the user's computer, open it. Otherwise publish it as a claude.ai Artifact: build with `--artifact`, publish with `capabilities: {"db": {}}`, and pass the preview MP4s and posters in the Artifact `files` map under the same `previews/...` paths, so the videos play on the page. With `db`, every tap and note saves to the artifact's database as `choices/<clip id>`, and you read them back with the ArtifactData tool (`list` on `choices`). That's much easier on a phone than copying JSON.
+4. **Stop.** Ask the user to Keep / Change / Drop each clip, then read the `choices` collection (or the pasted notes). Don't render finals before that.
 
 ## Phase 3 — Render + QA
 
@@ -110,7 +110,7 @@ Hashtags: 4–6, with #gta6 first. Then report the clip list (file, length, VOD 
 
 ## Style
 
-Default (until the user has their own): `stack` layout; a black 6 px seam; captions 1–3 words, Montserrat Black, white with a black outline, current word pink `#FF4FA3`, on the seam; a title box at the top for the first 3.5 s; the credit small at the top-left; a zoom punch on the payoff; no music bed (the stream's audio is the content); no emoji in burned-in text (they render as boxes), only in post captions. Keep captions out of the bottom ~20% and the right edge, where the TikTok/Shorts buttons sit.
+Default (until the user has their own): `stack` layout; a black 6 px seam; captions 1–3 words, Montserrat Black, white with a black outline, current word pink `#FF4FA3`, on the seam; a title box just under the seam (over the gameplay, clear of the face) for the first 3.5 s; long titles wrap to two lines; the credit small at the top-left; a zoom punch on the payoff; no music bed (the stream's audio is the content); no emoji in burned-in text (they render as boxes), only in post captions. Keep captions out of the bottom ~20% and the right edge, where the TikTok/Shorts buttons sit.
 
 To match a clip channel the user likes: download 3 of its clips (yt-dlp), make contact sheets, and write `clip-style.md` covering layout, caption font/size/colour/position, title style, cut pace, zooms, SFX and length. Then map it onto the script flags (`--accent`, `--caption-size`, `--caption-y`, `--title-dur`, layout). Get approval, then follow it every time. Avoid AI-slop moves: no Ken Burns on gameplay, no shaky-cam, no gradient glow text, no stock footage.
 

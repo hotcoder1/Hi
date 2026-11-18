@@ -5,12 +5,15 @@
     "handle": "twitch.tv/typicalgamer",
     "permission": "user is in his clipping program / has a clipper role (told Claude 2026-11-18)",
     "vods": "subscriber-only: yt-dlp can't download them without a subscribed login. Use public Twitch clips (?filter=clips&range=24hr|7d) or record the live stream.",
-    "facecam": null,
-    "layout": null,
+    "facecam": "0.010,0.405,0.218,0.240",
+    "layout": "stack",
     "notes": [
       "Before GTA 6 launched (Nov 19, 2026) he streamed chest-opening marathons (46-48 h), an IRL plane stream and brand events, so expect very long GTA 6 marathons.",
       "Some of his Twitch clips are already 9:16 (720x1280), so use --layout full for those.",
-      "Find the facecam box from the first GTA 6 stream frame and save it here."
-    ]
+      "Overlay (GTA 6, Nov 2026): small facecam at the top-left, plus his own live captions burned in at the bottom centre (y 0.89-0.97). Use --game 0,0,1,0.88 so they don't double up with ours.",
+      "Viewer clips download at 2560x1440 60 fps; the live feed tops out at 720p60.",
+      "Batch 1 (Nov 18, live NZ early-access marathon): 8 previews from viewer clips, storyboard https://claude.ai/artifact/HRmWLjUpqcGo18PknTMcMd. Recipe (clip URLs, cut specs, corrected transcripts) in clips/batches/typicalgamer-2026-11-18/."
+    ],
+    "game_box": "0,0,1,0.88"
   }
 }

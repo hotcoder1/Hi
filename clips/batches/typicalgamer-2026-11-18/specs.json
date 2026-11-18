@@ -1,0 +1,10 @@
+[
+ {"id":"c01","src":"ramp-jump","keep":["0-28.5"],"punch":[16.6],"poster":17.2,"title":"The only way out was the roof"},
+ {"id":"c02","src":"chat-spike-1229","keep":["3.5-12","25-37"],"punch":[1.7],"poster":17.0,"title":"The cop tased his own partner"},
+ {"id":"c03","src":"basketball","keep":["11.8-28"],"punch":[8.9],"poster":9.3,"title":"He's not buying 2K this year"},
+ {"id":"c04","src":"first-fight","keep":["0-29"],"punch":[26.2],"poster":12.0,"title":"Is GTA 6 fighting better than GTA 5?"},
+ {"id":"c05","src":"almost-snatched","keep":["0-24","29.6-35.5"],"punch":[19.7],"poster":20.2,"title":"Vice City beach cops don't play"},
+ {"id":"c06","src":"fighter-jet","keep":["11-24","29.5-39.3","53.8-60"],"punch":[17.3],"poster":17.6,"title":"He's in a war movie now"},
+ {"id":"c07","src":"steals-plane","keep":["4-24"],"punch":[3.0],"poster":16.0,"title":"He jumped out of a plane over Vice City"},
+ {"id":"c08","src":"police-chase","keep":["15.5-30"],"punch":[6.5],"poster":7.2,"title":"He just wanted to get somewhere safe"}
+]

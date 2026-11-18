@@ -1,0 +1,258 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 4.89,
+   "end": 6.29,
+   "text": "Yo, what the heck?"
+  },
+  {
+   "start": 6.99,
+   "end": 7.17,
+   "text": "Yo!"
+  },
+  {
+   "start": 16.7,
+   "end": 17.74,
+   "text": "Oh, he..."
+  },
+  {
+   "start": 19.08,
+   "end": 19.6,
+   "text": "Bro!"
+  },
+  {
+   "start": 25.32,
+   "end": 27.2,
+   "text": "Uh, don't worry guys."
+  },
+  {
+   "start": 28.28,
+   "end": 33.48,
+   "text": "I saw that. So, oh. I saw you tase your partner."
+  },
+  {
+   "start": 33.76,
+   "end": 36.46,
+   "text": "I'm gonna... I'm stealing this car. This car looks sick."
+  },
+  {
+   "start": 36.46,
+   "end": 37.46,
+   "text": "Wait, there's a-"
+  },
+  {
+   "start": 38.1,
+   "end": 38.78,
+   "text": "Wait, what is this?"
+  }
+ ],
+ "words": [
+  {
+   "start": 4.89,
+   "end": 5.41,
+   "word": "Yo,"
+  },
+  {
+   "start": 5.43,
+   "end": 5.75,
+   "word": "what"
+  },
+  {
+   "start": 5.75,
+   "end": 5.95,
+   "word": "the"
+  },
+  {
+   "start": 5.95,
+   "end": 6.29,
+   "word": "heck?"
+  },
+  {
+   "start": 6.99,
+   "end": 7.17,
+   "word": "Yo!"
+  },
+  {
+   "start": 16.7,
+   "end": 17.22,
+   "word": "Oh,"
+  },
+  {
+   "start": 17.22,
+   "end": 17.74,
+   "word": "he..."
+  },
+  {
+   "start": 19.08,
+   "end": 19.6,
+   "word": "Bro!"
+  },
+  {
+   "start": 25.32,
+   "end": 25.84,
+   "word": "Uh,"
+  },
+  {
+   "start": 26.1,
+   "end": 26.28,
+   "word": "don't"
+  },
+  {
+   "start": 26.28,
+   "end": 26.56,
+   "word": "worry"
+  },
+  {
+   "start": 26.56,
+   "end": 27.2,
+   "word": "guys."
+  },
+  {
+   "start": 28.28,
+   "end": 28.72,
+   "word": "I"
+  },
+  {
+   "start": 28.72,
+   "end": 28.98,
+   "word": "saw"
+  },
+  {
+   "start": 28.98,
+   "end": 29.18,
+   "word": "that."
+  },
+  {
+   "start": 29.5,
+   "end": 29.5,
+   "word": "So,"
+  },
+  {
+   "start": 29.6,
+   "end": 29.8,
+   "word": "oh."
+  },
+  {
+   "start": 32.36,
+   "end": 32.64,
+   "word": "I"
+  },
+  {
+   "start": 32.64,
+   "end": 32.8,
+   "word": "saw"
+  },
+  {
+   "start": 32.8,
+   "end": 32.94,
+   "word": "you"
+  },
+  {
+   "start": 32.94,
+   "end": 33.12,
+   "word": "tase"
+  },
+  {
+   "start": 33.12,
+   "end": 33.22,
+   "word": "your"
+  },
+  {
+   "start": 33.22,
+   "end": 33.48,
+   "word": "partner."
+  },
+  {
+   "start": 33.76,
+   "end": 34.0,
+   "word": "I'm"
+  },
+  {
+   "start": 34.0,
+   "end": 34.54,
+   "word": "gonna..."
+  },
+  {
+   "start": 34.54,
+   "end": 34.88,
+   "word": "I'm"
+  },
+  {
+   "start": 34.88,
+   "end": 35.12,
+   "word": "stealing"
+  },
+  {
+   "start": 35.12,
+   "end": 35.38,
+   "word": "this"
+  },
+  {
+   "start": 35.38,
+   "end": 35.58,
+   "word": "car."
+  },
+  {
+   "start": 35.78,
+   "end": 35.88,
+   "word": "This"
+  },
+  {
+   "start": 35.88,
+   "end": 36.04,
+   "word": "car"
+  },
+  {
+   "start": 36.04,
+   "end": 36.2,
+   "word": "looks"
+  },
+  {
+   "start": 36.2,
+   "end": 36.46,
+   "word": "sick."
+  },
+  {
+   "start": 36.46,
+   "end": 36.9,
+   "word": "Wait,"
+  },
+  {
+   "start": 36.98,
+   "end": 37.14,
+   "word": "there's"
+  },
+  {
+   "start": 37.14,
+   "end": 37.2,
+   "word": "a"
+  },
+  {
+   "start": 37.2,
+   "end": 37.46,
+   "word": "-"
+  },
+  {
+   "start": 38.1,
+   "end": 38.3,
+   "word": "Wait,"
+  },
+  {
+   "start": 38.34,
+   "end": 38.44,
+   "word": "what"
+  },
+  {
+   "start": 38.44,
+   "end": 38.56,
+   "word": "is"
+  },
+  {
+   "start": 38.56,
+   "end": 38.78,
+   "word": "this?"
+  }
+ ],
+ "text": "Yo, what the heck? Yo! Oh, he... Bro! Uh, don't worry guys. I saw that. So, oh. I saw you tase your partner. I'm gonna... I'm stealing this car. This car looks sick. Wait, there's a- Wait, what is this?"
+}

@@ -1,0 +1,178 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.3,
+   "end": 22.59,
+   "text": "Okay, let's try basketball out. All right, we're gonna try basketball. Oh, that's gonna be a dud. Oh, never mind. Bang. Oh"
+  },
+  {
+   "start": 22.59,
+   "end": 23.33,
+   "text": "my gosh"
+  },
+  {
+   "start": 26.04,
+   "end": 27.82,
+   "text": "Yep, I'm not buying 2k this year"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.3,
+   "end": 0.88,
+   "word": "Okay,"
+  },
+  {
+   "start": 0.94,
+   "end": 1.28,
+   "word": "let's"
+  },
+  {
+   "start": 1.28,
+   "end": 1.42,
+   "word": "try"
+  },
+  {
+   "start": 1.42,
+   "end": 1.9,
+   "word": "basketball"
+  },
+  {
+   "start": 1.9,
+   "end": 2.22,
+   "word": "out."
+  },
+  {
+   "start": 12.2,
+   "end": 12.6,
+   "word": "All"
+  },
+  {
+   "start": 12.6,
+   "end": 12.72,
+   "word": "right,"
+  },
+  {
+   "start": 12.74,
+   "end": 12.86,
+   "word": "we're"
+  },
+  {
+   "start": 12.86,
+   "end": 12.92,
+   "word": "gonna"
+  },
+  {
+   "start": 12.92,
+   "end": 13.06,
+   "word": "try"
+  },
+  {
+   "start": 13.06,
+   "end": 13.4,
+   "word": "basketball."
+  },
+  {
+   "start": 17.15,
+   "end": 17.55,
+   "word": "Oh,"
+  },
+  {
+   "start": 17.73,
+   "end": 17.89,
+   "word": "that's"
+  },
+  {
+   "start": 17.89,
+   "end": 18.01,
+   "word": "gonna"
+  },
+  {
+   "start": 18.01,
+   "end": 18.09,
+   "word": "be"
+  },
+  {
+   "start": 18.09,
+   "end": 18.19,
+   "word": "a"
+  },
+  {
+   "start": 18.19,
+   "end": 18.31,
+   "word": "dud."
+  },
+  {
+   "start": 19.11,
+   "end": 19.51,
+   "word": "Oh,"
+  },
+  {
+   "start": 19.61,
+   "end": 19.81,
+   "word": "never"
+  },
+  {
+   "start": 19.81,
+   "end": 20.25,
+   "word": "mind."
+  },
+  {
+   "start": 20.71,
+   "end": 21.07,
+   "word": "Bang."
+  },
+  {
+   "start": 22.19,
+   "end": 22.59,
+   "word": "Oh"
+  },
+  {
+   "start": 22.59,
+   "end": 22.87,
+   "word": "my"
+  },
+  {
+   "start": 22.87,
+   "end": 23.33,
+   "word": "gosh"
+  },
+  {
+   "start": 26.04,
+   "end": 26.44,
+   "word": "Yep,"
+  },
+  {
+   "start": 26.56,
+   "end": 26.7,
+   "word": "I'm"
+  },
+  {
+   "start": 26.7,
+   "end": 26.84,
+   "word": "not"
+  },
+  {
+   "start": 26.84,
+   "end": 27.02,
+   "word": "buying"
+  },
+  {
+   "start": 27.02,
+   "end": 27.42,
+   "word": "2k"
+  },
+  {
+   "start": 27.42,
+   "end": 27.64,
+   "word": "this"
+  },
+  {
+   "start": 27.64,
+   "end": 27.82,
+   "word": "year"
+  }
+ ],
+ "text": "Okay, let's try basketball out. All right, we're gonna try basketball. Oh, that's gonna be a dud. Oh, never mind. Bang. Oh my gosh Yep, I'm not buying 2k this year"
+}

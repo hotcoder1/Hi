@@ -1,0 +1,368 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.21,
+   "end": 3.59,
+   "text": "Oh shoot the police got an ATV over here"
+  },
+  {
+   "start": 4.75,
+   "end": 9.01,
+   "text": "Guys, I'm not gonna go away solidly. I'll look how he's approaching with his gun. He's holding it"
+  },
+  {
+   "start": 14.3,
+   "end": 19.18,
+   "text": "Wants me to get out of the car out of the vehicle now. I don't think so. Oh"
+  },
+  {
+   "start": 19.18,
+   "end": 23.06,
+   "text": "Shoot, he's running for oh shoot. Oh"
+  },
+  {
+   "start": 23.06,
+   "end": 23.46,
+   "text": "Shoot"
+  },
+  {
+   "start": 29.88,
+   "end": 38.42,
+   "text": "What that was so cool literally peak, bro"
+  },
+  {
+   "start": 40.85,
+   "end": 42.11,
+   "text": "This is so cool"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.21,
+   "end": 1.01,
+   "word": "Oh"
+  },
+  {
+   "start": 1.01,
+   "end": 1.39,
+   "word": "shoot"
+  },
+  {
+   "start": 1.39,
+   "end": 1.91,
+   "word": "the"
+  },
+  {
+   "start": 1.91,
+   "end": 2.07,
+   "word": "police"
+  },
+  {
+   "start": 2.07,
+   "end": 2.27,
+   "word": "got"
+  },
+  {
+   "start": 2.27,
+   "end": 2.45,
+   "word": "an"
+  },
+  {
+   "start": 2.45,
+   "end": 2.85,
+   "word": "ATV"
+  },
+  {
+   "start": 2.85,
+   "end": 3.07,
+   "word": "over"
+  },
+  {
+   "start": 3.07,
+   "end": 3.59,
+   "word": "here"
+  },
+  {
+   "start": 4.75,
+   "end": 5.15,
+   "word": "Guys,"
+  },
+  {
+   "start": 5.31,
+   "end": 5.51,
+   "word": "I'm"
+  },
+  {
+   "start": 5.51,
+   "end": 5.63,
+   "word": "not"
+  },
+  {
+   "start": 5.63,
+   "end": 5.77,
+   "word": "gonna"
+  },
+  {
+   "start": 5.77,
+   "end": 5.95,
+   "word": "go"
+  },
+  {
+   "start": 5.95,
+   "end": 6.19,
+   "word": "away"
+  },
+  {
+   "start": 6.19,
+   "end": 7.03,
+   "word": "silently."
+  },
+  {
+   "start": 7.05,
+   "end": 7.17,
+   "word": "I'll"
+  },
+  {
+   "start": 7.17,
+   "end": 7.27,
+   "word": "look"
+  },
+  {
+   "start": 7.27,
+   "end": 7.37,
+   "word": "how"
+  },
+  {
+   "start": 7.37,
+   "end": 7.51,
+   "word": "he's"
+  },
+  {
+   "start": 7.51,
+   "end": 7.83,
+   "word": "approaching"
+  },
+  {
+   "start": 7.83,
+   "end": 8.03,
+   "word": "with"
+  },
+  {
+   "start": 8.03,
+   "end": 8.15,
+   "word": "his"
+  },
+  {
+   "start": 8.15,
+   "end": 8.35,
+   "word": "gun."
+  },
+  {
+   "start": 8.41,
+   "end": 8.55,
+   "word": "He's"
+  },
+  {
+   "start": 8.55,
+   "end": 8.75,
+   "word": "holding"
+  },
+  {
+   "start": 8.75,
+   "end": 9.01,
+   "word": "it"
+  },
+  {
+   "start": 14.3,
+   "end": 14.7,
+   "word": "Wants"
+  },
+  {
+   "start": 14.7,
+   "end": 14.84,
+   "word": "me"
+  },
+  {
+   "start": 14.84,
+   "end": 14.92,
+   "word": "to"
+  },
+  {
+   "start": 14.92,
+   "end": 14.98,
+   "word": "get"
+  },
+  {
+   "start": 14.98,
+   "end": 15.1,
+   "word": "out"
+  },
+  {
+   "start": 15.1,
+   "end": 15.18,
+   "word": "of"
+  },
+  {
+   "start": 15.18,
+   "end": 15.18,
+   "word": "the"
+  },
+  {
+   "start": 15.18,
+   "end": 15.32,
+   "word": "car"
+  },
+  {
+   "start": 15.32,
+   "end": 16.24,
+   "word": "out"
+  },
+  {
+   "start": 16.24,
+   "end": 16.38,
+   "word": "of"
+  },
+  {
+   "start": 16.38,
+   "end": 16.4,
+   "word": "the"
+  },
+  {
+   "start": 16.4,
+   "end": 16.54,
+   "word": "vehicle"
+  },
+  {
+   "start": 16.54,
+   "end": 16.84,
+   "word": "now."
+  },
+  {
+   "start": 17.08,
+   "end": 17.48,
+   "word": "I"
+  },
+  {
+   "start": 17.48,
+   "end": 17.64,
+   "word": "don't"
+  },
+  {
+   "start": 17.64,
+   "end": 17.82,
+   "word": "think"
+  },
+  {
+   "start": 17.82,
+   "end": 18.08,
+   "word": "so."
+  },
+  {
+   "start": 18.78,
+   "end": 19.18,
+   "word": "Oh"
+  },
+  {
+   "start": 19.18,
+   "end": 19.5,
+   "word": "Shoot,"
+  },
+  {
+   "start": 19.54,
+   "end": 19.7,
+   "word": "he's"
+  },
+  {
+   "start": 19.7,
+   "end": 19.92,
+   "word": "running"
+  },
+  {
+   "start": 19.92,
+   "end": 20.12,
+   "word": "for"
+  },
+  {
+   "start": 20.12,
+   "end": 20.96,
+   "word": "oh"
+  },
+  {
+   "start": 20.96,
+   "end": 21.5,
+   "word": "shoot."
+  },
+  {
+   "start": 22.66,
+   "end": 23.06,
+   "word": "Oh"
+  },
+  {
+   "start": 23.06,
+   "end": 23.46,
+   "word": "Shoot"
+  },
+  {
+   "start": 29.88,
+   "end": 30.28,
+   "word": "What"
+  },
+  {
+   "start": 30.28,
+   "end": 30.68,
+   "word": "that"
+  },
+  {
+   "start": 32.57,
+   "end": 32.75,
+   "word": "was"
+  },
+  {
+   "start": 32.75,
+   "end": 33.13,
+   "word": "so"
+  },
+  {
+   "start": 33.13,
+   "end": 33.93,
+   "word": "cool"
+  },
+  {
+   "start": 33.93,
+   "end": 34.93,
+   "word": "literally"
+  },
+  {
+   "start": 34.93,
+   "end": 35.63,
+   "word": "peak,"
+  },
+  {
+   "start": 37.2,
+   "end": 38.42,
+   "word": "bro"
+  },
+  {
+   "start": 40.85,
+   "end": 41.25,
+   "word": "This"
+  },
+  {
+   "start": 41.25,
+   "end": 41.45,
+   "word": "is"
+  },
+  {
+   "start": 41.45,
+   "end": 41.79,
+   "word": "so"
+  },
+  {
+   "start": 41.79,
+   "end": 42.11,
+   "word": "cool"
+  }
+ ],
+ "text": "Oh shoot the police got an ATV over here Guys, I'm not gonna go away solidly. I'll look how he's approaching with his gun. He's holding it Wants me to get out of the car out of the vehicle now. I don't think so. Oh Shoot, he's running for oh shoot. Oh Shoot What that was so cool literally peak, bro This is so cool"
+}

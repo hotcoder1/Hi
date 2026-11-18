@@ -166,7 +166,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         t_end = duration if title_dur is None else min(duration, title_dur)
         pop = r"{\fad(0,150)\fscx85\fscy85\t(0,120,\fscx104\fscy104)\t(120,200,\fscx100\fscy100)}"
         txt = esc(title.upper() if upper else title)
-        ev.append(f"Dialogue: 2,{ts(0)},{ts(t_end)},Title,,0,0,0,,{{\\pos({W//2},{title_y})}}{pop}{txt}")
+        ev.append(f"Dialogue: 2,{ts(0)},{ts(t_end)},Title,,0,0,0,,{{\\pos({W//2},{title_y})\\q0}}{pop}{txt}")
     if credit:
         ev.append(f"Dialogue: 3,{ts(0)},{ts(duration)},Credit,,0,0,0,,{{\\pos(40,{credit_y})}}{esc(credit)}")
 
