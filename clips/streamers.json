@@ -14,7 +14,8 @@
       "Viewer clips download at 2560x1440 60 fps; the live feed tops out at 720p60.",
       "Batch 1 (Nov 18, live NZ early-access marathon): 8 previews from viewer clips, storyboard https://claude.ai/artifact/HRmWLjUpqcGo18PknTMcMd. Recipe (clip URLs, cut specs, corrected transcripts) in clips/batches/typicalgamer-2026-11-18/."
     ],
-    "game_box": "0,0,1,0.88"
+    "game_box": "0,0,1,0.88",
+    "active": false
   },
   "kaicenat": {
     "name": "Kai Cenat",
@@ -27,7 +28,8 @@
     "notes": [
       "Small facecam box at the top-left during gameplay; full-screen camera while talking (use fit). Burned-in captions: crop at 0.88. Some clips are MUTED by Twitch (music); check volume before using."
     ],
-    "game_box": "0,0,1,0.88"
+    "game_box": "0,0,1,0.88",
+    "active": true
   },
   "xqc": {
     "name": "xQc",
@@ -39,7 +41,8 @@
     "layout": "stack",
     "notes": [
       "Facecam top-left with chat under it. No burned-in captions."
-    ]
+    ],
+    "active": false
   },
   "lacy": {
     "name": "Lacy",
@@ -52,7 +55,8 @@
     "notes": [
       "Stream title has a !CLIPPING command (likely a clipping program).",
       "Facecam top-left. The release countdown clip needs the fit layout so the timer shows."
-    ]
+    ],
+    "active": true
   },
   "jasontheween": {
     "name": "Jason The Ween",
@@ -65,7 +69,8 @@
     "notes": [
       "Facecam MOVES between scenes: top-right (store), mid-right 0.778,0.45,0.22,0.26 (driving), mid-left 0.005,0.30,0.178,0.27 (phone). Burned-in captions at the bottom: crop at 0.88. Sub-goal counter near the cam."
     ],
-    "game_box": "0,0,1,0.88"
+    "game_box": "0,0,1,0.88",
+    "active": true
   },
   "agent00": {
     "name": "Agent00",
@@ -78,7 +83,8 @@
     "notes": [
       "Green-screen cutout at the bottom-right. Burned-in captions: crop at 0.88. Lots of photo mode and story cutscenes; skip a clip with a slur."
     ],
-    "game_box": "0,0,1,0.88"
+    "game_box": "0,0,1,0.88",
+    "active": false
   },
   "nickmercs": {
     "name": "NICKMERCS",
@@ -91,7 +97,8 @@
     "notes": [
       "Facecam mid-right under a sponsor banner. Burned-in captions: crop at 0.88. First time ever playing GTA."
     ],
-    "game_box": "0,0,1,0.88"
+    "game_box": "0,0,1,0.88",
+    "active": false
   },
   "timthetatman": {
     "name": "TimTheTatman",
@@ -103,7 +110,8 @@
     "layout": null,
     "notes": [
       "Nov 18: title said GTA 6 but every clip was just him on camera, so he was skipped in batch 1."
-    ]
+    ],
+    "active": false
   },
   "tfue": {
     "name": "Tfue",
@@ -115,6 +123,48 @@
     "layout": "stack",
     "notes": [
       "Facecam top-left; in the prison scene it sits lower (0.0,0.205,0.229,0.23). Also streams other games: check each clip is GTA."
-    ]
+    ],
+    "active": false
+  },
+  "stableronaldo": {
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/stableronaldo",
+    "handle": "twitch.tv/stableronaldo",
+    "permission": "user says they're cleared to clip (told Claude 2026-11-19)",
+    "facecam": "0.03,0.44,0.20,0.30",
+    "layout": "stack",
+    "notes": [
+      "User calls him Ron.",
+      "Green-screen cutout at the left (0.03,0.44,0.20,0.30); burned-in captions at the bottom."
+    ],
+    "active": true,
+    "name": "StableRonaldo",
+    "game_box": "0,0,1,0.88"
+  },
+  "ishowspeed": {
+    "platform": "twitch",
+    "url": "https://www.twitch.tv/ishowspeed",
+    "handle": "twitch.tv/ishowspeed",
+    "permission": "user says they're cleared to clip (told Claude 2026-11-19)",
+    "facecam": "0.0,0.43,0.2,0.215",
+    "layout": "stack",
+    "notes": [
+      "Streams GTA 6 on Twitch (twitch.tv/ishowspeed) as of Nov 19, 2026.",
+      "Facecam box mid-left between a YouTube count and a counter (0.0,0.43,0.2,0.215); burned-in captions at the bottom."
+    ],
+    "active": true,
+    "name": "IShowSpeed",
+    "game_box": "0,0,1,0.88"
+  },
+  "_roster": {
+    "active": [
+      "lacy",
+      "jasontheween",
+      "stableronaldo",
+      "kaicenat",
+      "ishowspeed"
+    ],
+    "schedule": "5 finished clips (1 per active streamer) every 2 days, ready by 9 am Arizona time; sent straight to the user, no storyboard",
+    "set": "2026-11-19"
   }
 }

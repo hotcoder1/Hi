@@ -14,6 +14,8 @@ Use this when checking candidates (is it really a moment?), picking in/out point
 8. **Chat interplay and bits.** The streamer reading chat, running a joke. Only if it lands without the stream's context.
 9. **Story moments.** Big twists are spoilers: mark `"spoiler": true`, keep "GTA 6 SPOILER" at the front of the post caption, and don't put the twist in the title or the first frame.
 
+**Skip nudity and sexual content, however many views it has.** In launch week the most-viewed clips are often the shower scene, the strip club or lap dances (titles like "🔞", "gyat", "flashed"). Shorts, TikTok and Reels take these down and can ban the account, so look past the top few clips to the first real moment.
+
 Not worth clipping: loading screens, menus and long drives with talk, unless the talk itself is the clip; donation and alert sounds; ads; music breaks; anything that needs 30+ s of setup.
 
 ## Signs in the transcript and frames

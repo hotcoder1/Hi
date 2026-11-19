@@ -117,6 +117,14 @@ Default (until the user has their own): `stack` layout; a black 6 px seam; capti
 
 To match a clip channel the user likes: download 3 of its clips (yt-dlp), make contact sheets, and write `clip-style.md` covering layout, caption font/size/colour/position, title style, cut pace, zooms, SFX and length. Then map it onto the script flags (`--accent`, `--caption-size`, `--caption-y`, `--title-dur`, layout). Get approval, then follow it every time. Avoid AI-slop moves: no Ken Burns on gameplay, no shaky-cam, no gradient glow text, no stock footage.
 
+## Recurring batches
+
+When the user wants clips on a schedule (e.g. "1 clip from each streamer every 2 days"), keep the roster and the schedule in `streamers.json` (`_roster`), what has been used in `state.json`, and the step-by-step run in the project's `RUN.md`; a scheduled task then just says "do the run in RUN.md". The batch scripts:
+- `fetch_clips.py --streamers a,b,c --since <last run> --state state.json --top 10 --out vods/run-<date>`: lists each streamer's newest Twitch clips, skips used ones, downloads, flags muted audio, transcribes (one Whisper model for the batch) and makes frame strips + facecam grids.
+- `render_batch.py batch.json --clips ... --words ... --streamers streamers.json --out ... --mode still|preview|final`: renders every clip with the streamer's saved layout; per-clip overrides for facecam, crop, memes and SFX.
+- `package_batch.py batch.json --clips-dir ... --name "GTA6 Clips <date>" --dest ...`: a folder per streamer with each video's post caption beside it, plus POST_CAPTIONS.md, zipped for one download.
+Look at the strips before picking: titles and view counts alone pick nudity and muted clips.
+
 ## Gotchas
 
 - **Chat lag**: the chat spike comes *after* the moment. That's why candidates start 30 s before the peak (`--pre`).
