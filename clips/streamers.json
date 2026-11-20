@@ -26,7 +26,8 @@
     "facecam": "0.003,0.325,0.2,0.2",
     "layout": "stack",
     "notes": [
-      "Small facecam box at the top-left during gameplay; full-screen camera while talking (use fit). Burned-in captions: crop at 0.88. Some clips are MUTED by Twitch (music); check volume before using."
+      "Small facecam box at the top-left during gameplay; full-screen camera while talking (use fit). Burned-in captions: crop at 0.88. Some clips are MUTED by Twitch (music); check volume before using.",
+      "Nov 20: in apartment scenes the facecam sits lower, 0.0,0.405,0.2,0.15; check each clip."
     ],
     "game_box": "0,0,1,0.88",
     "active": true

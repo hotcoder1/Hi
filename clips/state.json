@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-18T15:00Z",
+ "last_run": "2026-11-20T13:00Z",
  "used_urls": [
   "https://www.twitch.tv/xqc/clip/WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
   "https://www.twitch.tv/xqc/clip/TrustworthyCarefulJalapenoKAPOW--CPhZdDJiBW-X0-C",
@@ -21,13 +21,29 @@
   "https://www.twitch.tv/tfue/clip/SmellySpunkySparrowSuperVinlin-YrAxKtO1AQtqjxzk",
   "https://www.twitch.tv/kaicenat/clip/EntertainingAbstruseClamKappaPride-UEeHEp_c0PYYoY_O",
   "https://www.twitch.tv/kaicenat/clip/AbrasiveStrongPresidentFailFish-HIHX5w0vobyJglbr",
-  "https://www.twitch.tv/kaicenat/clip/SavageLitigiousSandwichNononoCat-6mgyH0g8Aqvj5pcX"
+  "https://www.twitch.tv/kaicenat/clip/SavageLitigiousSandwichNononoCat-6mgyH0g8Aqvj5pcX",
+  "https://www.twitch.tv/lacy/clip/GentleBrainyTortoiseKappa-SqJmUKvZs2E33xOH",
+  "https://www.twitch.tv/jasontheween/clip/PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
+  "https://www.twitch.tv/stableronaldo/clip/HonestFancyLobsterRalpherZ-93UgISJRoL1Yxcn1",
+  "https://www.twitch.tv/kaicenat/clip/UnusualConsiderateLionGingerPower-oJF7Ao2MX9omrH0x",
+  "https://www.twitch.tv/ishowspeed/clip/CrazyAbnegateLapwingPipeHype-fzo4DD3_M-TisQLE"
  ],
  "batches": [
   {
    "date": "2026-11-18",
    "clips": 21,
    "note": "launch-day batch, 21 clips"
+  },
+  {
+   "date": "2026-11-20",
+   "clips": 5,
+   "ids": [
+    "lacy-20",
+    "jasontheween-1",
+    "stableronaldo-6",
+    "kaicenat-1",
+    "ishowspeed-4"
+   ]
   }
  ]
 }

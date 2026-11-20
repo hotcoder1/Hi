@@ -72,6 +72,24 @@ def strip(path, out, label):
                     f"fontsize=16:fontcolor=yellow:box=1:boxcolor=black@0.8", "-frames:v", "1", out])
 
 
+def run_whisper(model, audio, word_ts):
+    segs, info = model.transcribe(audio, word_timestamps=word_ts, vad_filter=True,
+                                  initial_prompt="GTA 6, GTA VI, Vice City, Leonida, Lucia, Jason, chat",
+                                  condition_on_previous_text=False)
+    out = {"language": info.language, "segments": [], "words": []}
+    for s in segs:
+        out["segments"].append({"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip()})
+        if word_ts:
+            out["words"] += [{"start": round(w.start, 3), "end": round(w.end, 3), "word": w.word.strip()}
+                             for w in s.words or []]
+        else:  # spread the segment's words evenly over its time span
+            toks = s.text.split()
+            step = (s.end - s.start) / max(1, len(toks))
+            out["words"] += [{"start": round(s.start + i * step, 3), "end": round(s.start + (i + 1) * step, 3), "word": t}
+                             for i, t in enumerate(toks)]
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--streamers", required=True, help="comma-separated Twitch logins")
@@ -123,14 +141,18 @@ def main():
         c["muted"] = c["mean_db"] < -60
         wpath = os.path.join(a.out, "words", c["id"] + ".json")
         if model and not c["muted"] and not os.path.exists(wpath):
-            segs, info = model.transcribe(tr.load_audio(path), word_timestamps=True, vad_filter=True,
-                                          initial_prompt="GTA 6, GTA VI, Vice City, Leonida, Lucia, Jason, chat",
-                                          condition_on_previous_text=False)
-            out = {"language": info.language, "segments": [], "words": []}
-            for s in segs:
-                out["segments"].append({"start": round(s.start, 2), "end": round(s.end, 2), "text": s.text.strip()})
-                out["words"] += [{"start": round(w.start, 3), "end": round(w.end, 3), "word": w.word.strip()} for w in s.words or []]
-            json.dump(out, open(wpath, "w"), indent=1, ensure_ascii=False)
+            try:
+                out = run_whisper(model, tr.load_audio(path), True)
+            except Exception as e:  # faster-whisper's word alignment can crash on odd audio
+                try:
+                    out = run_whisper(model, tr.load_audio(path), False)
+                    out["approx_words"] = True
+                    problems.append(f"{c['id']}: word timings failed ({type(e).__name__}); captions use even spacing")
+                except Exception as e2:
+                    out = None
+                    problems.append(f"{c['id']}: transcription failed ({type(e2).__name__})")
+            if out:
+                json.dump(out, open(wpath, "w"), indent=1, ensure_ascii=False)
         if os.path.exists(wpath):
             c["transcript"] = " / ".join(f"[{g['start']:.0f}] {g['text']}" for g in json.load(open(wpath))["segments"])
         strip(path, os.path.join(a.out, "rows", c["id"] + ".png"), c["id"])

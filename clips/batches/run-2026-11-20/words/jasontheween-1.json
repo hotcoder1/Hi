@@ -1,0 +1,232 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 16.05,
+   "end": 22.33,
+   "text": "Lu you staring at that window again? No, bro. No, I'm not doing this. You can look out there all day girl"
+  },
+  {
+   "start": 22.33,
+   "end": 25.95,
+   "text": "That's what I got. Ain't nothing gonna change. No, no, no, there's no way. There's no way, right?"
+  },
+  {
+   "start": 53.5,
+   "end": 54.22,
+   "text": "FUCKING WAY"
+  }
+ ],
+ "words": [
+  {
+   "start": 16.05,
+   "end": 16.57,
+   "word": "Lu"
+  },
+  {
+   "start": 16.57,
+   "end": 16.77,
+   "word": "you"
+  },
+  {
+   "start": 16.77,
+   "end": 17.13,
+   "word": "staring"
+  },
+  {
+   "start": 17.13,
+   "end": 17.45,
+   "word": "at"
+  },
+  {
+   "start": 17.45,
+   "end": 17.59,
+   "word": "that"
+  },
+  {
+   "start": 17.59,
+   "end": 17.87,
+   "word": "window"
+  },
+  {
+   "start": 17.87,
+   "end": 18.33,
+   "word": "again?"
+  },
+  {
+   "start": 18.55,
+   "end": 18.75,
+   "word": "No,"
+  },
+  {
+   "start": 18.83,
+   "end": 19.03,
+   "word": "bro."
+  },
+  {
+   "start": 19.65,
+   "end": 20.01,
+   "word": "No,"
+  },
+  {
+   "start": 20.13,
+   "end": 20.17,
+   "word": "I'm"
+  },
+  {
+   "start": 20.17,
+   "end": 20.27,
+   "word": "not"
+  },
+  {
+   "start": 20.27,
+   "end": 20.43,
+   "word": "doing"
+  },
+  {
+   "start": 20.43,
+   "end": 20.65,
+   "word": "this."
+  },
+  {
+   "start": 20.71,
+   "end": 20.79,
+   "word": "You"
+  },
+  {
+   "start": 20.79,
+   "end": 20.93,
+   "word": "can"
+  },
+  {
+   "start": 20.93,
+   "end": 21.07,
+   "word": "look"
+  },
+  {
+   "start": 21.07,
+   "end": 21.29,
+   "word": "out"
+  },
+  {
+   "start": 21.29,
+   "end": 21.47,
+   "word": "there"
+  },
+  {
+   "start": 21.47,
+   "end": 21.67,
+   "word": "all"
+  },
+  {
+   "start": 21.67,
+   "end": 21.97,
+   "word": "day"
+  },
+  {
+   "start": 21.97,
+   "end": 22.33,
+   "word": "girl"
+  },
+  {
+   "start": 22.33,
+   "end": 22.53,
+   "word": "That's"
+  },
+  {
+   "start": 22.53,
+   "end": 22.59,
+   "word": "what"
+  },
+  {
+   "start": 22.59,
+   "end": 22.65,
+   "word": "I"
+  },
+  {
+   "start": 22.65,
+   "end": 22.81,
+   "word": "got."
+  },
+  {
+   "start": 23.03,
+   "end": 23.15,
+   "word": "Ain't"
+  },
+  {
+   "start": 23.15,
+   "end": 23.19,
+   "word": "nothing"
+  },
+  {
+   "start": 23.19,
+   "end": 23.45,
+   "word": "gonna"
+  },
+  {
+   "start": 23.45,
+   "end": 23.87,
+   "word": "change."
+  },
+  {
+   "start": 24.17,
+   "end": 24.29,
+   "word": "No,"
+  },
+  {
+   "start": 24.35,
+   "end": 24.45,
+   "word": "no,"
+  },
+  {
+   "start": 24.45,
+   "end": 24.55,
+   "word": "no,"
+  },
+  {
+   "start": 24.55,
+   "end": 24.79,
+   "word": "there's"
+  },
+  {
+   "start": 24.79,
+   "end": 24.91,
+   "word": "no"
+  },
+  {
+   "start": 24.91,
+   "end": 25.11,
+   "word": "way."
+  },
+  {
+   "start": 25.23,
+   "end": 25.35,
+   "word": "There's"
+  },
+  {
+   "start": 25.35,
+   "end": 25.49,
+   "word": "no"
+  },
+  {
+   "start": 25.49,
+   "end": 25.73,
+   "word": "way,"
+  },
+  {
+   "start": 25.77,
+   "end": 25.95,
+   "word": "right?"
+  },
+  {
+   "start": 53.5,
+   "end": 53.86,
+   "word": "FUCKING"
+  },
+  {
+   "start": 53.86,
+   "end": 54.22,
+   "word": "WAY"
+  }
+ ]
+}

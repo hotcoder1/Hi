@@ -1,0 +1,65 @@
+{
+ "date": "2026-11-20",
+ "clips": [
+  {
+   "id": "lacy-20",
+   "streamer": "lacy",
+   "keep": [
+    "0-21"
+   ],
+   "url": "https://www.twitch.tv/lacy/clip/GentleBrainyTortoiseKappa-SqJmUKvZs2E33xOH",
+   "title": "Lacy vs an alligator",
+   "post_caption": "Lacy really tried to 1v1 an alligator 🐊\n🎥 @lacy on Twitch\n#gta6 #gtavi #gta6clips #lacy #vicecity",
+   "punch": 14.3
+  },
+  {
+   "id": "jasontheween-1",
+   "streamer": "jasontheween",
+   "keep": [
+    "13-26",
+    "35-56"
+   ],
+   "facecam": "0.778,0.45,0.22,0.26",
+   "title": "Jason lost 10 hours of GTA 6",
+   "post_caption": "10 hours of progress… gone 💀\n🎥 @jasontheween on Twitch\n#gta6 #gtavi #gta6clips #jasontheween #vicecity",
+   "url": "https://www.twitch.tv/jasontheween/clip/PerfectCrypticChinchillaKappaClaus-nCPM8sJuQmLth2l4",
+   "punch": 29.3
+  },
+  {
+   "id": "stableronaldo-6",
+   "streamer": "stableronaldo",
+   "keep": [
+    "0-24"
+   ],
+   "title": "Ron's first GTA 6 crashout",
+   "post_caption": "\"don't pull out your gun!\" 😭\n🎥 @stableronaldo on Twitch\n#gta6 #gtavi #gta6clips #stableronaldo #vicecity",
+   "url": "https://www.twitch.tv/stableronaldo/clip/HonestFancyLobsterRalpherZ-93UgISJRoL1Yxcn1",
+   "punch": 8.3
+  },
+  {
+   "id": "kaicenat-1",
+   "streamer": "kaicenat",
+   "keep": [
+    "13-31",
+    "37-54"
+   ],
+   "url": "https://www.twitch.tv/kaicenat/clip/UnusualConsiderateLionGingerPower-oJF7Ao2MX9omrH0x",
+   "title": "Kai's GTA 6 girlfriend caught him",
+   "post_caption": "\"we were supposed to get married?!\" 😭\n🎥 @kaicenat on Twitch\n#gta6 #gtavi #gta6clips #kaicenat #vicecity",
+   "facecam": "0.0,0.405,0.2,0.15",
+   "punch": 34.3
+  },
+  {
+   "id": "ishowspeed-4",
+   "streamer": "ishowspeed",
+   "keep": [
+    "0-4.5",
+    "13-26"
+   ],
+   "title": "Speed's first GTA 6 robbery",
+   "post_caption": "Speed robbing Vice City like it's his day job 💰\n🎥 @ishowspeed on Twitch\n#gta6 #gtavi #gta6clips #ishowspeed #vicecity",
+   "url": "https://www.twitch.tv/ishowspeed/clip/CrazyAbnegateLapwingPipeHype-fzo4DD3_M-TisQLE",
+   "punch": 3.3
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.5,
+   "end": 4.3,
+   "text": "You wanna go, motherfucker? You wanna go, motherfucker? What's up? What's up?"
+  },
+  {
+   "start": 10.1,
+   "end": 15.16,
+   "text": "Bitch! Bick! Oh! Oh! Oh! Oh, I'm in a fight with an alligator!"
+  },
+  {
+   "start": 16.12,
+   "end": 17.46,
+   "text": "Bitch! Bitch!"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.5,
+   "end": 1.22,
+   "word": "You"
+  },
+  {
+   "start": 1.22,
+   "end": 1.22,
+   "word": "wanna"
+  },
+  {
+   "start": 1.22,
+   "end": 1.22,
+   "word": "go,"
+  },
+  {
+   "start": 1.28,
+   "end": 1.68,
+   "word": "motherfucker?"
+  },
+  {
+   "start": 1.98,
+   "end": 2.12,
+   "word": "You"
+  },
+  {
+   "start": 2.12,
+   "end": 2.2,
+   "word": "wanna"
+  },
+  {
+   "start": 2.2,
+   "end": 2.38,
+   "word": "go,"
+  },
+  {
+   "start": 2.6,
+   "end": 2.76,
+   "word": "motherfucker?"
+  },
+  {
+   "start": 2.98,
+   "end": 3.2,
+   "word": "What's"
+  },
+  {
+   "start": 3.2,
+   "end": 3.34,
+   "word": "up?"
+  },
+  {
+   "start": 3.92,
+   "end": 4.12,
+   "word": "What's"
+  },
+  {
+   "start": 4.12,
+   "end": 4.3,
+   "word": "up?"
+  },
+  {
+   "start": 10.1,
+   "end": 10.56,
+   "word": "Bitch!"
+  },
+  {
+   "start": 11.16,
+   "end": 11.58,
+   "word": "Bick!"
+  },
+  {
+   "start": 11.78,
+   "end": 11.98,
+   "word": "Oh!"
+  },
+  {
+   "start": 12.28,
+   "end": 12.54,
+   "word": "Oh!"
+  },
+  {
+   "start": 13.04,
+   "end": 13.42,
+   "word": "Oh!"
+  },
+  {
+   "start": 13.78,
+   "end": 14.06,
+   "word": "Oh,"
+  },
+  {
+   "start": 14.18,
+   "end": 14.24,
+   "word": "I'm"
+  },
+  {
+   "start": 14.24,
+   "end": 14.28,
+   "word": "in"
+  },
+  {
+   "start": 14.28,
+   "end": 14.38,
+   "word": "a"
+  },
+  {
+   "start": 14.38,
+   "end": 14.56,
+   "word": "fight"
+  },
+  {
+   "start": 14.56,
+   "end": 14.68,
+   "word": "with"
+  },
+  {
+   "start": 14.68,
+   "end": 14.8,
+   "word": "an"
+  },
+  {
+   "start": 14.8,
+   "end": 15.16,
+   "word": "alligator!"
+  },
+  {
+   "start": 16.12,
+   "end": 16.58,
+   "word": "Bitch!"
+  },
+  {
+   "start": 17.08,
+   "end": 17.46,
+   "word": "Bitch!"
+  }
+ ]
+}
