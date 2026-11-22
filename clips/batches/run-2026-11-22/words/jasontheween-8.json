@@ -1,0 +1,527 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 2.16,
+   "text": "Don't look at my face, don't fuckin' move!"
+  },
+  {
+   "start": 2.62,
+   "end": 4.92,
+   "text": "Get out of the fucking car! Let's go!"
+  },
+  {
+   "start": 5.74,
+   "end": 6.76,
+   "text": "You can't do your career."
+  },
+  {
+   "start": 7.32,
+   "end": 9.76,
+   "text": "You fuckin' deaf? Hurry up!"
+  },
+  {
+   "start": 10.26,
+   "end": 11.2,
+   "text": "Just don't do your fucking-"
+  },
+  {
+   "start": 11.2,
+   "end": 11.86,
+   "text": "You fuckin' idiot move!"
+  },
+  {
+   "start": 11.9,
+   "end": 13.38,
+   "text": "I- I- I- I-"
+  },
+  {
+   "start": 13.38,
+   "end": 14.4,
+   "text": "Oh, oh fuck."
+  },
+  {
+   "start": 15.18,
+   "end": 15.54,
+   "text": "Look."
+  },
+  {
+   "start": 16.7,
+   "end": 17.66,
+   "text": "Alright bro, yup."
+  },
+  {
+   "start": 18.42,
+   "end": 18.6,
+   "text": "Whoa!"
+  },
+  {
+   "start": 19.96,
+   "end": 20.92,
+   "text": "Got you!"
+  },
+  {
+   "start": 21.68,
+   "end": 22.16,
+   "text": "Yoooo!"
+  },
+  {
+   "start": 23.26,
+   "end": 23.74,
+   "text": "Yoooo!"
+  },
+  {
+   "start": 24.48,
+   "end": 35.08,
+   "text": "That was from Rob Meade on my car!"
+  },
+  {
+   "start": 36.12,
+   "end": 37.72,
+   "text": "Bro I can't be, I can't be Jason."
+  },
+  {
+   "start": 37.84,
+   "end": 38.04,
+   "text": "Not that bad."
+  },
+  {
+   "start": 38.04,
+   "end": 39.52,
+   "text": "That's can't be Jason that I can't"
+  },
+  {
+   "start": 40.72,
+   "end": 41.36,
+   "text": "Can't be Jason"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.0,
+   "end": 0.12,
+   "word": "Don't"
+  },
+  {
+   "start": 0.12,
+   "end": 0.3,
+   "word": "look"
+  },
+  {
+   "start": 0.3,
+   "end": 0.38,
+   "word": "at"
+  },
+  {
+   "start": 0.38,
+   "end": 0.48,
+   "word": "my"
+  },
+  {
+   "start": 0.48,
+   "end": 0.8,
+   "word": "face,"
+  },
+  {
+   "start": 1.14,
+   "end": 1.56,
+   "word": "don't"
+  },
+  {
+   "start": 1.56,
+   "end": 1.88,
+   "word": "fuckin'"
+  },
+  {
+   "start": 1.98,
+   "end": 2.16,
+   "word": "move!"
+  },
+  {
+   "start": 2.62,
+   "end": 3.1,
+   "word": "Get"
+  },
+  {
+   "start": 3.1,
+   "end": 3.34,
+   "word": "out"
+  },
+  {
+   "start": 3.34,
+   "end": 3.42,
+   "word": "of"
+  },
+  {
+   "start": 3.42,
+   "end": 3.62,
+   "word": "the"
+  },
+  {
+   "start": 3.62,
+   "end": 3.86,
+   "word": "fucking"
+  },
+  {
+   "start": 3.86,
+   "end": 4.32,
+   "word": "car!"
+  },
+  {
+   "start": 4.44,
+   "end": 4.8,
+   "word": "Let's"
+  },
+  {
+   "start": 4.8,
+   "end": 4.92,
+   "word": "go!"
+  },
+  {
+   "start": 5.74,
+   "end": 5.74,
+   "word": "You"
+  },
+  {
+   "start": 5.74,
+   "end": 6.16,
+   "word": "can't"
+  },
+  {
+   "start": 6.16,
+   "end": 6.36,
+   "word": "do"
+  },
+  {
+   "start": 6.36,
+   "end": 6.52,
+   "word": "your"
+  },
+  {
+   "start": 6.52,
+   "end": 6.76,
+   "word": "career."
+  },
+  {
+   "start": 7.32,
+   "end": 7.8,
+   "word": "You"
+  },
+  {
+   "start": 7.8,
+   "end": 7.8,
+   "word": "fuckin'"
+  },
+  {
+   "start": 8.6,
+   "end": 8.72,
+   "word": "deaf?"
+  },
+  {
+   "start": 9.22,
+   "end": 9.56,
+   "word": "Hurry"
+  },
+  {
+   "start": 9.56,
+   "end": 9.76,
+   "word": "up!"
+  },
+  {
+   "start": 10.26,
+   "end": 10.26,
+   "word": "Just"
+  },
+  {
+   "start": 10.26,
+   "end": 10.64,
+   "word": "don't"
+  },
+  {
+   "start": 10.64,
+   "end": 10.72,
+   "word": "do"
+  },
+  {
+   "start": 10.72,
+   "end": 10.78,
+   "word": "your"
+  },
+  {
+   "start": 10.78,
+   "end": 11.14,
+   "word": "fucking"
+  },
+  {
+   "start": 11.14,
+   "end": 11.2,
+   "word": "-"
+  },
+  {
+   "start": 11.2,
+   "end": 11.2,
+   "word": "You"
+  },
+  {
+   "start": 11.2,
+   "end": 11.2,
+   "word": "fuckin'"
+  },
+  {
+   "start": 11.24,
+   "end": 11.52,
+   "word": "idiot"
+  },
+  {
+   "start": 11.52,
+   "end": 11.86,
+   "word": "move!"
+  },
+  {
+   "start": 11.9,
+   "end": 11.94,
+   "word": "I"
+  },
+  {
+   "start": 11.94,
+   "end": 11.94,
+   "word": "-"
+  },
+  {
+   "start": 11.94,
+   "end": 12.7,
+   "word": "I"
+  },
+  {
+   "start": 12.7,
+   "end": 12.82,
+   "word": "-"
+  },
+  {
+   "start": 12.82,
+   "end": 12.9,
+   "word": "I"
+  },
+  {
+   "start": 12.9,
+   "end": 12.9,
+   "word": "-"
+  },
+  {
+   "start": 12.9,
+   "end": 13.14,
+   "word": "I"
+  },
+  {
+   "start": 13.14,
+   "end": 13.38,
+   "word": "-"
+  },
+  {
+   "start": 13.38,
+   "end": 13.6,
+   "word": "Oh,"
+  },
+  {
+   "start": 13.86,
+   "end": 14.08,
+   "word": "oh"
+  },
+  {
+   "start": 14.08,
+   "end": 14.4,
+   "word": "fuck."
+  },
+  {
+   "start": 15.18,
+   "end": 15.54,
+   "word": "Look."
+  },
+  {
+   "start": 16.7,
+   "end": 17.1,
+   "word": "Alright"
+  },
+  {
+   "start": 17.1,
+   "end": 17.36,
+   "word": "bro,"
+  },
+  {
+   "start": 17.56,
+   "end": 17.66,
+   "word": "yup."
+  },
+  {
+   "start": 18.42,
+   "end": 18.6,
+   "word": "Whoa!"
+  },
+  {
+   "start": 19.96,
+   "end": 20.44,
+   "word": "Got"
+  },
+  {
+   "start": 20.44,
+   "end": 20.92,
+   "word": "you!"
+  },
+  {
+   "start": 21.68,
+   "end": 22.16,
+   "word": "Yoooo!"
+  },
+  {
+   "start": 23.26,
+   "end": 23.74,
+   "word": "Yoooo!"
+  },
+  {
+   "start": 24.48,
+   "end": 24.84,
+   "word": "That"
+  },
+  {
+   "start": 32.9,
+   "end": 33.12,
+   "word": "was"
+  },
+  {
+   "start": 33.12,
+   "end": 33.36,
+   "word": "from"
+  },
+  {
+   "start": 33.36,
+   "end": 33.74,
+   "word": "Rob"
+  },
+  {
+   "start": 33.74,
+   "end": 34.32,
+   "word": "Meade"
+  },
+  {
+   "start": 34.32,
+   "end": 34.44,
+   "word": "on"
+  },
+  {
+   "start": 34.44,
+   "end": 34.6,
+   "word": "my"
+  },
+  {
+   "start": 34.6,
+   "end": 35.08,
+   "word": "car!"
+  },
+  {
+   "start": 36.12,
+   "end": 36.6,
+   "word": "Bro"
+  },
+  {
+   "start": 36.6,
+   "end": 36.74,
+   "word": "I"
+  },
+  {
+   "start": 36.74,
+   "end": 36.92,
+   "word": "can't"
+  },
+  {
+   "start": 36.92,
+   "end": 37.02,
+   "word": "be,"
+  },
+  {
+   "start": 37.04,
+   "end": 37.18,
+   "word": "I"
+  },
+  {
+   "start": 37.18,
+   "end": 37.44,
+   "word": "can't"
+  },
+  {
+   "start": 37.44,
+   "end": 37.46,
+   "word": "be"
+  },
+  {
+   "start": 37.46,
+   "end": 37.72,
+   "word": "Jason."
+  },
+  {
+   "start": 37.84,
+   "end": 37.92,
+   "word": "Not"
+  },
+  {
+   "start": 37.92,
+   "end": 38.04,
+   "word": "that"
+  },
+  {
+   "start": 38.04,
+   "end": 38.04,
+   "word": "bad."
+  },
+  {
+   "start": 38.04,
+   "end": 38.2,
+   "word": "That's"
+  },
+  {
+   "start": 38.2,
+   "end": 38.38,
+   "word": "can't"
+  },
+  {
+   "start": 38.38,
+   "end": 38.44,
+   "word": "be"
+  },
+  {
+   "start": 38.44,
+   "end": 38.68,
+   "word": "Jason"
+  },
+  {
+   "start": 38.68,
+   "end": 38.9,
+   "word": "that"
+  },
+  {
+   "start": 38.9,
+   "end": 39.04,
+   "word": "I"
+  },
+  {
+   "start": 39.04,
+   "end": 39.52,
+   "word": "can't"
+  },
+  {
+   "start": 40.72,
+   "end": 41.12,
+   "word": "Can't"
+  },
+  {
+   "start": 41.12,
+   "end": 41.14,
+   "word": "be"
+  },
+  {
+   "start": 41.14,
+   "end": 41.36,
+   "word": "Jason"
+  }
+ ]
+}

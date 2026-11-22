@@ -1,0 +1,112 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.66,
+   "end": 18.04,
+   "text": "Let's jump together. Let's do it. Ready? Hey!"
+  },
+  {
+   "start": 19.96,
+   "end": 21.12,
+   "text": "Stop playing with me, boy!"
+  },
+  {
+   "start": 30.14,
+   "end": 31.64,
+   "text": "Bro, they stole our core!"
+  }
+ ],
+ "words": [
+  {
+   "start": 0.66,
+   "end": 1.22,
+   "word": "Let's"
+  },
+  {
+   "start": 1.22,
+   "end": 1.36,
+   "word": "jump"
+  },
+  {
+   "start": 1.36,
+   "end": 1.84,
+   "word": "together."
+  },
+  {
+   "start": 6.77,
+   "end": 7.25,
+   "word": "Let's"
+  },
+  {
+   "start": 7.25,
+   "end": 7.39,
+   "word": "do"
+  },
+  {
+   "start": 7.39,
+   "end": 7.51,
+   "word": "it."
+  },
+  {
+   "start": 7.69,
+   "end": 7.69,
+   "word": "Ready?"
+  },
+  {
+   "start": 17.82,
+   "end": 18.04,
+   "word": "Hey!"
+  },
+  {
+   "start": 19.96,
+   "end": 20.22,
+   "word": "Stop"
+  },
+  {
+   "start": 20.22,
+   "end": 20.6,
+   "word": "playing"
+  },
+  {
+   "start": 20.6,
+   "end": 20.76,
+   "word": "with"
+  },
+  {
+   "start": 20.76,
+   "end": 20.94,
+   "word": "me,"
+  },
+  {
+   "start": 21.0,
+   "end": 21.12,
+   "word": "boy!"
+  },
+  {
+   "start": 30.14,
+   "end": 30.62,
+   "word": "Bro,"
+  },
+  {
+   "start": 30.72,
+   "end": 30.8,
+   "word": "they"
+  },
+  {
+   "start": 30.8,
+   "end": 31.06,
+   "word": "stole"
+  },
+  {
+   "start": 31.06,
+   "end": 31.26,
+   "word": "our"
+  },
+  {
+   "start": 31.26,
+   "end": 31.64,
+   "word": "core!"
+  }
+ ]
+}

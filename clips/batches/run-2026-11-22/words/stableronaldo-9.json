@@ -1,0 +1,127 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 1.01,
+   "end": 2.39,
+   "text": "Wait, what the fuck?"
+  },
+  {
+   "start": 4.53,
+   "end": 10.09,
+   "text": "Okay, I need to control this. Hold on. I got this. I'll show you a real driver, babe"
+  }
+ ],
+ "words": [
+  {
+   "start": 1.01,
+   "end": 1.55,
+   "word": "Wait,"
+  },
+  {
+   "start": 1.57,
+   "end": 1.81,
+   "word": "what"
+  },
+  {
+   "start": 1.81,
+   "end": 1.95,
+   "word": "the"
+  },
+  {
+   "start": 1.95,
+   "end": 2.39,
+   "word": "fuck?"
+  },
+  {
+   "start": 4.53,
+   "end": 4.85,
+   "word": "Okay,"
+  },
+  {
+   "start": 4.89,
+   "end": 5.03,
+   "word": "I"
+  },
+  {
+   "start": 5.03,
+   "end": 5.17,
+   "word": "need"
+  },
+  {
+   "start": 5.17,
+   "end": 5.23,
+   "word": "to"
+  },
+  {
+   "start": 5.23,
+   "end": 5.59,
+   "word": "control"
+  },
+  {
+   "start": 5.59,
+   "end": 5.75,
+   "word": "this."
+  },
+  {
+   "start": 5.87,
+   "end": 5.89,
+   "word": "Hold"
+  },
+  {
+   "start": 5.89,
+   "end": 6.07,
+   "word": "on."
+  },
+  {
+   "start": 6.33,
+   "end": 6.65,
+   "word": "I"
+  },
+  {
+   "start": 6.65,
+   "end": 6.79,
+   "word": "got"
+  },
+  {
+   "start": 6.79,
+   "end": 7.09,
+   "word": "this."
+  },
+  {
+   "start": 8.75,
+   "end": 9.07,
+   "word": "I'll"
+  },
+  {
+   "start": 9.07,
+   "end": 9.21,
+   "word": "show"
+  },
+  {
+   "start": 9.21,
+   "end": 9.31,
+   "word": "you"
+  },
+  {
+   "start": 9.31,
+   "end": 9.43,
+   "word": "a"
+  },
+  {
+   "start": 9.43,
+   "end": 9.57,
+   "word": "real"
+  },
+  {
+   "start": 9.57,
+   "end": 9.87,
+   "word": "driver,"
+  },
+  {
+   "start": 9.93,
+   "end": 10.09,
+   "word": "babe"
+  }
+ ]
+}

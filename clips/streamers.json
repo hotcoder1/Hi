@@ -23,11 +23,12 @@
     "url": "https://www.twitch.tv/kaicenat",
     "handle": "twitch.tv/kaicenat",
     "permission": "user says they're allowed to clip (clipping program / clipper role / clips OK), told Claude 2026-11-18",
-    "facecam": "0.003,0.325,0.2,0.2",
+    "facecam": "0.0,0.405,0.2,0.19",
     "layout": "stack",
     "notes": [
       "Small facecam box at the top-left during gameplay; full-screen camera while talking (use fit). Burned-in captions: crop at 0.88. Some clips are MUTED by Twitch (music); check volume before using.",
-      "Nov 20: in apartment scenes the facecam sits lower, 0.0,0.405,0.2,0.15; check each clip."
+      "Nov 20: in apartment scenes the facecam sits lower, 0.0,0.405,0.2,0.15; check each clip.",
+      "Nov 22: facecam now at 0.0,0.405,0.2,0.19 (saved as default)."
     ],
     "game_box": "0,0,1,0.88",
     "active": true
@@ -68,7 +69,8 @@
     "facecam": "0.80,0.065,0.198,0.198",
     "layout": "stack",
     "notes": [
-      "Facecam MOVES between scenes: top-right (store), mid-right 0.778,0.45,0.22,0.26 (driving), mid-left 0.005,0.30,0.178,0.27 (phone). Burned-in captions at the bottom: crop at 0.88. Sub-goal counter near the cam."
+      "Facecam MOVES between scenes: top-right (store), mid-right 0.778,0.45,0.22,0.26 (driving), mid-left 0.005,0.30,0.178,0.27 (phone). Burned-in captions at the bottom: crop at 0.88. Sub-goal counter near the cam.",
+      "Nov 22: facecam became a tiny cutout at mid-right (0.835,0.445,0.12,0.19); too small for stack, use layout fit + game 0,0,1,0.88."
     ],
     "game_box": "0,0,1,0.88",
     "active": true
@@ -166,6 +168,9 @@
       "ishowspeed"
     ],
     "schedule": "5 finished clips (1 per active streamer) every 2 days, ready by 9 am Arizona time; sent straight to the user, no storyboard",
-    "set": "2026-11-19"
+    "set": "2026-11-19",
+    "notes": [
+      "Launch week: every streamer's top clips are strip club/shower/sex scenes and the bridge ending (story spoiler). Look past them."
+    ]
   }
 }

@@ -11,6 +11,7 @@ Skill: `gta6-streamer-clips/` (read `SKILL.md`, `references/gta6-moments.md`, an
    `python3 $SK/scripts/fetch_clips.py --streamers lacy,jasontheween,stableronaldo,kaicenat,ishowspeed --since <state.json last_run minus 2 h> --state state.json --top 15 --out vods/run-$D`
 3. **Pick 1 per streamer** from `vods/run-$D/rows_<login>.png` (look at them) and the transcripts in `candidates.json`:
    - SKIP nudity and sexual content (showers, strip club, lap dances, "🔞" / "gyat" titles: in launch week these are the most-viewed clips and they get accounts banned), muted clips, slurs, story spoilers, other games, and clips that are just the streamer talking with no GTA on screen.
+   - SKIP the ending (Lucia on the bridge, police, "worst ending", "finale"): it's the biggest story spoiler and every streamer clips it.
    - PREFER a clear funny or wild moment (see gta6-moments.md); views break ties.
    - If a streamer has nothing usable, skip them this run and say so; don't fill with a weak clip.
 4. **Layout**: facecam and crop come from `streamers.json`. If a streamer's overlay moved (empty facecam panel in a still), measure it from `grid_<login>.png` and pass a per-clip `facecam`. Check with `render_batch.py ... --mode still` and look at the stills.
