@@ -96,7 +96,9 @@ def main():
     ap.add_argument("--since", required=True, help="only clips created after this time (ISO, e.g. 2026-11-18T12:00Z)")
     ap.add_argument("--state", help="state.json with used_urls to skip")
     ap.add_argument("--top", type=int, default=5, help="candidates per streamer")
-    ap.add_argument("--range", default="7d", choices=["24hr", "7d", "30d", "all"])
+    ap.add_argument("--range", default="24hr,7d,30d",
+                    help="Twitch clip ranges to merge (24hr,7d,30d,all). Each lists only its top clips by views, "
+                         "so a busy week hides today's clips from 7d and 7d sometimes comes back empty: merge several")
     ap.add_argument("--list-limit", type=int, default=40)
     ap.add_argument("--model", default="small")
     ap.add_argument("--out", required=True)
@@ -111,8 +113,21 @@ def main():
 
     print(f"listing clips for {len(logins)} streamers ...", file=sys.stderr)
     cands, problems = [], []
+    ranges = [r.strip() for r in a.range.split(",") if r.strip()]
+
+    def list_all(login):
+        merged, errs = {}, []
+        for rng in ranges:
+            _, rows, err = list_clips(login, rng, a.list_limit)
+            if err:
+                errs.append(err)
+            for r in rows:
+                if r["url"] not in merged or r["views"] > merged[r["url"]]["views"]:
+                    merged[r["url"]] = r
+        return login, list(merged.values()), "; ".join(errs)
+
     with cf.ThreadPoolExecutor(len(logins)) as ex:
-        for login, rows, err in ex.map(lambda s: list_clips(s, a.range, a.list_limit), logins):
+        for login, rows, err in ex.map(list_all, logins):
             fresh = sorted([r for r in rows if r["ts"] >= since and r["url"] not in used], key=lambda r: -r["views"])
             if not rows:
                 problems.append(f"{login}: no clips listed ({err.strip()[:120] or 'offline, or no clips in range'})")

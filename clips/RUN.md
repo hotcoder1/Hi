@@ -8,7 +8,7 @@ Skill: `gta6-streamer-clips/` (read `SKILL.md`, `references/gta6-moments.md`, an
 
 1. **Setup** (fresh container): `pip install -q -U yt-dlp faster-whisper chat-downloader` if missing. The session's network must allow Twitch (`www.twitch.tv`, `gql.twitch.tv`, `usher.ttvnw.net`, `d1ndex63qxojbr.cloudfront.net`) and Hugging Face (`huggingface.co`, `us.aws.cdn.hf.co`); the "Hi – GTA 6 clipping" environment has them.
 2. **Fetch**: `D=$(date -u +%F)`, then
-   `python3 $SK/scripts/fetch_clips.py --streamers lacy,jasontheween,stableronaldo,kaicenat,ishowspeed --since <state.json last_run minus 2 h> --state state.json --top 10 --range 7d --out vods/run-$D`
+   `python3 $SK/scripts/fetch_clips.py --streamers lacy,jasontheween,stableronaldo,kaicenat,ishowspeed --since <state.json last_run minus 2 h> --state state.json --top 15 --out vods/run-$D`
 3. **Pick 1 per streamer** from `vods/run-$D/rows_<login>.png` (look at them) and the transcripts in `candidates.json`:
    - SKIP nudity and sexual content (showers, strip club, lap dances, "🔞" / "gyat" titles: in launch week these are the most-viewed clips and they get accounts banned), muted clips, slurs, story spoilers, other games, and clips that are just the streamer talking with no GTA on screen.
    - PREFER a clear funny or wild moment (see gta6-moments.md); views break ties.
