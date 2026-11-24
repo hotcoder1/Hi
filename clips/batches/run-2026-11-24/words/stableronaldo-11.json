@@ -1,0 +1,227 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 19.37,
+   "text": "game automatically equips you with a parachute, okay so out of every single thing I could have"
+  },
+  {
+   "start": 19.37,
+   "end": 27.17,
+   "text": "done I land on the train tracks, like oh my god that's just my luck, like how, how, how"
+  },
+  {
+   "start": 27.17,
+   "end": 28.43,
+   "text": "out of everything I land."
+  }
+ ],
+ "words": [
+  {
+   "start": 0.0,
+   "end": 0.6,
+   "word": "game"
+  },
+  {
+   "start": 0.6,
+   "end": 0.64,
+   "word": "automatically"
+  },
+  {
+   "start": 0.64,
+   "end": 1.06,
+   "word": "equips"
+  },
+  {
+   "start": 1.06,
+   "end": 1.16,
+   "word": "you"
+  },
+  {
+   "start": 1.16,
+   "end": 1.26,
+   "word": "with"
+  },
+  {
+   "start": 1.26,
+   "end": 1.32,
+   "word": "a"
+  },
+  {
+   "start": 1.32,
+   "end": 1.66,
+   "word": "parachute,"
+  },
+  {
+   "start": 6.84,
+   "end": 8.56,
+   "word": "okay"
+  },
+  {
+   "start": 16.11,
+   "end": 16.37,
+   "word": "so"
+  },
+  {
+   "start": 16.37,
+   "end": 16.59,
+   "word": "out"
+  },
+  {
+   "start": 16.59,
+   "end": 16.77,
+   "word": "of"
+  },
+  {
+   "start": 16.77,
+   "end": 17.23,
+   "word": "every"
+  },
+  {
+   "start": 17.23,
+   "end": 17.85,
+   "word": "single"
+  },
+  {
+   "start": 17.85,
+   "end": 18.69,
+   "word": "thing"
+  },
+  {
+   "start": 18.69,
+   "end": 19.01,
+   "word": "I"
+  },
+  {
+   "start": 19.01,
+   "end": 19.21,
+   "word": "could"
+  },
+  {
+   "start": 19.21,
+   "end": 19.37,
+   "word": "have"
+  },
+  {
+   "start": 19.37,
+   "end": 19.61,
+   "word": "done"
+  },
+  {
+   "start": 19.61,
+   "end": 19.85,
+   "word": "I"
+  },
+  {
+   "start": 19.85,
+   "end": 20.17,
+   "word": "land"
+  },
+  {
+   "start": 20.17,
+   "end": 20.37,
+   "word": "on"
+  },
+  {
+   "start": 20.37,
+   "end": 20.53,
+   "word": "the"
+  },
+  {
+   "start": 20.53,
+   "end": 21.03,
+   "word": "train"
+  },
+  {
+   "start": 21.03,
+   "end": 21.67,
+   "word": "tracks,"
+  },
+  {
+   "start": 22.31,
+   "end": 22.55,
+   "word": "like"
+  },
+  {
+   "start": 22.55,
+   "end": 22.89,
+   "word": "oh"
+  },
+  {
+   "start": 22.89,
+   "end": 23.19,
+   "word": "my"
+  },
+  {
+   "start": 23.19,
+   "end": 23.55,
+   "word": "god"
+  },
+  {
+   "start": 23.55,
+   "end": 23.91,
+   "word": "that's"
+  },
+  {
+   "start": 23.91,
+   "end": 24.05,
+   "word": "just"
+  },
+  {
+   "start": 24.05,
+   "end": 24.35,
+   "word": "my"
+  },
+  {
+   "start": 24.35,
+   "end": 24.83,
+   "word": "luck,"
+  },
+  {
+   "start": 25.47,
+   "end": 25.67,
+   "word": "like"
+  },
+  {
+   "start": 25.67,
+   "end": 26.11,
+   "word": "how,"
+  },
+  {
+   "start": 26.45,
+   "end": 26.73,
+   "word": "how,"
+  },
+  {
+   "start": 26.85,
+   "end": 27.17,
+   "word": "how"
+  },
+  {
+   "start": 27.17,
+   "end": 27.47,
+   "word": "out"
+  },
+  {
+   "start": 27.47,
+   "end": 27.63,
+   "word": "of"
+  },
+  {
+   "start": 27.63,
+   "end": 27.97,
+   "word": "everything"
+  },
+  {
+   "start": 27.97,
+   "end": 28.23,
+   "word": "I"
+  },
+  {
+   "start": 28.23,
+   "end": 28.43,
+   "word": "land."
+  }
+ ]
+}

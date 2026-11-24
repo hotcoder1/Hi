@@ -56,9 +56,11 @@
     "layout": "stack",
     "notes": [
       "Stream title has a !CLIPPING command (likely a clipping program).",
-      "Facecam top-left. The release countdown clip needs the fit layout so the timer shows."
+      "Facecam top-left. The release countdown clip needs the fit layout so the timer shows.",
+      "Nov 24: his burned-in captions start at y 0.89; crop at 0.87."
     ],
-    "active": true
+    "active": true,
+    "game_box": "0,0,1,0.87"
   },
   "jasontheween": {
     "name": "Jason The Ween",
@@ -70,7 +72,8 @@
     "layout": "stack",
     "notes": [
       "Facecam MOVES between scenes: top-right (store), mid-right 0.778,0.45,0.22,0.26 (driving), mid-left 0.005,0.30,0.178,0.27 (phone). Burned-in captions at the bottom: crop at 0.88. Sub-goal counter near the cam.",
-      "Nov 22: facecam became a tiny cutout at mid-right (0.835,0.445,0.12,0.19); too small for stack, use layout fit + game 0,0,1,0.88."
+      "Nov 22: facecam became a tiny cutout at mid-right (0.835,0.445,0.12,0.19); too small for stack, use layout fit + game 0,0,1,0.88.",
+      "Nov 24: streamed IRL Friendsgiving (no GTA) since Nov 23; skipped."
     ],
     "game_box": "0,0,1,0.88",
     "active": true

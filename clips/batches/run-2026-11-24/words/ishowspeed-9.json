@@ -1,0 +1,157 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 0.0,
+   "end": 32.67,
+   "text": "Wait till I hear that? Oh my gosh, the alligator. Oh my gosh. Miss me. Oh, shit. Oh my gosh. Oh, oh shit, get on, get on. No way."
+  }
+ ],
+ "words": [
+  {
+   "start": 0.0,
+   "end": 0.16,
+   "word": "Wait"
+  },
+  {
+   "start": 0.16,
+   "end": 0.28,
+   "word": "till"
+  },
+  {
+   "start": 0.28,
+   "end": 0.36,
+   "word": "I"
+  },
+  {
+   "start": 0.36,
+   "end": 0.46,
+   "word": "hear"
+  },
+  {
+   "start": 0.46,
+   "end": 0.6,
+   "word": "that?"
+  },
+  {
+   "start": 1.28,
+   "end": 1.5,
+   "word": "Oh"
+  },
+  {
+   "start": 1.5,
+   "end": 3.08,
+   "word": "my"
+  },
+  {
+   "start": 3.08,
+   "end": 3.26,
+   "word": "gosh,"
+  },
+  {
+   "start": 3.34,
+   "end": 3.4,
+   "word": "the"
+  },
+  {
+   "start": 3.4,
+   "end": 3.62,
+   "word": "alligator."
+  },
+  {
+   "start": 7.9,
+   "end": 8.3,
+   "word": "Oh"
+  },
+  {
+   "start": 8.3,
+   "end": 8.42,
+   "word": "my"
+  },
+  {
+   "start": 8.42,
+   "end": 8.68,
+   "word": "gosh."
+  },
+  {
+   "start": 26.01,
+   "end": 26.19,
+   "word": "Miss"
+  },
+  {
+   "start": 26.19,
+   "end": 26.37,
+   "word": "me."
+  },
+  {
+   "start": 27.01,
+   "end": 27.33,
+   "word": "Oh,"
+  },
+  {
+   "start": 27.53,
+   "end": 27.61,
+   "word": "shit."
+  },
+  {
+   "start": 28.53,
+   "end": 28.73,
+   "word": "Oh"
+  },
+  {
+   "start": 28.73,
+   "end": 28.83,
+   "word": "my"
+  },
+  {
+   "start": 28.83,
+   "end": 29.05,
+   "word": "gosh."
+  },
+  {
+   "start": 30.15,
+   "end": 30.55,
+   "word": "Oh,"
+  },
+  {
+   "start": 30.87,
+   "end": 31.07,
+   "word": "oh"
+  },
+  {
+   "start": 31.07,
+   "end": 31.25,
+   "word": "shit,"
+  },
+  {
+   "start": 31.33,
+   "end": 31.39,
+   "word": "get"
+  },
+  {
+   "start": 31.39,
+   "end": 31.47,
+   "word": "on,"
+  },
+  {
+   "start": 31.49,
+   "end": 31.55,
+   "word": "get"
+  },
+  {
+   "start": 31.55,
+   "end": 31.65,
+   "word": "on."
+  },
+  {
+   "start": 32.15,
+   "end": 32.47,
+   "word": "No"
+  },
+  {
+   "start": 32.47,
+   "end": 32.67,
+   "word": "way."
+  }
+ ]
+}
