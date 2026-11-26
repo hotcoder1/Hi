@@ -28,7 +28,8 @@
     "notes": [
       "Small facecam box at the top-left during gameplay; full-screen camera while talking (use fit). Burned-in captions: crop at 0.88. Some clips are MUTED by Twitch (music); check volume before using.",
       "Nov 20: in apartment scenes the facecam sits lower, 0.0,0.405,0.2,0.15; check each clip.",
-      "Nov 22: facecam now at 0.0,0.405,0.2,0.19 (saved as default)."
+      "Nov 22: facecam now at 0.0,0.405,0.2,0.19 (saved as default).",
+      "Nov 26: Kai vs Speed race-to-$1M collab; his cam is a tiny box at the left (0,0.28,0.11,0.24) with Speed's cam at the right, so use layout fit."
     ],
     "game_box": "0,0,1,0.88",
     "active": true
@@ -57,7 +58,8 @@
     "notes": [
       "Stream title has a !CLIPPING command (likely a clipping program).",
       "Facecam top-left. The release countdown clip needs the fit layout so the timer shows.",
-      "Nov 24: his burned-in captions start at y 0.89; crop at 0.87."
+      "Nov 24: his burned-in captions start at y 0.89; crop at 0.87.",
+      "Nov 26: no GTA clips since Nov 24 (IRL / other games)."
     ],
     "active": true,
     "game_box": "0,0,1,0.87"
@@ -73,7 +75,8 @@
     "notes": [
       "Facecam MOVES between scenes: top-right (store), mid-right 0.778,0.45,0.22,0.26 (driving), mid-left 0.005,0.30,0.178,0.27 (phone). Burned-in captions at the bottom: crop at 0.88. Sub-goal counter near the cam.",
       "Nov 22: facecam became a tiny cutout at mid-right (0.835,0.445,0.12,0.19); too small for stack, use layout fit + game 0,0,1,0.88.",
-      "Nov 24: streamed IRL Friendsgiving (no GTA) since Nov 23; skipped."
+      "Nov 24: streamed IRL Friendsgiving (no GTA) since Nov 23; skipped.",
+      "Nov 26: no GTA clips since Nov 24 (IRL / other games)."
     ],
     "game_box": "0,0,1,0.88",
     "active": true
@@ -141,7 +144,8 @@
     "layout": "stack",
     "notes": [
       "User calls him Ron.",
-      "Green-screen cutout at the left (0.03,0.44,0.20,0.30); burned-in captions at the bottom."
+      "Green-screen cutout at the left (0.03,0.44,0.20,0.30); burned-in captions at the bottom.",
+      "Nov 26: no GTA clips since Nov 24 (IRL / other games)."
     ],
     "active": true,
     "name": "StableRonaldo",
@@ -156,7 +160,8 @@
     "layout": "stack",
     "notes": [
       "Streams GTA 6 on Twitch (twitch.tv/ishowspeed) as of Nov 19, 2026.",
-      "Facecam box mid-left between a YouTube count and a counter (0.0,0.43,0.2,0.215); burned-in captions at the bottom."
+      "Facecam box mid-left between a YouTube count and a counter (0.0,0.43,0.2,0.215); burned-in captions at the bottom.",
+      "Nov 26: in the Kai collab Speed is a full-body green-screen cutout at the left with Kai's cam bottom-right; only 2 new Twitch clips in 2 days (he may be clipped mostly on YouTube)."
     ],
     "active": true,
     "name": "IShowSpeed",

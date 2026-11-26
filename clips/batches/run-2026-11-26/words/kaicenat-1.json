@@ -1,0 +1,57 @@
+{
+ "language": "en",
+ "segments": [
+  {
+   "start": 4.46,
+   "end": 5.34,
+   "text": "Oh my god"
+  },
+  {
+   "start": 11.32,
+   "end": 13.08,
+   "text": "YO WHAT THE FU-"
+  }
+ ],
+ "words": [
+  {
+   "start": 4.46,
+   "end": 4.88,
+   "word": "Oh"
+  },
+  {
+   "start": 4.88,
+   "end": 5.04,
+   "word": "my"
+  },
+  {
+   "start": 5.04,
+   "end": 5.34,
+   "word": "god"
+  },
+  {
+   "start": 11.32,
+   "end": 11.96,
+   "word": "YO"
+  },
+  {
+   "start": 11.96,
+   "end": 12.6,
+   "word": "WHAT"
+  },
+  {
+   "start": 12.6,
+   "end": 12.76,
+   "word": "THE"
+  },
+  {
+   "start": 12.76,
+   "end": 13.08,
+   "word": "FU"
+  },
+  {
+   "start": 13.08,
+   "end": 13.08,
+   "word": "-"
+  }
+ ]
+}

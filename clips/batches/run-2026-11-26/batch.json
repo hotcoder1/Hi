@@ -1,0 +1,24 @@
+{
+ "date": "2026-11-26",
+ "clips": [
+  {
+   "id": "kaicenat-1",
+   "streamer": "kaicenat",
+   "keep": [
+    "0-18.5"
+   ],
+   "layout": "fit",
+   "game": "0,0,1,0.88",
+   "url": "https://www.twitch.tv/kaicenat/clip/MistyFastChickpeaBatChest-1l50Cnz_nbghKxmh",
+   "title": "Kai vs Speed: race to $1 million",
+   "post_caption": "the race to $1M in GTA 6 got out of hand FAST 💀\n🎥 @kaicenat on Twitch\n#gta6 #gtavi #gta6clips #kaicenat #vicecity",
+   "punch": 12.3
+  }
+ ],
+ "skipped": {
+  "lacy": "IRL in Miami, no GTA clips",
+  "jasontheween": "IRL/other content, no GTA clips",
+  "stableronaldo": "IRL/Minecraft, no GTA clips",
+  "ishowspeed": "only GTA clip was weak (walking + pause menu)"
+ }
+}

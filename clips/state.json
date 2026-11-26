@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-24T13:00Z",
+ "last_run": "2026-11-26T13:00Z",
  "used_urls": [
   "https://www.twitch.tv/xqc/clip/WealthyNimbleHamsterDansGame-yrU7UShZomelh1Ke",
   "https://www.twitch.tv/xqc/clip/TrustworthyCarefulJalapenoKAPOW--CPhZdDJiBW-X0-C",
@@ -35,7 +35,8 @@
   "https://www.twitch.tv/lacy/clip/BlightedGiantLadiesFailFish-cpOmtVJoeyiB3tcn",
   "https://www.twitch.tv/stableronaldo/clip/CulturedAgitatedShrimpDancingBaby-E9l45uUcBMrs2DJN",
   "https://www.twitch.tv/kaicenat/clip/ColdJollyPoxOSkomodo-uUzhkg3k06Ssttuy",
-  "https://www.twitch.tv/ishowspeed/clip/AbstemiousBrainyLouseEleGiggle-W6F4fYlUCtyHh9b3"
+  "https://www.twitch.tv/ishowspeed/clip/AbstemiousBrainyLouseEleGiggle-W6F4fYlUCtyHh9b3",
+  "https://www.twitch.tv/kaicenat/clip/MistyFastChickpeaBatChest-1l50Cnz_nbghKxmh"
  ],
  "batches": [
   {
@@ -76,6 +77,19 @@
    ],
    "skipped": {
     "jasontheween": "all 15 newest clips are an IRL Friendsgiving stream, no GTA"
+   }
+  },
+  {
+   "date": "2026-11-26",
+   "clips": 1,
+   "ids": [
+    "kaicenat-1"
+   ],
+   "skipped": {
+    "lacy": "IRL in Miami, no GTA clips",
+    "jasontheween": "IRL/other content, no GTA clips",
+    "stableronaldo": "IRL/Minecraft, no GTA clips",
+    "ishowspeed": "only GTA clip was weak (walking + pause menu)"
    }
   }
  ]
